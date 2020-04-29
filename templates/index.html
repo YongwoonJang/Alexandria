@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Yongwoon Jang</title>
+	</head>
+	<body>
+  		<h1>Hello, World!</h1>
+		<ul id="company">
+		{% for company in companys %}
+			<li>회사 번호 : {{company['id']}}</li>
+			<li>정식 명칭 : {{company['corp_name']}}</li>
+			<li>영문 명칭 : {{company['corp_name_eng']}}</li>
+			<li>종목명 : {{company['stock_name']}}</li>
+			<li>주식 종목 코드 : {{company['stock_code']}}</li>
+			<li>대표자명 : {{company['ceo_nm']}}</li>
+			<li>법인구분(Y:유가,K:코스닥,N(코넥스),E(기타)) : {{company['corp_cls']}}</li>
+			<li>법인등록번호 : {{company['jurir_no']}}</li>
+			<li>사업자등록번호 : {{company['adres']}}</li>
+			<li>주소 : {{company['adres']}}</li>
+			<li>홈페이지 : {{company['hm_url']}}</li>
+			<li>IR홈페이지 : {{company['ir_url']}}</li>
+			<li>전화번호 : {{company['phn_no']}}</li>
+			<li>팩스번호 : {{company['fax_no']}}</li>
+			<li>업종코드 : {{company['induty_code']}}</li>
+			<li>설립입 : {{company['est_dt']}}</li>
+			<li>결산월 : {{company['acc_mt']}}</li>
+		{% endfor %}
+		</ul>
+	</body>
+</html>
