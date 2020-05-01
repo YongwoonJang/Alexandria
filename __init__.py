@@ -13,6 +13,10 @@ from alexandria.database import init_db # database를 Init 할때 사용함.
 
 from sqlalchemy import text
 
+
+#형태소 분석을 위해 사용함. 
+
+
 @app.route('/')
 def index():
     ## 카카오톡을 return
@@ -54,7 +58,7 @@ def add_menu(menu_name=None):
 
 if __name__ == '__main__':
     print("Hello world")
-    #init_database()
+    init_database()
     #add_company("00258801","(주)카카오","Kakao Corp","카카오","035720","여민수,조수용","Y","1101111129497","12081475211","제주특별자치도 제주시 첨단로 242","www.kakaocorp.com","","02-6718-1082","02-6003-5401","63120","19950216","12")
     #add_menu("장용운은?")
     #index()
