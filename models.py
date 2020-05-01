@@ -1,6 +1,6 @@
 #-*-coding:utf8-*-
 from sqlalchemy import Table, Column, Integer, String, Text
-from alexandria.database import Base
+from database import Base
 
 class Company(Base):
     __tablename__ = 'companys'
@@ -53,13 +53,18 @@ class Menu(Base):
         self.menu_content = menu_content
 
 class Qeustion(Base):
-    __tablename__ = 'qeustion'
+    __tablename__ = 'question'
     id = Column(Integer, primary_key=True)
     question = Column(Text)
+    answer_category = Column(String(20))
     answer = Column(Text) 
-    def __init__(self, question=None, answer=None):
+    answer_detail = Column(Text)
+
+    def __init__(self, question=None, answer_category=None, answer=None, answer_detail=None):
         self.question = question
+        self.answer_category = answer_category
         self.answer = answer
+        self.answer_detail = answer_detail
 
 class Keyword(Base):
     __tablename__ = 'keyword'

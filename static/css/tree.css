@@ -3,7 +3,10 @@ body {
 	font-family: sans-serif;
 }
 
-#fontSizeWrapper { font-size: 16px; }
+#fontSizeWrapper { 
+	margin: 34px;
+	font-size: 16px; 
+}
 
 #fontSize {
 	width: 100px;

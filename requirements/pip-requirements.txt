@@ -1,0 +1,9 @@
+flask
+sqlalchemy
+configparser
+mysql-python
+wheel
+mysqlclient
+python-dev
+uwsgi
+tensorflow

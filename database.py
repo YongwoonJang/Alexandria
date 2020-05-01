@@ -5,12 +5,12 @@ from sqlalchemy.ext.declarative import declarative_base
 
 from sqlalchemy import create_engine
 
-engine = create_engine("mysql://royalfamily89:password@172.17.0.2/LIBRARY", encoding='utf8' , echo=True)
+engine = create_engine("mysql://royalfamily89:password@172.17.0.3/LIBRARY", encoding='utf8' , echo=True)
 db_session = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=engine))
 
 Base = declarative_base()
 Base.query = db_session.query_property()
 
 def init_db():
-    import alexandria.models
+    import models
     Base.metadata.create_all(bind=engine)

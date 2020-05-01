@@ -1,0 +1,527 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 8.1.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# Viminfo version
+|1,4
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0~/max
+
+# 명령 행 히스토리 (새것부터 오래된 것 순):
+:wq
+|2,0,1588346032,,"wq"
+:w
+|2,0,1588345765,,"w"
+:q!
+|2,0,1588345704,,"q!"
+:WQ
+|2,0,1588345318,,"WQ"
+:q1
+|2,0,1588344671,,"q1"
+:q
+|2,0,1588344578,,"q"
+:vs uwsgistop.sh
+|2,0,1588343840,,"vs uwsgistop.sh"
+:W
+|2,0,1588343754,,"W"
+:vs uwsgistart.sh
+|2,0,1588343693,,"vs uwsgistart.sh"
+:Q!
+|2,0,1588339028,,"Q!"
+:set nu
+|2,0,1588338690,,"set nu"
+:Q
+|2,0,1588335553,,"Q"
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+?/max
+|2,1,1588342693,47,"max"
+?/글
+|2,1,1588342180,47,"글"
+?/qeu
+|2,1,1588337479,47,"qeu"
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 행 히스토리 (새것부터 오래된 것 순):
+
+# 디버그 행 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+"0	LINE	0
+	uwsgi --http-socket 0.0.0.0:9080 --wsgi-file $HOME/__init__.py --callable app --processes 4 --threads 2 1>/tmp/uwsgi.log 2>/tmp/uwsgierr.log &
+|3,0,0,1,1,0,1588343749,"uwsgi --http-socket 0.0.0.0:9080 --wsgi-file $HOME/__init__.py --callable app --processes 4 --threads 2 1>/tmp/uwsgi.log 2>/tmp/uwsgierr.log &"
+""1	LINE	0
+	apt-get install 
+|3,1,1,1,1,0,1588346021,"apt-get install "
+"2	LINE	0
+	  body {
+		  font-size: 1em;
+	  }
+|3,0,2,1,3,0,1588345316,"  body {","	  font-size: 1em;","  }"
+"3	LINE	0
+	  h1 {
+		  font-size: 2em;
+	  }
+|3,0,3,1,3,0,1588345184,"  h1 {","	  font-size: 2em;","  }"
+"4	CHAR	0
+	@include media-breakpoint-down(md) {
+		body{
+			font-size : 3vw
+		}		
+	}
+|3,0,4,0,5,0,1588344161,"@include media-breakpoint-down(md) {","	body{","		font-size : 3vw","	}		","}"
+"5	LINE	0
+	@include media-breakpoint-down(md) {
+		body{
+			font-size : 3vw
+		}		
+	}
+|3,0,5,1,5,0,1588344157,"@include media-breakpoint-down(md) {","	body{","		font-size : 3vw","	}		","}"
+"6	CHAR	0
+	<!--css for responsive-->
+			<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver2020050106">
+	
+	
+|3,0,6,0,4,0,1588343601,"<!--css for responsive-->","		<link rel=\"stylesheet\" href=\"{{url_for('static', filename='css/tree.css')}}?ver2020050106\">","",""
+"7	LINE	0
+								<label for="fontSize
+|3,0,7,1,1,0,1588342185,"							<label for=\"fontSize"
+"8	LINE	0
+						</div>
+|3,0,8,1,1,0,1588339862,"					</div>"
+"9	LINE	0
+						<di
+|3,0,9,1,1,0,1588339860,"					<di"
+"-	CHAR	0
+	"
+|3,0,36,0,1,0,1588342184,"\""
+
+# 파일 마크:
+'0  12  6  ~/requirements/util-requirements.sh
+|4,48,12,6,1588346032,"~/requirements/util-requirements.sh"
+'1  3  15  ~/requirements/locale-requirements.txt
+|4,49,3,15,1588345924,"~/requirements/locale-requirements.txt"
+'2  10  26  ~/requirements/mysql-requirements.txt
+|4,50,10,26,1588345866,"~/requirements/mysql-requirements.txt"
+'3  9  9  ~/requirements.txt
+|4,51,9,9,1588345790,"~/requirements.txt"
+'4  1  55  ~/.git/COMMIT_EDITMSG
+|4,52,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+'5  49  0  ~/.git/COMMIT_EDITMSG
+|4,53,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+'6  48  0  ~/.git/COMMIT_EDITMSG
+|4,54,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+'7  2  0  ~/static/css/responsive.css
+|4,55,2,0,1588345318,"~/static/css/responsive.css"
+'8  14  74  ~/templates/index.html
+|4,56,14,74,1588345301,"~/templates/index.html"
+'9  3  14  ~/static/css/responsive.css
+|4,57,3,14,1588345253,"~/static/css/responsive.css"
+
+# 점프목록 (새것이 먼저):
+-'  12  6  ~/requirements/util-requirements.sh
+|4,39,12,6,1588346032,"~/requirements/util-requirements.sh"
+-'  1  0  ~/requirements/util-requirements.sh
+|4,39,1,0,1588345949,"~/requirements/util-requirements.sh"
+-'  3  15  ~/requirements/locale-requirements.txt
+|4,39,3,15,1588345924,"~/requirements/locale-requirements.txt"
+-'  3  15  ~/requirements/locale-requirements.txt
+|4,39,3,15,1588345924,"~/requirements/locale-requirements.txt"
+-'  1  0  ~/requirements/locale-requirements.txt
+|4,39,1,0,1588345878,"~/requirements/locale-requirements.txt"
+-'  1  0  ~/requirements/locale-requirements.txt
+|4,39,1,0,1588345878,"~/requirements/locale-requirements.txt"
+-'  10  26  ~/requirements/mysql-requirements.txt
+|4,39,10,26,1588345866,"~/requirements/mysql-requirements.txt"
+-'  10  26  ~/requirements/mysql-requirements.txt
+|4,39,10,26,1588345866,"~/requirements/mysql-requirements.txt"
+-'  10  26  ~/requirements/mysql-requirements.txt
+|4,39,10,26,1588345866,"~/requirements/mysql-requirements.txt"
+-'  10  26  ~/requirements/mysql-requirements.txt
+|4,39,10,26,1588345866,"~/requirements/mysql-requirements.txt"
+-'  1  0  ~/requirements/mysql-requirements.txt
+|4,39,1,0,1588345848,"~/requirements/mysql-requirements.txt"
+-'  1  0  ~/requirements/mysql-requirements.txt
+|4,39,1,0,1588345848,"~/requirements/mysql-requirements.txt"
+-'  1  0  ~/requirements/mysql-requirements.txt
+|4,39,1,0,1588345848,"~/requirements/mysql-requirements.txt"
+-'  1  0  ~/requirements/mysql-requirements.txt
+|4,39,1,0,1588345848,"~/requirements/mysql-requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  9  9  ~/requirements.txt
+|4,39,9,9,1588345790,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  0  ~/requirements.txt
+|4,39,1,0,1588345719,"~/requirements.txt"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  1  55  ~/.git/COMMIT_EDITMSG
+|4,39,1,55,1588345704,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  49  0  ~/.git/COMMIT_EDITMSG
+|4,39,49,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  48  0  ~/.git/COMMIT_EDITMSG
+|4,39,48,0,1588345520,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1588345495,"~/.git/COMMIT_EDITMSG"
+-'  2  0  ~/static/css/responsive.css
+|4,39,2,0,1588345318,"~/static/css/responsive.css"
+-'  2  0  ~/static/css/responsive.css
+|4,39,2,0,1588345318,"~/static/css/responsive.css"
+-'  2  0  ~/static/css/responsive.css
+|4,39,2,0,1588345318,"~/static/css/responsive.css"
+-'  2  0  ~/static/css/responsive.css
+|4,39,2,0,1588345318,"~/static/css/responsive.css"
+-'  2  0  ~/static/css/responsive.css
+|4,39,2,0,1588345318,"~/static/css/responsive.css"
+-'  2  0  ~/static/css/responsive.css
+|4,39,2,0,1588345318,"~/static/css/responsive.css"
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/requirements/util-requirements.sh
+	*	1588346031	0
+	"	12	6
+	^	12	7
+	.	12	6
+	+	12	0
+	+	12	7
+	+	15	86
+	+	12	6
+
+> ~/requirements/locale-requirements.txt
+	*	1588345923	0
+	"	3	15
+	^	3	16
+	.	4	0
+	+	1	22
+	+	3	16
+	+	4	0
+
+> ~/requirements/mysql-requirements.txt
+	*	1588345865	0
+	"	10	26
+	^	10	27
+	.	11	0
+	+	10	27
+	+	11	0
+
+> ~/requirements.txt
+	*	1588345790	0
+	"	9	9
+	^	9	10
+	.	9	9
+	+	9	9
+
+> ~/.git/COMMIT_EDITMSG
+	*	1588345702	0
+	"	1	55
+	^	1	56
+	.	1	55
+	+	1	55
+
+> ~/static/css/responsive.css
+	*	1588345318	0
+	"	2	0
+	.	2	0
+	+	2	1
+	+	1	0
+	+	2	1
+	+	3	0
+	+	1	33
+	+	2	7
+	+	2	0
+	+	2	14
+	+	1	33
+	+	2	18
+	+	2	14
+	+	2	0
+
+> ~/templates/index.html
+	*	1588345299	0
+	"	14	74
+	^	14	75
+	.	14	75
+	+	98	11
+	+	91	16
+	+	98	11
+	+	98	0
+	+	40	0
+	+	89	12
+	+	87	0
+	+	89	12
+	+	90	0
+	+	92	5
+	+	93	28
+	+	94	24
+	+	95	65
+	+	92	85
+	+	100	0
+	+	27	60
+	+	92	0
+	+	98	0
+	+	92	5
+	+	97	5
+	+	93	0
+	+	27	61
+	+	36	59
+	+	88	0
+	+	10	90
+	+	11	69
+	+	23	21
+	+	28	34
+	+	30	41
+	+	62	31
+	+	55	32
+	+	47	32
+	+	88	79
+	+	27	65
+	+	21	29
+	+	19	2
+	+	20	0
+	+	12	2
+	+	19	1
+	+	14	75
+
+> /tmp/uwsgierr.log
+	*	1588344670	0
+	"	1	0
+
+> ~/shell-script/uwsgistop.sh
+	*	1588343859	0
+	"	3	16
+
+> ~/shell-script/uwsgirestart.sh
+	*	1588343856	0
+	"	3	8
+	^	3	9
+	.	3	8
+	+	4	0
+	+	5	0
+	+	3	8
+
+> ~/shell-script/uwsgistart.sh
+	*	1588343759	0
+	"	3	0
+
+> ~/static/css/cd
+	*	1588343575	0
+	"	1	0
+
+> ~/static/css/responsive-css.css
+	*	1588343567	0
+	"	3	16
+	^	3	17
+	.	3	16
+	+	5	0
+	+	2	5
+	+	4	0
+	+	2	0
+	+	4	0
+	+	3	16
+
+> ~/static/css/tree.css
+	*	1588343548	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	6	19
+	+	8	18
+	+	9	0
+	+	7	13
+
+> ~/uwsgistop.sh
+	*	1588339727	0
+	"	3	37
+	^	3	38
+	.	3	37
+	+	3	37
+
+> ~/models.py
+	*	1588338401	0
+	"	69	19
+	^	65	46
+	.	65	45
+	+	56	23
+	+	61	31
+	+	67	41
+	+	63	68
+	+	62	0
+	+	59	39
+	+	63	59
+	+	65	45
+
+> ~/aiengine.py
+	*	1588338133	0
+	"	4	0
+	^	4	0
+	.	3	0
+	+	3	0
+	+	5	14
+	+	3	0
+
+> ~/uwsgistart.sh
+	*	1588335672	0
+	"	3	12
+	^	3	13
+	.	3	12
+	+	3	134
+	+	3	12
+
+> /tmp/uwsgi.log
+	*	1588335494	0
+	"	1	0
+
+> ~/__init__.py
+	*	1588335230	0
+	"	48	0

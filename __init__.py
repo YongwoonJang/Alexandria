@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 import sys
 
-sys.path.append('/usr/local/')
-from alexandria.models import Company
-from alexandria.models import Menu
-from alexandria.database import db_session
-from alexandria.database import init_db # database를 Init 할때 사용함.
+sys.path.append('/usr/Alexandria/')
+from models import Company
+from models import Menu
+from database import db_session
+from database import init_db # database를 Init 할때 사용함.
 
 from sqlalchemy import text
 
