@@ -7,6 +7,7 @@ import sys
 
 sys.path.append('/usr/local/')
 from alexandria.models import Company
+from alexandria.models import Menu
 from alexandria.database import db_session
 from alexandria.database import init_db # database를 Init 할때 사용함.
 
@@ -16,12 +17,23 @@ from sqlalchemy import text
 def index():
     ## 카카오톡을 return
     company = db_session.query(Company).filter(Company.corp_code == "00258801").all()
-    print(type(company))
+    menu = db_session.query(Menu).all()
+
     companys = []
+    menus = []
+    main_character = ""
     for element in company:
         companys.append(element.__dict__)
+    
+    for element in menu:
+        menus.append(element.__dict__)
+        if(element.__dict__['menu_name'] == '장용운은?'):
+            main_character = element.__dict__
+    
     print(companys)#list로 등록된 회사를 출력한다.
-    return render_template('index.html', companys=companys)
+    print(main_character)
+
+    return render_template('index.html', companys=companys, menus=menus, main_character=main_character)
 
 @app.teardown_appcontext 
 def shutdown_session(exception=None):
@@ -35,9 +47,14 @@ def add_company(corp_code=None, corp_name=None, corp_name_eng=None, stock_name=N
     db_session.add(c)
     db_session.commit()
 
+def add_menu(menu_name=None):
+    m = Menu(menu_name)
+    db_session.add(m)
+    db_session.commit()
 
 if __name__ == '__main__':
     print("Hello world")
-    #init_db()
+    #init_database()
     #add_company("00258801","(주)카카오","Kakao Corp","카카오","035720","여민수,조수용","Y","1101111129497","12081475211","제주특별자치도 제주시 첨단로 242","www.kakaocorp.com","","02-6718-1082","02-6003-5401","63120","19950216","12")
-    index()
+    #add_menu("장용운은?")
+    #index()

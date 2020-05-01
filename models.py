@@ -42,3 +42,13 @@ class Company(Base):
         self.induty_code = induty_code
         self.est_dt = est_dt
         self.acc_mt = acc_mt
+
+class Menu(Base):
+    __tablename__ = 'menus'
+    id = Column(Integer, primary_key=True)
+    menu_name = Column(String(10)) # menu  이름 
+    menu_content = Column(String(3000))
+    def __init__(self, menu_name=None, menu_content=None):
+        self.menu_name = menu_name
+        self.menu_content = menu_content
+
