@@ -11,43 +11,72 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/size
+~MSle0~/Table
+
+# 마지막으로 바꾼 문자열:
+$
 
 # 명령 행 히스토리 (새것부터 오래된 것 순):
 :wq
-|2,0,1588426905,,"wq"
+|2,0,1588440707,,"wq"
 :w
-|2,0,1588426828,,"w"
+|2,0,1588440705,,"w"
+:q
+|2,0,1588440690,,"q"
+:q!
+|2,0,1588440685,,"q!"
+:vs templates/index.html
+|2,0,1588440341,,"vs templates/index.html"
+:W
+|2,0,1588440118,,"W"
+:vs models.py
+|2,0,1588439818,,"vs models.py"
+:set nu
+|2,0,1588439754,,"set nu"
+:54
+|2,0,1588439485,,"54"
+:vs ./static/js/search.js
+|2,0,1588439288,,"vs ./static/js/search.js"
+:q1
+|2,0,1588440034,,"q1"
+:22
+|2,0,1588439957,,"22"
+:21
+|2,0,1588439560,,"21"
+:55
+|2,0,1588439051,,"55"
+:vs __init__.py
+|2,0,1588439039,,"vs __init__.py"
+:46
+|2,0,1588437441,,"46"
+:vs ./__init__.py
+|2,0,1588434216,,"vs ./__init__.py"
+:vs static/css/search.css
+|2,0,1588431314,,"vs static/css/search.css"
 :vsplit templates/index.html
 |2,0,1588426638,,"vsplit templates/index.html"
 :vs ./static/css/responsive.css
 |2,0,1588426551,,"vs ./static/css/responsive.css"
-:q
-|2,0,1588425502,,"q"
-:q!
-|2,0,1588423866,,"q!"
 :Q!
 |2,0,1588423848,,"Q!"
 :18
 |2,0,1588423443,,"18"
-:set nu
-|2,0,1588423441,,"set nu"
 :w:w
 |2,0,1588421305,,"w:w"
 :WQ
 |2,0,1588375810,,"WQ"
-:q1
-|2,0,1588344671,,"q1"
 :vs uwsgistop.sh
 |2,0,1588343840,,"vs uwsgistop.sh"
-:W
-|2,0,1588343754,,"W"
 :vs uwsgistart.sh
 |2,0,1588343693,,"vs uwsgistart.sh"
 :Q
 |2,0,1588335553,,"Q"
 
 # 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+?/Table
+|2,1,1588440051,47,"Table"
+? @$
+|2,1,1588440283,,"@$"
 ?/size
 |2,1,1588424319,47,"size"
 ?/max
@@ -65,282 +94,554 @@
 
 # 레지스터:
 "0	LINE	0
-			<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver{{now}}">
-|3,0,0,1,1,0,1588425465,"		<link rel=\"stylesheet\" href=\"{{url_for('static', filename='css/tree.css')}}?ver{{now}}\">"
+	    Question.insert(     
+|3,0,0,1,1,0,1588440283,"    Question.insert(     "
 ""1	LINE	0
-		}
-|3,1,1,1,1,0,1588426559,"	}"
+						$("#result").text(data.result);
+|3,1,1,1,1,0,1588440609,"					$(\"#result\").text(data.result);"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1588426558,""
+						console.log($SCRIPT_ROOT);
+|3,0,2,1,1,0,1588440608,"					console.log($SCRIPT_ROOT);"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1588426558,""
+						console.log($SCRIPT_ROOT);
+|3,0,3,1,1,0,1588440603,"					console.log($SCRIPT_ROOT);"
 "4	LINE	0
-										<!--<i class="fa fa-search"><
-|3,0,4,1,1,0,1588426399,"									<!--<i class=\"fa fa-search\"><"
+						$("#result").text(data.result);
+|3,0,4,1,1,0,1588440602,"					$(\"#result\").text(data.result);"
 "5	LINE	0
-										<i class="f
-|3,0,5,1,1,0,1588426371,"									<i class=\"f"
+	    Question.insert(     
+|3,0,5,1,1,0,1588439055,"    Question.insert(     "
 "6	LINE	0
-			<script src="{{url_for('static', filename='js/tree.js')}}?ver{{now}}"></script>
-|3,0,6,1,1,0,1588425469,"		<script src=\"{{url_for('static', filename='js/tree.js')}}?ver{{now}}\"></script>"
+					console.log($SCRIPT_ROOT);
+|3,0,6,1,1,0,1588437620,"				console.log($SCRIPT_ROOT);"
 "7	LINE	0
-	/*Resi
-|3,0,7,1,1,0,1588425419,"/*Resi"
-"8	BLOCK	7
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-|3,0,8,2,8,7,1588425387,"    	","    	","    	","    	","    	","    	","    	","    	"
-"9	BLOCK	11
-	    	    
-	    	    
-	    	    
-	    	    
-	    	    
-	    	    
-|3,0,9,2,6,11,1588425347,"    	    ","    	    ","    	    ","    	    ","    	    ","    	    "
+					console.log("enter key is pressed");
+|3,0,7,1,1,0,1588437619,"				console.log(\"enter key is pressed\");"
+"8	LINE	0
+						console.log("ajax is ac
+|3,0,8,1,1,0,1588437617,"					console.log(\"ajax is ac"
+"9	LINE	0
+	    print(jsonif
+|3,0,9,1,1,0,1588436154,"    print(jsonif"
 "-	CHAR	0
-		
-|3,0,36,0,1,0,1588426557,"	"
+	 
+|3,0,36,0,1,0,1588440114," "
 
 # 파일 마크:
-'0  25  8  ~/static/css/search.css
-|4,48,25,8,1588426905,"~/static/css/search.css"
-'1  25  10  ~/static/css/search.css
-|4,49,25,10,1588426438,"~/static/css/search.css"
-'2  103  13  ~/templates/index.html
-|4,50,103,13,1588426412,"~/templates/index.html"
-'3  103  13  ~/templates/index.html
-|4,51,103,13,1588426412,"~/templates/index.html"
-'4  33  12  ~/static/css/search.css
-|4,52,33,12,1588426279,"~/static/css/search.css"
-'5  33  12  ~/static/css/search.css
-|4,53,33,12,1588426279,"~/static/css/search.css"
-'6  33  12  ~/static/css/search.css
-|4,54,33,12,1588426279,"~/static/css/search.css"
-'7  33  12  ~/static/css/search.css
-|4,55,33,12,1588426279,"~/static/css/search.css"
-'8  33  12  ~/static/css/search.css
-|4,56,33,12,1588426279,"~/static/css/search.css"
-'9  33  12  ~/static/css/search.css
-|4,57,33,12,1588426279,"~/static/css/search.css"
+'0  54  41  ~/templates/index.html
+|4,48,54,41,1588440707,"~/templates/index.html"
+'1  1  0  ~/static/js/search.js
+|4,49,1,0,1588440589,"~/static/js/search.js"
+'2  22  20  ~/aiengine.py
+|4,50,22,20,1588440575,"~/aiengine.py"
+'3  22  20  ~/aiengine.py
+|4,51,22,20,1588440532,"~/aiengine.py"
+'4  59  0  ~/__init__.py
+|4,52,59,0,1588440469,"~/__init__.py"
+'5  22  20  ~/aiengine.py
+|4,53,22,20,1588440459,"~/aiengine.py"
+'6  22  20  ~/aiengine.py
+|4,54,22,20,1588440459,"~/aiengine.py"
+'7  1  0  ~/static/js/search.js
+|4,55,1,0,1588440295,"~/static/js/search.js"
+'8  8  0  ~/static
+|4,56,8,0,1588440285,"~/static"
+'9  1  0  ~/_mode
+|4,57,1,0,1588440034,"~/_mode"
 
 # 점프목록 (새것이 먼저):
--'  25  8  ~/static/css/search.css
-|4,39,25,8,1588426905,"~/static/css/search.css"
--'  25  10  ~/static/css/search.css
-|4,39,25,10,1588426438,"~/static/css/search.css"
--'  33  12  ~/static/css/search.css
-|4,39,33,12,1588426415,"~/static/css/search.css"
--'  33  12  ~/static/css/search.css
-|4,39,33,12,1588426415,"~/static/css/search.css"
--'  103  13  ~/templates/index.html
-|4,39,103,13,1588426412,"~/templates/index.html"
--'  103  13  ~/templates/index.html
-|4,39,103,13,1588426412,"~/templates/index.html"
--'  103  13  ~/templates/index.html
-|4,39,103,13,1588426412,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588426361,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588426361,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588426361,"~/templates/index.html"
--'  33  12  ~/static/css/search.css
-|4,39,33,12,1588426279,"~/static/css/search.css"
--'  33  12  ~/static/css/search.css
-|4,39,33,12,1588426279,"~/static/css/search.css"
--'  36  0  ~/static/css/search.css
-|4,39,36,0,1588425721,"~/static/css/search.css"
--'  36  0  ~/static/css/search.css
-|4,39,36,0,1588425721,"~/static/css/search.css"
--'  36  0  ~/static/css/search.css
-|4,39,36,0,1588425721,"~/static/css/search.css"
--'  36  0  ~/static/css/search.css
-|4,39,36,0,1588425721,"~/static/css/search.css"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  37  0  /tmp/uwsgierr.log
-|4,39,37,0,1588425502,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588425499,"/tmp/uwsgierr.log"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  14  70  ~/templates/index.html
-|4,39,14,70,1588425480,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  108  6  ~/templates/index.html
-|4,39,108,6,1588425432,"~/templates/index.html"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  34  0  ~/static/css/search.css
-|4,39,34,0,1588425426,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  1  0  ~/static/css/search.css
-|4,39,1,0,1588425145,"~/static/css/search.css"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  105  6  ~/templates/index.html
-|4,39,105,6,1588425132,"~/templates/index.html"
--'  33  66  ~/templates/index.html
-|4,39,33,66,1588424998,"~/templates/index.html"
--'  30  66  ~/templates/index.html
-|4,39,30,66,1588424998,"~/templates/index.html"
--'  33  66  ~/templates/index.html
-|4,39,33,66,1588424998,"~/templates/index.html"
--'  30  66  ~/templates/index.html
-|4,39,30,66,1588424998,"~/templates/index.html"
--'  33  66  ~/templates/index.html
-|4,39,33,66,1588424998,"~/templates/index.html"
--'  30  66  ~/templates/index.html
-|4,39,30,66,1588424998,"~/templates/index.html"
--'  30  66  ~/templates/index.html
-|4,39,30,66,1588424998,"~/templates/index.html"
+-'  54  41  ~/templates/index.html
+|4,39,54,41,1588440707,"~/templates/index.html"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440589,"~/static/js/search.js"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440575,"~/aiengine.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440575,"~/aiengine.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440532,"~/aiengine.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440532,"~/aiengine.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  59  0  ~/__init__.py
+|4,39,59,0,1588440469,"~/__init__.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440459,"~/aiengine.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440459,"~/aiengine.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440459,"~/aiengine.py"
+-'  22  20  ~/aiengine.py
+|4,39,22,20,1588440459,"~/aiengine.py"
+-'  2  23  ~/models.py
+|4,39,2,23,1588440341,"~/models.py"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  1  0  ~/static/js/search.js
+|4,39,1,0,1588440295,"~/static/js/search.js"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  8  0  ~/static
+|4,39,8,0,1588440285,"~/static"
+-'  1  0  ~/models.py
+|4,39,1,0,1588440051,"~/models.py"
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
 
+> ~/templates/index.html
+	*	1588440707	0
+	"	54	41
+	^	54	42
+	.	54	41
+	+	43	61
+	+	52	59
+	+	104	0
+	+	16	90
+	+	17	69
+	+	39	21
+	+	44	34
+	+	46	41
+	+	78	31
+	+	71	32
+	+	63	32
+	+	104	79
+	+	43	65
+	+	37	29
+	+	35	2
+	+	36	0
+	+	18	2
+	+	35	1
+	+	23	75
+	+	34	0
+	+	34	69
+	+	16	88
+	+	17	67
+	+	23	94
+	+	34	0
+	+	24	0
+	+	24	70
+	+	27	154
+	+	27	92
+	+	27	93
+	+	27	102
+	+	32	0
+	+	27	95
+	+	27	68
+	+	27	93
+	+	32	0
+	+	33	0
+	+	35	0
+	+	28	0
+	+	27	90
+	+	23	90
+	+	16	87
+	+	23	86
+	+	27	87
+	+	16	86
+	+	17	69
+	+	26	25
+	+	42	65
+	+	36	28
+	+	42	65
+	+	108	6
+	+	118	18
+	+	118	16
+	+	118	0
+	+	118	12
+	+	109	32
+	+	109	0
+	+	108	5
+	+	110	0
+	+	110	86
+	+	112	0
+	+	114	13
+	+	106	24
+	+	119	0
+	+	21	0
+	+	22	0
+	+	20	0
+	+	21	0
+	+	20	70
+	+	112	0
+	+	112	8
+	+	112	13
+	+	110	0
+	+	110	83
+	+	111	27
+	+	30	83
+	+	29	22
+	+	30	53
+	+	110	30
+	+	111	7
+	+	112	7
+	+	113	7
+	+	119	0
+	+	114	27
+	+	114	0
+	+	115	34
+	+	116	66
+	+	117	0
+	+	31	0
+	+	14	0
+	+	11	29
+	+	13	8
+	+	11	1
+	+	12	0
+	+	13	1
+	+	4	5
+	+	5	157
+	+	5	156
+	+	6	0
+	+	54	41
+
+> ~/models.py
+	*	1588440688	0
+	"	2	23
+	^	57	61
+	.	2	0
+	+	56	23
+	+	61	31
+	+	67	41
+	+	63	68
+	+	62	0
+	+	59	39
+	+	63	59
+	+	65	45
+	+	55	8
+	+	57	60
+	+	2	0
+
+> ~/static/js/search.js
+	*	1588440679	0
+	"	34	4
+	^	24	11
+	.	38	0
+	+	1	0
+	+	2	12
+	+	3	0
+	+	4	21
+	+	21	37
+	+	5	2
+	+	20	0
+	+	49	0
+	+	21	21
+	+	2	17
+	+	21	20
+	+	21	4
+	+	5	43
+	+	11	25
+	+	5	30
+	+	5	0
+	+	5	3
+	+	6	3
+	+	7	3
+	+	9	3
+	+	7	3
+	+	6	0
+	+	9	0
+	+	11	0
+	+	11	7
+	+	5	37
+	+	6	13
+	+	7	0
+	+	6	24
+	+	5	39
+	+	8	40
+	+	8	30
+	+	5	29
+	+	9	29
+	+	8	0
+	+	5	0
+	+	40	0
+	+	26	0
+	+	40	4
+	+	41	0
+	+	20	0
+	+	18	4
+	+	13	0
+	+	19	0
+	+	13	38
+	+	33	4
+	+	34	3
+	+	24	11
+	+	17	0
+	+	16	0
+	+	37	0
+	+	38	0
+
+> ~/aiengine.py
+	*	1588440572	0
+	"	22	20
+	^	22	21
+	.	22	20
+	+	7	0
+	+	11	14
+	+	7	0
+	+	25	16
+	+	13	0
+	+	12	10
+	+	13	0
+	+	7	0
+	+	8	30
+	+	13	0
+	+	18	1
+	+	13	25
+	+	15	0
+	+	9	11
+	+	7	0
+	+	4	0
+	+	3	34
+	+	4	0
+	+	8	0
+	+	6	0
+	+	1	17
+	+	18	0
+	+	15	73
+	+	16	8
+	+	15	16
+	+	17	61
+	+	19	16
+	+	29	20
+	+	11	4
+	+	29	17
+	+	9	26
+	+	15	92
+	+	19	68
+	+	29	59
+	+	13	17
+	+	14	0
+	+	21	4
+	+	22	25
+	+	23	55
+	+	22	20
+
+> ~/__init__.py
+	*	1588440331	0
+	"	57	15
+	^	57	23
+	.	56	22
+	+	42	4
+	+	16	0
+	+	8	0
+	+	9	43
+	+	18	14
+	+	43	82
+	+	18	29
+	+	43	94
+	+	44	0
+	+	50	22
+	+	48	0
+	+	50	23
+	+	8	0
+	+	2	10
+	+	3	0
+	+	4	0
+	+	9	0
+	+	48	25
+	+	49	31
+	+	21	27
+	+	50	0
+	+	52	13
+	+	51	21
+	+	53	98
+	+	53	0
+	+	53	52
+	+	53	55
+	+	12	26
+	+	53	52
+	+	57	3
+	+	53	56
+	+	54	7
+	+	54	33
+	+	56	22
+
+> ~/_mode
+	*	1588440034	0
+	"	1	0
+
+> /tmp/uwsgierr.log
+	*	1588439925	0
+	"	47	0
+	^	1745	0
+	.	1745	0
+	+	1745	0
+
+> ~/database.py
+	*	1588436402	0
+	"	10	0
+	^	8	110
+	.	8	109
+	+	8	109
+
 > ~/static/css/search.css
-	*	1588426905	0
-	"	25	8
-	^	25	9
-	.	25	8
+	*	1588433433	0
+	"	43	0
+	.	44	0
 	+	42	0
 	+	1	9
 	+	1	0
@@ -390,7 +691,60 @@
 	+	26	13
 	+	33	13
 	+	25	8
+	+	6	0
+	+	7	0
+	+	7	12
+	+	7	10
+	+	7	0
+	+	44	0
 	p	1	0
+
+> ~/static/js/tree.js
+	*	1588430057	0
+	"	15	1
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/static/css/font.css
+	*	1588429334	0
+	"	8	24
+	^	8	25
+	.	8	25
+	+	1	57
+	+	8	19
+	+	3	163
+	+	3	157
+	+	3	252
+	+	3	160
+	+	3	159
+	+	14	0
+	+	13	41
+	+	1	60
+	+	2	46
+	+	3	157
+	+	3	0
+	+	3	157
+	+	8	0
+	+	3	92
+	+	3	82
+	+	3	11
+	+	3	94
+	+	13	14
+	+	14	0
+	+	13	13
+	+	4	88
+	+	7	7
+	+	13	0
+	+	8	25
+
+> ~/.git/COMMIT_EDITMSG
+	*	1588426967	0
+	"	1	78
+	^	1	79
+	.	1	78
+	+	1	68
+	+	1	78
 
 > ~/static/css/responsive.css
 	*	1588426904	0
@@ -438,156 +792,6 @@
 	+	10	0
 	+	8	7
 
-> ~/templates/index.html
-	*	1588426902	0
-	"	101	83
-	^	101	84
-	.	101	83
-	+	112	11
-	+	98	16
-	+	112	11
-	+	112	0
-	+	47	0
-	+	96	12
-	+	94	0
-	+	96	12
-	+	97	0
-	+	99	5
-	+	99	28
-	+	108	24
-	+	109	65
-	+	99	85
-	+	114	0
-	+	34	60
-	+	99	0
-	+	112	0
-	+	99	5
-	+	111	5
-	+	99	0
-	+	34	61
-	+	43	59
-	+	95	0
-	+	10	90
-	+	11	69
-	+	30	21
-	+	35	34
-	+	37	41
-	+	69	31
-	+	62	32
-	+	54	32
-	+	95	79
-	+	34	65
-	+	28	29
-	+	26	2
-	+	27	0
-	+	12	2
-	+	26	1
-	+	17	75
-	+	25	0
-	+	25	69
-	+	10	88
-	+	11	67
-	+	17	94
-	+	25	0
-	+	18	0
-	+	18	70
-	+	21	154
-	+	21	92
-	+	21	93
-	+	21	102
-	+	23	0
-	+	21	95
-	+	21	68
-	+	21	93
-	+	23	0
-	+	24	0
-	+	26	0
-	+	22	0
-	+	21	90
-	+	17	90
-	+	10	87
-	+	17	86
-	+	21	87
-	+	10	86
-	+	11	69
-	+	20	25
-	+	33	65
-	+	27	28
-	+	33	65
-	+	99	6
-	+	106	18
-	+	106	16
-	+	106	0
-	+	106	12
-	+	100	32
-	+	100	0
-	+	99	5
-	+	101	0
-	+	101	86
-	+	103	0
-	+	105	0
-	+	97	24
-	+	107	0
-	+	15	0
-	+	16	0
-	+	14	0
-	+	15	0
-	+	14	70
-	+	103	0
-	+	103	8
-	+	103	13
-	+	101	0
-	+	101	83
-
-> /tmp/uwsgierr.log
-	*	1588425500	0
-	"	37	0
-	^	1745	0
-	.	1745	0
-	+	1745	0
-
-> ~/static/css/font.css
-	*	1588424904	0
-	"	12	13
-	^	12	14
-	.	12	13
-	+	1	57
-	+	6	19
-	+	3	163
-	+	3	157
-	+	3	252
-	+	3	160
-	+	3	159
-	+	13	0
-	+	11	41
-	+	1	60
-	+	2	46
-	+	3	157
-	+	3	0
-	+	3	157
-	+	6	0
-	+	3	92
-	+	3	82
-	+	3	11
-	+	3	94
-	+	11	14
-	+	13	0
-	+	12	13
-
-> ~/__init__.py
-	*	1588423945	0
-	"	43	94
-	^	43	95
-	.	43	94
-	+	42	4
-	+	16	0
-	+	9	0
-	+	10	43
-	+	18	14
-	+	43	82
-	+	18	29
-	+	43	94
-
 > /usr/bin/uwsgirestart
 	*	1588422673	0
 	"	5	6
@@ -611,21 +815,6 @@
 	+	1	0
 	+	2	0
 	+	1	0
-
-> ~/database.py
-	*	1588421377	0
-	"	8	109
-	^	8	110
-	.	8	109
-	+	8	109
-
-> ~/.git/COMMIT_EDITMSG
-	*	1588346118	0
-	"	2	65
-	^	2	66
-	.	1	78
-	+	1	68
-	+	1	78
 
 > ~/requirements/util-requirements.sh
 	*	1588346031	0
@@ -710,29 +899,6 @@
 	^	3	38
 	.	3	37
 	+	3	37
-
-> ~/models.py
-	*	1588338401	0
-	"	69	19
-	^	65	46
-	.	65	45
-	+	56	23
-	+	61	31
-	+	67	41
-	+	63	68
-	+	62	0
-	+	59	39
-	+	63	59
-	+	65	45
-
-> ~/aiengine.py
-	*	1588338133	0
-	"	4	0
-	^	4	0
-	.	3	0
-	+	3	0
-	+	5	14
-	+	3	0
 
 > ~/uwsgistart.sh
 	*	1588335672	0

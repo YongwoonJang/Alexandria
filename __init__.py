@@ -1,15 +1,15 @@
 #-*-coding:utf8-*-
-from flask import Flask
-from flask import render_template
-app = Flask(__name__)
-
 import sys
-
 sys.path.append('/usr/Alexandria/')
+
+from flask import Flask
+from flask import render_template, jsonify, request
+app = Flask(__name__)
 
 # database를 사용하기 위해 선언함.
 from models import Company
 from models import Menu
+from models import Question
 from database import db_session
 from database import init_db # database를 Init 할때 사용함.
 from sqlalchemy import text
@@ -18,7 +18,7 @@ from sqlalchemy import text
 from datetime import datetime
 
 #형태소 분석을 위해 사용함. 
-
+from aiengine import predict
 
 @app.route('/')
 def index():
@@ -41,6 +41,20 @@ def index():
     print(main_character)
     
     return render_template('index.html', companys=companys, now=datetime.now().strftime('%H%M%S'), menus=menus, main_character=main_character)
+
+@app.route('/_search')
+def search():
+    text = request.args.get('text',"empty",type=str)
+    result = predict(text)
+    return jsonify(result=result)
+
+@app.route('/_collect')
+def collect():
+    text = request.args.get('text','empty',type=str)
+    q = Question(question = text)
+    db_session.add(q)
+    db_session.commit()
+    return jsonify(result="insert is complete")
 
 @app.teardown_appcontext 
 def shutdown_session(exception=None):

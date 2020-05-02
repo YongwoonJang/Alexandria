@@ -52,9 +52,9 @@ class Menu(Base):
         self.menu_name = menu_name
         self.menu_content = menu_content
 
-class Qeustion(Base):
+class Question(Base):
     __tablename__ = 'question'
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     question = Column(Text)
     answer_category = Column(String(20))
     answer = Column(Text) 

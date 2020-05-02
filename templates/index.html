@@ -1,11 +1,17 @@
 <!doctype html>
 <html>
 	<head>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+		<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	
+		<!--JQuery Environment Setting-->
+		<script type=text/javascript>
+			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+		</script>
+
 		<!--css for tree-->
 		<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver{{now}}">
 		<script src="{{url_for('static', filename='js/tree.js')}}?ver{{now}}"></script>
@@ -19,6 +25,9 @@
 
 		<!-- css font-style-size -->
 		<link rel="stylesheet" href="{{url_for('static', filename='css/font.css')}}?ver{{now}}">	
+
+		<!--- javascript for search -->
+		<script src="{{url_for('static', filename='js/search.js')}}?ver{{now}}"></script>
 
 		<title>Yongwoon Jang</title>
 
@@ -42,7 +51,7 @@
 			<section id = "contents" class="row justify-content-start">
 				<div class="tab-content" id="pills-tabContent">
 					<!-- menu #1 -->
-					<div class="tab-pane fade" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+					<div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
 						<!-- TREE View -->
 						<ul class="tree">
 							<li>
@@ -98,14 +107,14 @@
 					<div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
 						<div class="wrap">
 							<div class="search">
-							<input type="text" class="searchTerm" placeholder="무엇이 궁금하세요?">
-								<button type="submit" class="searchButton">
-								Search
-								</button>
+							<input id="search-text" type="text" class="searchTerm" placeholder="무엇이 궁금하세요?">
+							<button id="search" type="submit" class="searchButton">
+							Search
+							</button>
 							</div>
-						</div>
-						<div id="result">
-						<!-- 결과에 따라 다양한 내용이 포함된다. -->
+							<div id="result" class="m-2">
+							<!-- 결과에 따라 다양한 내용이 포함된다. -->
+							</div>
 						</div>
 					</div>
 				</div>
