@@ -1,2 +1,12 @@
-@media screen and (max-width: 2000px) {
+@media (max-width: 1440px) {
+.searchButton{
+	width:40%;
+	height:1.5em;
+	font-size:1em;
 }
+.wrap{
+	width:90%;
+}
+}
+
+

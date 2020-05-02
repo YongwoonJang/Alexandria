@@ -6,13 +6,16 @@ app = Flask(__name__)
 import sys
 
 sys.path.append('/usr/Alexandria/')
+
+# database를 사용하기 위해 선언함.
 from models import Company
 from models import Menu
 from database import db_session
 from database import init_db # database를 Init 할때 사용함.
-
 from sqlalchemy import text
 
+# ?다음의 번호를 넣기 위해 사용함. 
+from datetime import datetime
 
 #형태소 분석을 위해 사용함. 
 
@@ -36,8 +39,8 @@ def index():
     
     print(companys)#list로 등록된 회사를 출력한다.
     print(main_character)
-
-    return render_template('index.html', companys=companys, menus=menus, main_character=main_character)
+    
+    return render_template('index.html', companys=companys, now=datetime.now().strftime('%H%M%S'), menus=menus, main_character=main_character)
 
 @app.teardown_appcontext 
 def shutdown_session(exception=None):

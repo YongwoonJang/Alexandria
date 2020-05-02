@@ -7,24 +7,30 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	
 		<!--css for tree-->
-		<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver2020050106">
-		<script src="{{url_for('static', filename='js/tree.js')}}?2020050106"></script>
-		
-		<!--css for responsive-->
-		<link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}?ver2020050106">
+		<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver{{now}}">
+		<script src="{{url_for('static', filename='js/tree.js')}}?ver{{now}}"></script>
+			
+		<!--css for search-->
+		<link rel="stylesheet" href="{{url_for('static', filename='css/search.css')}}?ver{{now}}">
 
+		<!--css for responsive-->
+		<link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}?ver{{now}}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- css font-style-size -->
+		<link rel="stylesheet" href="{{url_for('static', filename='css/font.css')}}?ver{{now}}">	
 
 		<title>Yongwoon Jang</title>
-	
+
 	</head>
 	<body>	
-		<section class="container-lg">
+		<section class="container-xg">
 			<section id ="headline" class="row justify-content-center">
 				<div class="col-12 text-center">
 				<h1>Yongwoon Jang</h1>
 				</div>
 			</section>
-			<section id = "naviagtor" class="row justify-content-center m-4">
+			<section id = "naviagtor" class="row justify-content-center m-3">
 				<ul class="nav nav-pills col-12 justify-content-center" id="pills-tab" role="tablist">
 					{% for menu in menus %}
 					<li class="nav-item text-center col-6">
@@ -88,9 +94,16 @@
 							<input type="range" value="1" id="fontSize" step="0.5" min="0.5" max="4.5" />
 						</div>
 					</div>
-					<!-- menu #2 -->
+					<!-- menu #2 search -->
 					<div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-						<input id="question">
+						<div class="wrap">
+							<div class="search">
+							<input type="text" class="searchTerm" placeholder="무엇이 궁금하세요?">
+								<button type="submit" class="searchButton">
+								Search
+								</button>
+							</div>
+						</div>
 						<div id="result">
 						<!-- 결과에 따라 다양한 내용이 포함된다. -->
 						</div>

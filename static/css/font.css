@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&display=swap);
+
+h1{
+	font-family:"Bungee";
+
+}
+
+body{
+	font-family:'Gugi', cursive;
+	font-size:1.3em;
+
+}
