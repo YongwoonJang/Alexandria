@@ -5,8 +5,6 @@ $(function() {
 				$.getJSON($SCRIPT_ROOT + '/_search', {
 					text: $(this).val()
 				}, function(data) {
-					console.log($SCRIPT_ROOT);
-					console.log(data.result);
 					$("#result").text(data.result);
 				});
 			
@@ -18,21 +16,19 @@ $(function() {
 
 				return false;	
 			} else{
-			//	$('#result').text("  작성중...");
+				$('#result').text("");
 			}
 		});
 	$('#search')
 		.bind('click', function(e){
 				$.getJSON($SCRIPT_ROOT + '/_search', {
-					text: $(this).val()
+					text: $('#search-text').val()
 				}, function(data) {
-					console.log($SCRIPT_ROOT);
-					console.log(data.result);
 					$("#result").text(data.result);
 				});
 				
 				$.getJSON($SCRIPT_ROOT + '/_collect', {
-					text: $(this).val()
+					text: $('#search-text').val()
 				}, function(data) {
 					console.log(data.result);
 				});
