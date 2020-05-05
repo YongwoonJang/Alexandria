@@ -1,5 +1,5 @@
 #-*-coding:utf8-*-
-from sqlalchemy import Table, Column, Integer, String, Text
+from sqlalchemy import Table, Column, Integer, String, Text, DateTime
 from database import Base
 
 class Company(Base):
@@ -55,12 +55,14 @@ class Menu(Base):
 class Question(Base):
     __tablename__ = 'question'
     id = Column(Integer, primary_key=True, autoincrement=True)
+    date = Column(DateTime)
     question = Column(Text)
     answer_category = Column(String(20))
     answer = Column(Text) 
     answer_detail = Column(Text)
 
-    def __init__(self, question=None, answer_category=None, answer=None, answer_detail=None):
+    def __init__(self, date=None, question=None, answer_category=None, answer=None, answer_detail=None):
+        self.date = date
         self.question = question
         self.answer_category = answer_category
         self.answer = answer

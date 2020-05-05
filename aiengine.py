@@ -25,7 +25,8 @@ def predict(text):
     return answer
 
 if __name__ == '__main__':
-    print(mecab.morphs("나는 천재가 아무래도 맞는것 같아."))
-    print(mecab.morphs("카카오톡 주신 알려줘."))
+    #print(mecab.morphs("나는 천재가 아무래도 맞는것 같아."))
+    #print(mecab.morphs("카카오톡 주신 알려줘."))
+    print(predict("안녕하세요"))
     #print(predict("이 사이트 주인 이름이 뭐야?"))
     print("Hello world")

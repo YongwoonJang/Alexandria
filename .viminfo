@@ -11,20 +11,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Table
+~MSle0~/datetime
 
 # 마지막으로 바꾼 문자열:
 $
 
 # 명령 행 히스토리 (새것부터 오래된 것 순):
 :wq
-|2,0,1588471431,,"wq"
-:w
-|2,0,1588471354,,"w"
-:W
-|2,0,1588471352,,"W"
+|2,0,1588660679,,"wq"
 :q!
-|2,0,1588470867,,"q!"
+|2,0,1588660264,,"q!"
+:w
+|2,0,1588659863,,"w"
+:Q!
+|2,0,1588657913,,"Q!"
+:WQ
+|2,0,1588654617,,"WQ"
+:ㅈㅂ
+|2,0,1588653910,,"ㅈㅂ"
+:W
+|2,0,1588650633,,"W"
 :wq:
 |2,0,1588442220,,"wq:"
 :vs ./templates/index.html
@@ -63,14 +69,10 @@ $
 |2,0,1588426638,,"vsplit templates/index.html"
 :vs ./static/css/responsive.css
 |2,0,1588426551,,"vs ./static/css/responsive.css"
-:Q!
-|2,0,1588423848,,"Q!"
 :18
 |2,0,1588423443,,"18"
 :w:w
 |2,0,1588421305,,"w:w"
-:WQ
-|2,0,1588375810,,"WQ"
 :vs uwsgistop.sh
 |2,0,1588343840,,"vs uwsgistop.sh"
 :vs uwsgistart.sh
@@ -79,6 +81,8 @@ $
 |2,0,1588335553,,"Q"
 
 # 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+?/datetime
+|2,1,1588659938,47,"datetime"
 ?/Table
 |2,1,1588440051,47,"Table"
 ? @$
@@ -99,271 +103,399 @@ $
 # 디버그 행 히스토리 (새것부터 오래된 것 순):
 
 # 레지스터:
-"0	CHAR	0
-	.tree ul li ul li ul li{
-		font-weight:400;
-	
-	}
-|3,0,0,0,4,0,1588441831,".tree ul li ul li ul li{","	font-weight:400;","","}"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1588470401,""
+""0	CHAR	0
+	datetime.now().strftime('%H%M%S')
+|3,1,0,0,1,0,1588659958,"datetime.now().strftime('%H%M%S')"
+"1	LINE	0
+					<form class="form-inline my-2 my-lg-0">
+						<input id="search-text" class="form-control mr-sm-2" type="search" placeholder="무엇이 궁금하세요?" aria-label="Search">
+						<button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+					</form>
+|3,0,1,1,4,0,1588656419,"				<form class=\"form-inline my-2 my-lg-0\">","					<input id=\"search-text\" class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"무엇이 궁금하세요?\" aria-label=\"Search\">","					<button id=\"search\" class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Submit</button>","				</form>"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1588470400,""
+					</ul>
+|3,0,2,1,1,0,1588656346,"				</ul>"
 "3	LINE	0
-	Information of YongwoonJang
-|3,0,3,1,1,0,1588470400,"Information of YongwoonJang"
+						</li>
+|3,0,3,1,1,0,1588656344,"					</li>"
 "4	LINE	0
-	장용운에 대한 정보 
-|3,0,4,1,1,0,1588470399,"장용운에 대한 정보 "
+						<li class="nav-item">
+|3,0,4,1,1,0,1588656342,"					<li class=\"nav-item\">"
 "5	LINE	0
-						console.log(data.result);
-|3,0,5,1,1,0,1588467838,"					console.log(data.result);"
+					<ul class="nav nav-ta
+|3,0,5,1,1,0,1588656341,"				<ul class=\"nav nav-ta"
 "6	LINE	0
-						console.log($SCRIPT_ROOT);
-|3,0,6,1,1,0,1588467837,"					console.log($SCRIPT_ROOT);"
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+|3,0,6,1,1,0,1588654579,"		<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>"
 "7	LINE	0
-						console.log(data.result);
-|3,0,7,1,1,0,1588467834,"					console.log(data.result);"
+			</div>
+|3,0,7,1,1,0,1588654435,"		</div>"
 "8	LINE	0
-						console.log($SCRIPT_ROOT);
-|3,0,8,1,1,0,1588467833,"					console.log($SCRIPT_ROOT);"
+			<div class="tab-content
+|3,0,8,1,1,0,1588654381,"		<div class=\"tab-content"
 "9	LINE	0
-	:wght@100;300;400;5
-|3,0,9,1,1,0,1588441709,":wght@100;300;400;5"
+					<button DD
+|3,0,9,1,1,0,1588652851,"				<button DD"
 "-	CHAR	0
-	, .tree ul li ul li ul li
-|3,0,36,0,1,0,1588441852,", .tree ul li ul li ul li"
+	navbar-nav mr-auto collapse navbar-collapse 
+|3,0,36,0,1,0,1588657039,"navbar-nav mr-auto collapse navbar-collapse "
 
 # 파일 마크:
-'0  13  1  ~/README.md
-|4,48,13,1,1588471431,"~/README.md"
-'1  1  58  ~/.git/COMMIT_EDITMSG
-|4,49,1,58,1588471021,"~/.git/COMMIT_EDITMSG"
-'2  36  12  ~/README.md
-|4,50,36,12,1588470956,"~/README.md"
-'3  36  12  ~/README.md
-|4,51,36,12,1588470956,"~/README.md"
-'4  35  13  ~/README.md
-|4,52,35,13,1588470928,"~/README.md"
-'5  35  13  ~/README.md
-|4,53,35,13,1588470928,"~/README.md"
-'6  35  13  ~/README.md
-|4,54,35,13,1588470928,"~/README.md"
-'7  35  13  ~/README.md
-|4,55,35,13,1588470928,"~/README.md"
-'8  35  6  ~/README.md
-|4,56,35,6,1588470867,"~/README.md"
-'9  35  6  ~/README.md
-|4,57,35,6,1588470867,"~/README.md"
+'0  28  4  ~/aiengine.py
+|4,48,28,4,1588660679,"~/aiengine.py"
+'1  28  4  ~/aiengine.py
+|4,49,28,4,1588660503,"~/aiengine.py"
+'2  30  36  ~/aiengine.py
+|4,50,30,36,1588660460,"~/aiengine.py"
+'3  30  36  ~/aiengine.py
+|4,51,30,36,1588660460,"~/aiengine.py"
+'4  30  36  ~/aiengine.py
+|4,52,30,36,1588660460,"~/aiengine.py"
+'5  30  36  ~/aiengine.py
+|4,53,30,36,1588660460,"~/aiengine.py"
+'6  263  0  /tmp/uwsgierr.log
+|4,54,263,0,1588660264,"/tmp/uwsgierr.log"
+'7  66  23  ~/models.py
+|4,55,66,23,1588660204,"~/models.py"
+'8  10  0  ~/database.py
+|4,56,10,0,1588660163,"~/database.py"
+'9  66  23  ~/models.py
+|4,57,66,23,1588660143,"~/models.py"
 
 # 점프목록 (새것이 먼저):
--'  13  1  ~/README.md
-|4,39,13,1,1588471431,"~/README.md"
--'  36  12  ~/README.md
-|4,39,36,12,1588471315,"~/README.md"
--'  1  58  ~/.git/COMMIT_EDITMSG
-|4,39,1,58,1588471021,"~/.git/COMMIT_EDITMSG"
--'  1  58  ~/.git/COMMIT_EDITMSG
-|4,39,1,58,1588471021,"~/.git/COMMIT_EDITMSG"
--'  36  12  ~/README.md
-|4,39,36,12,1588470956,"~/README.md"
--'  36  12  ~/README.md
-|4,39,36,12,1588470956,"~/README.md"
--'  35  13  ~/README.md
-|4,39,35,13,1588470930,"~/README.md"
--'  35  13  ~/README.md
-|4,39,35,13,1588470930,"~/README.md"
--'  35  13  ~/README.md
-|4,39,35,13,1588470930,"~/README.md"
--'  35  13  ~/README.md
-|4,39,35,13,1588470928,"~/README.md"
--'  35  13  ~/README.md
-|4,39,35,13,1588470928,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1588470913,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1588470913,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1588470913,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1588470913,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1588470913,"~/README.md"
--'  35  6  ~/README.md
-|4,39,35,6,1588470867,"~/README.md"
--'  35  6  ~/README.md
-|4,39,35,6,1588470867,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470722,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470715,"~/README.md"
--'  4  5  ~/README.md
-|4,39,4,5,1588470715,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  32  0  ~/README.md
-|4,39,32,0,1588469969,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  15  0  ~/README.md
-|4,39,15,0,1588469816,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  29  0  ~/README.md
-|4,39,29,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469783,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469765,"~/README.md"
--'  12  0  ~/README.md
-|4,39,12,0,1588469765,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  26  0  ~/README.md
-|4,39,26,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  9  0  ~/README.md
-|4,39,9,0,1588469643,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
--'  23  0  ~/README.md
-|4,39,23,0,1588469615,"~/README.md"
--'  6  0  ~/README.md
-|4,39,6,0,1588469615,"~/README.md"
+-'  28  4  ~/aiengine.py
+|4,39,28,4,1588660679,"~/aiengine.py"
+-'  28  4  ~/aiengine.py
+|4,39,28,4,1588660503,"~/aiengine.py"
+-'  30  36  ~/aiengine.py
+|4,39,30,36,1588660477,"~/aiengine.py"
+-'  30  36  ~/aiengine.py
+|4,39,30,36,1588660477,"~/aiengine.py"
+-'  30  36  ~/aiengine.py
+|4,39,30,36,1588660460,"~/aiengine.py"
+-'  29  56  ~/aiengine.py
+|4,39,29,56,1588660439,"~/aiengine.py"
+-'  29  56  ~/aiengine.py
+|4,39,29,56,1588660439,"~/aiengine.py"
+-'  29  56  ~/aiengine.py
+|4,39,29,56,1588660439,"~/aiengine.py"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  263  0  /tmp/uwsgierr.log
+|4,39,263,0,1588660264,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  47  0  /tmp/uwsgierr.log
+|4,39,47,0,1588660244,"/tmp/uwsgierr.log"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660204,"~/models.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  10  0  ~/database.py
+|4,39,10,0,1588660163,"~/database.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
+-'  66  23  ~/models.py
+|4,39,66,23,1588660143,"~/models.py"
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
 
+> ~/aiengine.py
+	*	1588660678	0
+	"	28	4
+	^	28	5
+	.	28	4
+	+	7	0
+	+	11	14
+	+	7	0
+	+	25	16
+	+	13	0
+	+	12	10
+	+	13	0
+	+	7	0
+	+	8	30
+	+	13	0
+	+	18	1
+	+	13	25
+	+	15	0
+	+	9	11
+	+	7	0
+	+	4	0
+	+	3	34
+	+	4	0
+	+	8	0
+	+	6	0
+	+	1	17
+	+	18	0
+	+	15	73
+	+	16	8
+	+	15	16
+	+	17	61
+	+	19	16
+	+	29	20
+	+	11	4
+	+	29	17
+	+	9	26
+	+	15	92
+	+	19	68
+	+	29	59
+	+	13	17
+	+	14	0
+	+	21	4
+	+	22	25
+	+	23	55
+	+	22	20
+	+	29	57
+	+	30	36
+	+	29	4
+	+	28	4
+
+> /tmp/uwsgierr.log
+	*	1588660259	0
+	"	263	0
+	^	1745	0
+	.	1745	0
+	+	1745	0
+
+> ~/models.py
+	*	1588660203	0
+	"	66	23
+	^	65	24
+	.	65	23
+	+	56	23
+	+	62	31
+	+	69	41
+	+	64	68
+	+	63	0
+	+	60	39
+	+	64	59
+	+	67	45
+	+	55	8
+	+	57	60
+	+	2	0
+	+	58	22
+	+	2	68
+	+	64	33
+	+	65	23
+
+> ~/database.py
+	*	1588660162	0
+	"	10	0
+	^	10	0
+	.	8	109
+	+	8	109
+
+> ~/__init__.py
+	*	1588660128	0
+	"	81	4
+	^	53	52
+	.	54	0
+	+	42	4
+	+	16	0
+	+	8	0
+	+	9	43
+	+	18	14
+	+	43	82
+	+	18	29
+	+	43	94
+	+	44	0
+	+	50	22
+	+	48	0
+	+	50	23
+	+	8	0
+	+	2	10
+	+	3	0
+	+	4	0
+	+	9	0
+	+	48	25
+	+	49	31
+	+	21	27
+	+	50	0
+	+	52	13
+	+	51	21
+	+	53	98
+	+	53	0
+	+	53	52
+	+	53	55
+	+	12	26
+	+	53	52
+	+	57	3
+	+	53	56
+	+	53	59
+	+	53	85
+	+	56	22
+	+	53	56
+	+	54	54
+	+	54	0
+
 > ~/README.md
-	*	1588471430	0
+	*	1588657913	0
 	"	13	1
 	^	13	2
 	.	13	1
@@ -433,62 +565,121 @@ $
 	+	12	1
 	+	13	1
 
+> ~/templates/index.html
+	*	1588657896	0
+	"	81	8
+	^	48	9
+	.	48	8
+	+	58	11
+	+	50	50
+	+	50	8
+	+	50	0
+	+	50	133
+	+	50	84
+	+	58	31
+	+	58	15
+	+	58	0
+	+	58	18
+	+	58	26
+	+	58	3
+	+	117	0
+	+	116	1
+	+	50	0
+	+	50	4
+	+	58	0
+	+	117	2
+	+	116	26
+	+	44	0
+	+	40	201
+	+	42	11
+	+	41	44
+	+	4	131
+	+	4	2
+	+	4	5
+	+	4	163
+	+	4	2
+	+	4	157
+	+	4	5
+	+	4	181
+	+	4	159
+	+	4	5
+	+	4	2
+	+	58	28
+	+	57	38
+	+	57	3
+	+	57	1
+	+	57	0
+	+	58	0
+	+	117	0
+	+	4	2
+	+	4	185
+	+	4	176
+	+	4	6
+	+	4	182
+	+	5	0
+	+	4	160
+	+	4	0
+	+	4	8
+	+	4	58
+	+	4	122
+	+	4	1
+	+	5	5
+	+	5	188
+	+	58	52
+	+	37	59
+	+	58	48
+	+	45	70
+	+	58	63
+	+	37	14
+	+	43	15
+	+	44	27
+	+	43	33
+	+	44	0
+	+	45	27
+	+	48	0
+	+	50	0
+	+	44	4
+	+	48	4
+	+	45	31
+	+	50	0
+	+	54	12
+	+	51	3
+	+	52	2
+	+	53	2
+	+	54	2
+	+	55	0
+	+	43	4
+	+	43	115
+	+	45	108
+	+	45	120
+	+	37	60
+	+	43	6
+	+	43	122
+	+	44	3
+	+	45	0
+	+	44	15
+	+	37	68
+	+	38	6
+	+	114	11
+	+	110	35
+	+	115	8
+	+	111	0
+	+	115	0
+	+	46	24
+	+	47	4
+	+	46	0
+	+	49	4
+	+	48	8
+
 > ~/.git/COMMIT_EDITMSG
-	*	1588471019	0
-	"	1	58
-	^	1	59
-	.	1	58
+	*	1588471445	0
+	"	1	10
+	^	1	13
+	.	1	13
 	+	1	68
 	+	1	78
 	+	1	80
-	+	1	58
-
-> ~/aiengine.py
-	*	1588468274	0
-	"	29	56
-	^	29	57
-	.	29	56
-	+	7	0
-	+	11	14
-	+	7	0
-	+	25	16
-	+	13	0
-	+	12	10
-	+	13	0
-	+	7	0
-	+	8	30
-	+	13	0
-	+	18	1
-	+	13	25
-	+	15	0
-	+	9	11
-	+	7	0
-	+	4	0
-	+	3	34
-	+	4	0
-	+	8	0
-	+	6	0
-	+	1	17
-	+	18	0
-	+	15	73
-	+	16	8
-	+	15	16
-	+	17	61
-	+	19	16
-	+	29	20
-	+	11	4
-	+	29	17
-	+	9	26
-	+	15	92
-	+	19	68
-	+	29	59
-	+	13	17
-	+	14	0
-	+	21	4
-	+	22	25
-	+	23	55
-	+	22	20
-	+	29	56
+	+	1	13
 
 > ~/static/js/search.js
 	*	1588467861	0
@@ -563,112 +754,6 @@ $
 	+	3	8
 	+	4	0
 	+	5	6
-
-> ~/templates/index.html
-	*	1588442383	0
-	"	104	14
-	^	104	15
-	.	104	14
-	+	104	0
-	+	16	90
-	+	17	69
-	+	39	21
-	+	44	34
-	+	46	41
-	+	78	31
-	+	71	32
-	+	63	32
-	+	104	79
-	+	43	65
-	+	37	29
-	+	35	2
-	+	36	0
-	+	18	2
-	+	35	1
-	+	23	75
-	+	34	0
-	+	34	69
-	+	16	88
-	+	17	67
-	+	23	94
-	+	34	0
-	+	24	0
-	+	24	70
-	+	27	154
-	+	27	92
-	+	27	93
-	+	27	102
-	+	32	0
-	+	27	95
-	+	27	68
-	+	27	93
-	+	32	0
-	+	33	0
-	+	35	0
-	+	28	0
-	+	27	90
-	+	23	90
-	+	16	87
-	+	23	86
-	+	27	87
-	+	16	86
-	+	17	69
-	+	26	25
-	+	42	65
-	+	36	28
-	+	42	65
-	+	108	6
-	+	118	18
-	+	118	16
-	+	118	0
-	+	118	12
-	+	109	32
-	+	109	0
-	+	108	5
-	+	110	0
-	+	110	86
-	+	112	0
-	+	114	13
-	+	106	24
-	+	119	0
-	+	21	0
-	+	22	0
-	+	20	0
-	+	21	0
-	+	20	70
-	+	112	0
-	+	112	8
-	+	112	13
-	+	110	0
-	+	110	83
-	+	111	27
-	+	30	83
-	+	29	22
-	+	30	53
-	+	110	30
-	+	111	7
-	+	112	7
-	+	113	7
-	+	119	0
-	+	114	27
-	+	114	0
-	+	115	34
-	+	116	66
-	+	117	0
-	+	31	0
-	+	14	0
-	+	11	29
-	+	13	8
-	+	11	1
-	+	12	0
-	+	13	1
-	+	4	5
-	+	5	157
-	+	5	156
-	+	6	0
-	+	54	41
-	+	102	9
-	+	104	14
 
 > ~/static/css/search.css
 	*	1588442217	0
@@ -831,80 +916,9 @@ $
 	+	8	11
 	+	9	8
 
-> ~/models.py
-	*	1588440688	0
-	"	2	23
-	^	57	61
-	.	2	0
-	+	56	23
-	+	61	31
-	+	67	41
-	+	63	68
-	+	62	0
-	+	59	39
-	+	63	59
-	+	65	45
-	+	55	8
-	+	57	60
-	+	2	0
-
-> ~/__init__.py
-	*	1588440331	0
-	"	57	15
-	^	57	23
-	.	56	22
-	+	42	4
-	+	16	0
-	+	8	0
-	+	9	43
-	+	18	14
-	+	43	82
-	+	18	29
-	+	43	94
-	+	44	0
-	+	50	22
-	+	48	0
-	+	50	23
-	+	8	0
-	+	2	10
-	+	3	0
-	+	4	0
-	+	9	0
-	+	48	25
-	+	49	31
-	+	21	27
-	+	50	0
-	+	52	13
-	+	51	21
-	+	53	98
-	+	53	0
-	+	53	52
-	+	53	55
-	+	12	26
-	+	53	52
-	+	57	3
-	+	53	56
-	+	54	7
-	+	54	33
-	+	56	22
-
 > ~/_mode
 	*	1588440034	0
 	"	1	0
-
-> /tmp/uwsgierr.log
-	*	1588439925	0
-	"	47	0
-	^	1745	0
-	.	1745	0
-	+	1745	0
-
-> ~/database.py
-	*	1588436402	0
-	"	10	0
-	^	8	110
-	.	8	109
-	+	8	109
 
 > ~/static/js/tree.js
 	*	1588430057	0
