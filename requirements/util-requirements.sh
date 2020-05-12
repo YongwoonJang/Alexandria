@@ -5,7 +5,7 @@ apt-get install locales
 apt-get install python3-pip
 apt-get install vim
 apt-get install mysql-client
-apt-get install igt
+apt-get install 
 apt-get install python3-dev
 apt-get install libmysqlclient-dev
 
