@@ -7,3 +7,6 @@ mysqlclient
 python-dev
 uwsgi
 tensorflow
+pyyaml # Required to save models in HDF5 format
+h5py # Required to save models in HDF5 format
+scikit-learn # Required to sklearn
