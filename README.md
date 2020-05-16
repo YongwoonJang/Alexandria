@@ -34,3 +34,8 @@
 ## Docker 구성
 - docker == 19.03.8
 - docker URL == https://hub.docker.com/repository/docker/royalfamily89/alexandria
+
+
+# Code Convention
+## Python
+- https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html 의 내용을 따릅니다.  
