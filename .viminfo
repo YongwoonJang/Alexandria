@@ -11,40 +11,68 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/print
+~MSle0~/tokenizer_path
 
 # 마지막으로 바꾼 문자열:
 $
 
 # 명령 행 히스토리 (새것부터 오래된 것 순):
 :q!
-|2,0,1588662065,,"q!"
+|2,0,1589606051,,"q!"
 :wq
-|2,0,1588661941,,"wq"
+|2,0,1589605966,,"wq"
+:set nu
+|2,0,1589605702,,"set nu"
 :w
-|2,0,1588659863,,"w"
+|2,0,1589605694,,"w"
+:W
+|2,0,1589602170,,"W"
+:52
+|2,0,1589601903,,"52"
+:47
+|2,0,1589601485,,"47"
+:WQ
+|2,0,1589601471,,"WQ"
+:Wq
+|2,0,1589601470,,"Wq"
+:q
+|2,0,1589601466,,"q"
+:91
+|2,0,1589601413,,"91"
+:180
+|2,0,1589601404,,"180"
+:51
+|2,0,1589601346,,"51"
+:28
+|2,0,1589601322,,"28"
+:vs models.py
+|2,0,1589599306,,"vs models.py"
+:vs database.py
+|2,0,1589599300,,"vs database.py"
+:34
+|2,0,1589598097,,"34"
+:25
+|2,0,1589596608,,"25"
+:print
+|2,0,1589594653,,"print"
+:vs ./database.py
+|2,0,1589594614,,"vs ./database.py"
+:24
+|2,0,1589594527,,"24"
+:26
+|2,0,1589594489,,"26"
 :Q!
 |2,0,1588657913,,"Q!"
-:WQ
-|2,0,1588654617,,"WQ"
 :ㅈㅂ
 |2,0,1588653910,,"ㅈㅂ"
-:W
-|2,0,1588650633,,"W"
 :wq:
 |2,0,1588442220,,"wq:"
 :vs ./templates/index.html
 |2,0,1588441724,,"vs ./templates/index.html"
 :vs ./static/css/search.css
 |2,0,1588441974,,"vs ./static/css/search.css"
-:q
-|2,0,1588440690,,"q"
 :vs templates/index.html
 |2,0,1588440341,,"vs templates/index.html"
-:vs models.py
-|2,0,1588439818,,"vs models.py"
-:set nu
-|2,0,1588439754,,"set nu"
 :54
 |2,0,1588439485,,"54"
 :vs ./static/js/search.js
@@ -81,8 +109,10 @@ $
 |2,0,1588335553,,"Q"
 
 # 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+?/tokenizer_path
+|2,1,1589605938,47,"tokenizer_path"
 ?/print
-|2,1,1588661764,47,"print"
+|2,1,1589594645,47,"print"
 ?/datetime
 |2,1,1588659938,47,"datetime"
 ?/Table
@@ -106,267 +136,521 @@ $
 
 # 레지스터:
 "0	CHAR	0
-	datetime.now().strftime('%H%M%S')
-|3,0,0,0,1,0,1588659958,"datetime.now().strftime('%H%M%S')"
-"1	LINE	0
-					<form class="form-inline my-2 my-lg-0">
-						<input id="search-text" class="form-control mr-sm-2" type="search" placeholder="무엇이 궁금하세요?" aria-label="Search">
-						<button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
-					</form>
-|3,0,1,1,4,0,1588656419,"				<form class=\"form-inline my-2 my-lg-0\">","					<input id=\"search-text\" class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"무엇이 궁금하세요?\" aria-label=\"Search\">","					<button id=\"search\" class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Submit</button>","				</form>"
-"2	LINE	0
-					</ul>
-|3,0,2,1,1,0,1588656346,"				</ul>"
+	- 
+|3,0,0,0,1,0,1589605674,"- "
+""1	LINE	0
+	from tensorflow
+|3,1,1,1,1,0,1589605863,"from tensorflow"
+"2	CHAR	0
+	sequence_question
+	
+	        model = Sequential()
+	        # define CNN model
+	        model.add(TimeDistributed(Conv1D(1,2,activation='relu',padding='same',input_shape=(len(sequence_question))))
+	        model.add(TimeDistributed(MaxPooling1D(...)))
+	        model.add(TimeDistributed(Flatten()))
+	        # define LSTM model
+	        model.add(LSTM(...))
+	        model.add(Dense(...))
+	- 
+|3,0,2,0,11,0,1589605647,"sequence_question","","        model = Sequential()","        # define CNN model","        model.add(TimeDistributed(Conv1D(1,2,activation='relu',padding='same',input_shape=(len(sequence_question))))","        model.add(TimeDistributed(MaxPooling1D(...)))","        model.add(TimeDistributed(Flatten()))","        # define LSTM model","        model.add(LSTM(...))","        model.add(Dense(...))","- "
 "3	LINE	0
-						</li>
-|3,0,3,1,1,0,1588656344,"					</li>"
+	        sequence_question
+	
+	        model = Sequential()
+	        # define CNN model
+	        model.add(TimeDistributed(Conv1D(1,2,activation='relu',padding='same',input_shape=(len(sequence_question))))
+	        model.add(TimeDistributed(MaxPooling1D(...)))
+	        model.add(TimeDistributed(Flatten()))
+	        # define LSTM model
+	        model.add(LSTM(...))
+	        model.add(Dense(...))
+|3,0,3,1,10,0,1589605402,"        sequence_question","","        model = Sequential()","        # define CNN model","        model.add(TimeDistributed(Conv1D(1,2,activation='relu',padding='same',input_shape=(len(sequence_question))))","        model.add(TimeDistributed(MaxPooling1D(...)))","        model.add(TimeDistributed(Flatten()))","        # define LSTM model","        model.add(LSTM(...))","        model.add(Dense(...))"
 "4	LINE	0
-						<li class="nav-item">
-|3,0,4,1,1,0,1588656342,"					<li class=\"nav-item\">"
+	
+	##        sequence_questions = tokenizer.texts_to_sequences(questions)
+	##        sequence_answers = tokenizer.texts_to_sequences(answers)
+	##        sequence_answer_categorys = tokenizer.texts_to_sequences(answer_categorys)
+	##        
+	##        return sequence_questions, sequence_answers, sequence_answer_categorys
+	
+|3,0,4,1,7,0,1589605399,"","##        sequence_questions = tokenizer.texts_to_sequences(questions)","##        sequence_answers = tokenizer.texts_to_sequences(answers)","##        sequence_answer_categorys = tokenizer.texts_to_sequences(answer_categorys)","##        ","##        return sequence_questions, sequence_answers, sequence_answer_categorys",""
 "5	LINE	0
-					<ul class="nav nav-ta
-|3,0,5,1,1,0,1588656341,"				<ul class=\"nav nav-ta"
+	        print("init")
+|3,0,5,1,1,0,1589605183,"        print(\"init\")"
 "6	LINE	0
-			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-|3,0,6,1,1,0,1588654579,"		<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>"
-"7	LINE	0
-			</div>
-|3,0,7,1,1,0,1588654435,"		</div>"
+	    def makeTokenDD
+|3,0,6,1,1,0,1589604726,"    def makeTokenDD"
+"7	BLOCK	10
+	tensorflow.
+	tensorflow.
+	tensorflow.
+|3,0,7,2,3,10,1589604343,"tensorflow.","tensorflow.","tensorflow."
 "8	LINE	0
-			<div class="tab-content
-|3,0,8,1,1,0,1588654381,"		<div class=\"tab-content"
+	model = Sequential()
+	# define CNN model
+	model.add(TimeDistributed(Conv2D(...))
+	model.add(TimeDistributed(MaxPooling2D(...)))
+	model.add(TimeDistributed(Flatten()))
+	# define LSTM model
+	model.add(LSTM(...))
+	model.add(Dense(...))
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+|3,0,8,1,16,0,1589603183,"model = Sequential()","# define CNN model","model.add(TimeDistributed(Conv2D(...))","model.add(TimeDistributed(MaxPooling2D(...)))","model.add(TimeDistributed(Flatten()))","# define LSTM model","model.add(LSTM(...))","model.add(Dense(...))","1","2","3","4","5","6","7","8"
 "9	LINE	0
-					<button DD
-|3,0,9,1,1,0,1588652851,"				<button DD"
-""-	CHAR	0
-	[parameters: ('202005051554', '장용운의 최고 사랑하는 유튜브 채널은?', None, None, None)]
-|3,1,36,0,1,0,1588661880,"[parameters: ('202005051554', '장용운의 최고 사랑하는 유튜브 채널은?', None, None, None)]"
+	
+|3,0,9,1,1,0,1589603136,""
+"-	CHAR	0
+	d
+|3,0,36,0,1,0,1589604726,"d"
 
 # 파일 마크:
-'0  1  0  ~/.git/COMMIT_EDITMSG
-|4,48,1,0,1588662065,"~/.git/COMMIT_EDITMSG"
-'1  54  50  ~/__init__.py
-|4,49,54,50,1588661941,"~/__init__.py"
-'2  170  1  /tmp/uwsgierr.log
-|4,50,170,1,1588661907,"/tmp/uwsgierr.log"
-'3  31  5  ~/aiengine.py
-|4,51,31,5,1588661765,"~/aiengine.py"
-'4  77  4  ~/__init__.py
-|4,52,77,4,1588661759,"~/__init__.py"
-'5  77  4  ~/__init__.py
-|4,53,77,4,1588661759,"~/__init__.py"
-'6  31  4  ~/aiengine.py
-|4,54,31,4,1588661750,"~/aiengine.py"
-'7  41  4  ~/__init__.py
-|4,55,41,4,1588661727,"~/__init__.py"
-'8  41  4  ~/__init__.py
-|4,56,41,4,1588661727,"~/__init__.py"
-'9  41  4  ~/__init__.py
-|4,57,41,4,1588661727,"~/__init__.py"
+'0  92  24  ~/aiengine.py
+|4,48,92,24,1589605966,"~/aiengine.py"
+'1  31  26  ~/aiengine.py
+|4,49,31,26,1589605949,"~/aiengine.py"
+'2  31  26  ~/aiengine.py
+|4,50,31,26,1589605949,"~/aiengine.py"
+'3  30  27  ~/aiengine.py
+|4,51,30,27,1589605941,"~/aiengine.py"
+'4  30  27  ~/aiengine.py
+|4,52,30,27,1589605941,"~/aiengine.py"
+'5  30  27  ~/aiengine.py
+|4,53,30,27,1589605941,"~/aiengine.py"
+'6  30  27  ~/aiengine.py
+|4,54,30,27,1589605941,"~/aiengine.py"
+'7  5  14  ~/aiengine.py
+|4,55,5,14,1589605925,"~/aiengine.py"
+'8  5  14  ~/aiengine.py
+|4,56,5,14,1589605925,"~/aiengine.py"
+'9  5  14  ~/aiengine.py
+|4,57,5,14,1589605925,"~/aiengine.py"
 
 # 점프목록 (새것이 먼저):
--'  1  0  ~/.git/COMMIT_EDITMSG
-|4,39,1,0,1588662065,"~/.git/COMMIT_EDITMSG"
--'  54  50  ~/__init__.py
-|4,39,54,50,1588661941,"~/__init__.py"
--'  54  50  ~/__init__.py
-|4,39,54,50,1588661941,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661910,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661910,"~/__init__.py"
--'  170  1  /tmp/uwsgierr.log
-|4,39,170,1,1588661907,"/tmp/uwsgierr.log"
--'  170  1  /tmp/uwsgierr.log
-|4,39,170,1,1588661907,"/tmp/uwsgierr.log"
--'  170  1  /tmp/uwsgierr.log
-|4,39,170,1,1588661907,"/tmp/uwsgierr.log"
--'  170  1  /tmp/uwsgierr.log
-|4,39,170,1,1588661907,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588661810,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588661810,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588661810,"/tmp/uwsgierr.log"
--'  1  0  /tmp/uwsgierr.log
-|4,39,1,0,1588661810,"/tmp/uwsgierr.log"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  31  5  ~/aiengine.py
-|4,39,31,5,1588661765,"~/aiengine.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  77  4  ~/__init__.py
-|4,39,77,4,1588661759,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661756,"~/__init__.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  31  4  ~/aiengine.py
-|4,39,31,4,1588661750,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  28  4  ~/aiengine.py
-|4,39,28,4,1588661729,"~/aiengine.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  41  4  ~/__init__.py
-|4,39,41,4,1588661727,"~/__init__.py"
--'  81  4  ~/__init__.py
-|4,39,81,4,1588661714,"~/__init__.py"
--'  81  4  ~/__init__.py
-|4,39,81,4,1588661714,"~/__init__.py"
--'  81  4  ~/__init__.py
-|4,39,81,4,1588661714,"~/__init__.py"
--'  81  4  ~/__init__.py
-|4,39,81,4,1588661714,"~/__init__.py"
--'  81  4  ~/__init__.py
-|4,39,81,4,1588661714,"~/__init__.py"
+-'  92  24  ~/aiengine.py
+|4,39,92,24,1589605966,"~/aiengine.py"
+-'  92  24  ~/aiengine.py
+|4,39,92,24,1589605966,"~/aiengine.py"
+-'  31  26  ~/aiengine.py
+|4,39,31,26,1589605956,"~/aiengine.py"
+-'  31  26  ~/aiengine.py
+|4,39,31,26,1589605956,"~/aiengine.py"
+-'  31  26  ~/aiengine.py
+|4,39,31,26,1589605949,"~/aiengine.py"
+-'  31  26  ~/aiengine.py
+|4,39,31,26,1589605949,"~/aiengine.py"
+-'  30  27  ~/aiengine.py
+|4,39,30,27,1589605943,"~/aiengine.py"
+-'  30  27  ~/aiengine.py
+|4,39,30,27,1589605943,"~/aiengine.py"
+-'  30  27  ~/aiengine.py
+|4,39,30,27,1589605943,"~/aiengine.py"
+-'  30  27  ~/aiengine.py
+|4,39,30,27,1589605943,"~/aiengine.py"
+-'  30  27  ~/aiengine.py
+|4,39,30,27,1589605941,"~/aiengine.py"
+-'  30  27  ~/aiengine.py
+|4,39,30,27,1589605941,"~/aiengine.py"
+-'  29  13  ~/aiengine.py
+|4,39,29,13,1589605939,"~/aiengine.py"
+-'  29  13  ~/aiengine.py
+|4,39,29,13,1589605939,"~/aiengine.py"
+-'  29  13  ~/aiengine.py
+|4,39,29,13,1589605939,"~/aiengine.py"
+-'  29  13  ~/aiengine.py
+|4,39,29,13,1589605939,"~/aiengine.py"
+-'  29  13  ~/aiengine.py
+|4,39,29,13,1589605939,"~/aiengine.py"
+-'  29  13  ~/aiengine.py
+|4,39,29,13,1589605939,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605938,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605938,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605938,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605938,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605938,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605938,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605925,"~/aiengine.py"
+-'  5  14  ~/aiengine.py
+|4,39,5,14,1589605925,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605899,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605893,"~/aiengine.py"
+-'  24  5  ~/aiengine.py
+|4,39,24,5,1589605893,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605842,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605840,"~/aiengine.py"
+-'  17  4  ~/aiengine.py
+|4,39,17,4,1589605840,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605833,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605827,"~/aiengine.py"
+-'  34  34  ~/aiengine.py
+|4,39,34,34,1589605827,"~/aiengine.py"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
+-'  41  20  ~/README.md
+|4,39,41,20,1589605723,"~/README.md"
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/aiengine.py
+	*	1589605966	0
+	"	92	24
+	^	31	27
+	.	31	26
+	+	39	28
+	+	40	23
+	+	63	60
+	+	63	103
+	+	63	60
+	+	40	64
+	+	41	27
+	+	42	0
+	+	37	0
+	+	41	43
+	+	2	10
+	+	3	0
+	+	7	10
+	+	63	60
+	+	65	0
+	+	60	0
+	+	92	53
+	+	40	53
+	+	63	51
+	+	64	40
+	+	63	50
+	+	92	50
+	+	41	37
+	+	64	21
+	+	92	53
+	+	41	37
+	+	64	21
+	+	41	65
+	+	64	48
+	+	63	68
+	+	92	25
+	+	93	24
+	+	60	0
+	+	59	49
+	+	60	0
+	+	62	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	58	8
+	+	60	0
+	+	65	0
+	+	67	0
+	+	67	91
+	+	68	4
+	+	70	0
+	+	70	21
+	+	69	0
+	+	71	0
+	+	70	38
+	+	70	44
+	+	70	88
+	+	68	86
+	+	70	111
+	+	70	8
+	+	70	24
+	+	19	50
+	+	17	5
+	+	21	0
+	+	19	0
+	+	26	0
+	+	67	0
+	+	67	8
+	+	67	32
+	+	67	8
+	+	67	0
+	+	67	77
+	+	67	0
+	+	65	0
+	+	67	0
+	+	30	8
+	+	5	15
+	+	30	53
+	+	31	39
+	+	29	53
+	+	30	36
+	+	33	0
+	+	35	0
+	+	33	11
+	+	29	12
+	+	66	23
+	+	34	28
+	+	37	0
+	+	67	0
+	+	70	0
+	+	69	15
+	+	71	0
+	+	28	0
+	+	36	14
+	+	68	14
+	+	93	16
+	+	34	34
+	+	15	0
+	+	16	0
+	+	17	15
+	+	18	15
+	+	21	0
+	+	5	14
+	+	30	27
+	+	31	26
+
+> ~/README.md
+	*	1589605722	0
+	"	41	20
+	^	41	21
+	.	39	0
+	+	22	15
+	+	23	15
+	+	26	15
+	+	23	0
+	+	21	16
+	+	24	73
+	+	29	14
+	+	28	35
+	+	31	16
+	+	32	19
+	+	33	0
+	+	2	0
+	+	2	148
+	+	2	43
+	+	5	113
+	+	6	119
+	+	7	0
+	+	17	45
+	+	18	0
+	+	2	0
+	+	7	0
+	+	11	99
+	+	13	0
+	+	12	12
+	+	13	83
+	+	14	0
+	+	2	0
+	+	4	0
+	+	16	6
+	+	9	4
+	+	2	0
+	+	9	0
+	+	16	0
+	+	20	8
+	+	2	6
+	+	36	64
+	+	35	6
+	+	35	17
+	+	36	13
+	+	2	0
+	+	3	1
+	+	2	1
+	+	9	1
+	+	16	1
+	+	20	1
+	+	21	2
+	+	24	2
+	+	28	2
+	+	22	1
+	+	25	1
+	+	26	1
+	+	29	1
+	+	31	2
+	+	32	1
+	+	34	2
+	+	35	1
+	+	36	1
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	10	1
+	+	11	1
+	+	12	1
+	+	13	1
+	+	39	27
+	+	39	25
+	+	40	0
+	+	39	1
+	+	41	100
+	+	38	0
+	+	39	0
+
+> ~/tokenizer/tokenizer.json
+	*	1589602044	0
+	"	1	0
+
+> ~/database.py
+	*	1589599902	0
+	"	8	120
+	^	8	121
+	.	8	120
+	+	8	120
+
+> ~/models.py
+	*	1589599876	0
+	"	67	20
+	^	65	24
+	.	56	0
+	+	56	23
+	+	62	31
+	+	69	41
+	+	64	68
+	+	63	0
+	+	60	39
+	+	64	59
+	+	67	45
+	+	55	8
+	+	57	60
+	+	2	0
+	+	58	22
+	+	2	68
+	+	64	33
+	+	65	23
+	+	56	0
 
 > ~/.git/COMMIT_EDITMSG
 	*	1588662064	0
@@ -429,56 +713,6 @@ $
 	.	170	1
 	+	1746	0
 	+	170	1
-
-> ~/aiengine.py
-	*	1588661764	0
-	"	31	5
-	^	28	5
-	.	28	4
-	+	7	0
-	+	11	14
-	+	7	0
-	+	25	16
-	+	13	0
-	+	12	10
-	+	13	0
-	+	7	0
-	+	8	30
-	+	13	0
-	+	18	1
-	+	13	25
-	+	15	0
-	+	9	11
-	+	7	0
-	+	4	0
-	+	3	34
-	+	4	0
-	+	8	0
-	+	6	0
-	+	1	17
-	+	18	0
-	+	15	73
-	+	16	8
-	+	15	16
-	+	17	61
-	+	19	16
-	+	29	20
-	+	11	4
-	+	29	17
-	+	9	26
-	+	15	92
-	+	19	68
-	+	29	59
-	+	13	17
-	+	14	0
-	+	21	4
-	+	22	25
-	+	23	55
-	+	22	20
-	+	29	57
-	+	30	36
-	+	29	4
-	+	28	4
 
 > ~/templates/index.html
 	*	1588661497	0
@@ -585,105 +819,6 @@ $
 	+	46	0
 	+	49	4
 	+	48	8
-
-> ~/models.py
-	*	1588660203	0
-	"	66	23
-	^	65	24
-	.	65	23
-	+	56	23
-	+	62	31
-	+	69	41
-	+	64	68
-	+	63	0
-	+	60	39
-	+	64	59
-	+	67	45
-	+	55	8
-	+	57	60
-	+	2	0
-	+	58	22
-	+	2	68
-	+	64	33
-	+	65	23
-
-> ~/database.py
-	*	1588660162	0
-	"	10	0
-	^	10	0
-	.	8	109
-	+	8	109
-
-> ~/README.md
-	*	1588657913	0
-	"	13	1
-	^	13	2
-	.	13	1
-	+	22	15
-	+	23	15
-	+	26	15
-	+	23	0
-	+	21	16
-	+	24	73
-	+	29	14
-	+	28	35
-	+	31	16
-	+	32	19
-	+	33	0
-	+	2	0
-	+	2	148
-	+	2	43
-	+	5	113
-	+	6	119
-	+	7	0
-	+	17	45
-	+	18	0
-	+	2	0
-	+	7	0
-	+	11	99
-	+	13	0
-	+	12	12
-	+	13	83
-	+	14	0
-	+	2	0
-	+	4	0
-	+	16	6
-	+	9	4
-	+	2	0
-	+	9	0
-	+	16	0
-	+	20	8
-	+	2	6
-	+	36	64
-	+	35	6
-	+	35	17
-	+	36	13
-	+	2	0
-	+	3	1
-	+	2	1
-	+	9	1
-	+	16	1
-	+	20	1
-	+	21	2
-	+	24	2
-	+	28	2
-	+	22	1
-	+	25	1
-	+	26	1
-	+	29	1
-	+	31	2
-	+	32	1
-	+	34	2
-	+	35	1
-	+	36	1
-	+	3	1
-	+	4	1
-	+	5	1
-	+	6	1
-	+	10	1
-	+	11	1
-	+	12	1
-	+	13	1
 
 > ~/static/js/search.js
 	*	1588467861	0
