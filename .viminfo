@@ -17,16 +17,24 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1590243700,,"q"
+:w
+|2,0,1590243483,,"w"
+:W
+|2,0,1590243415,,"W"
+:vs ./static/css/responsive.css
+|2,0,1590243208,,"vs ./static/css/responsive.css"
 :wq
-|2,0,1590243537,,"wq"
+|2,0,1590243186,,"wq"
+:vs ./static/css/tree.css
+|2,0,1590242699,,"vs ./static/css/tree.css"
+:40
+|2,0,1590237839,,"40"
+:vs ./static/js/tree.js
+|2,0,1590236169,,"vs ./static/js/tree.js"
 :q!
 |2,0,1590241188,,"q!"
-:q
-|2,0,1590236828,,"q"
-:vs ./static/js/tree.js
-|2,0,1590235867,,"vs ./static/js/tree.js"
-:w
-|2,0,1590235704,,"w"
 :wq!
 |2,0,1590229657,,"wq!"
 :36
@@ -67,8 +75,6 @@ $
 |2,0,1589638640,,"74"
 :set nu
 |2,0,1589605702,,"set nu"
-:W
-|2,0,1589602170,,"W"
 :52
 |2,0,1589601903,,"52"
 :47
@@ -127,8 +133,6 @@ $
 |2,0,1588431314,,"vs static/css/search.css"
 :vsplit templates/index.html
 |2,0,1588426638,,"vsplit templates/index.html"
-:vs ./static/css/responsive.css
-|2,0,1588426551,,"vs ./static/css/responsive.css"
 :18
 |2,0,1588423443,,"18"
 :w:w
@@ -185,70 +189,78 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	<img src="{{url_for('static', filename='pic/Korea_Telecom.png')}}"/>
-|3,0,0,0,1,0,1590235676,"<img src=\"{{url_for('static', filename='pic/Korea_Telecom.png')}}\"/>"
-"1	LINE	0
-												<script src="{{url_for('static', filename='js/search.js')}}?ver{{now}}"></script>
-|3,0,1,1,1,0,1590235631,"											<script src=\"{{url_for('static', filename='js/search.js')}}?ver{{now}}\"></script>"
+"0	LINE	0
+	.tree li ul li ul{
+		padding-left: 0px;
+	}
+|3,0,0,1,3,0,1590243290,".tree li ul li ul{","	padding-left: 0px;","}"
+""1	CHAR	0
+	.tree li ul li ul{
+		padding-left: 0px;
+	}
+|3,1,1,0,3,0,1590243440,".tree li ul li ul{","	padding-left: 0px;","}"
 "2	LINE	0
-	        print(str(((i-110067524330)/(110190693131-110067524330))*100) + " percent completed")
-|3,0,2,1,1,0,1590229013,"        print(str(((i-110067524330)/(110190693131-110067524330))*100) + \" percent completed\")"
+	.tree li ul li ul{
+		padding-left: 0px;
+	}
+|3,0,2,1,3,0,1590243413,".tree li ul li ul{","	padding-left: 0px;","}"
 "3	LINE	0
-	        print("====")
-|3,0,3,1,1,0,1590229012,"        print(\"====\")"
+			});
+	});
+|3,0,3,1,2,0,1590239898,"		});","});"
 "4	LINE	0
-	        print(i)
-|3,0,4,1,1,0,1590229010,"        print(i)"
+	
+|3,0,4,1,1,0,1590239897,""
 "5	LINE	0
-	        for i in range(110077139722, 110190693131):
-	            print(i)
-	            print("====")
-	            print(str(((i-110067524330)/(110190693131-110067524330))*100) + " percent completed")
-|3,0,5,1,4,0,1590228985,"        for i in range(110077139722, 110190693131):","            print(i)","            print(\"====\")","            print(str(((i-110067524330)/(110190693131-110067524330))*100) + \" percent completed\")"
+	
+|3,0,5,1,1,0,1590239897,""
 "6	LINE	0
-	            print(len(soup.encode('utf-8')))
-|3,0,6,1,1,0,1590226943,"            print(len(soup.encode('utf-8')))"
+			});
+|3,0,6,1,1,0,1590239896,"		});"
 "7	LINE	0
-	            print(r.headers['content-length'])
-|3,0,7,1,1,0,1590226941,"            print(r.headers['content-length'])"
+				console.log("lower function is executing");
+|3,0,7,1,1,0,1590239895,"			console.log(\"lower function is executing\");"
 "8	LINE	0
-	            print(len(r))
-|3,0,8,1,1,0,1590226836,"            print(len(r))"
+				}
+|3,0,8,1,1,0,1590239895,"			}"
 "9	LINE	0
-	110067589767
-|3,0,9,1,1,0,1590226293,"110067589767"
-""-	CHAR	0
-	</span>
-|3,1,36,0,1,0,1590235775,"</span>"
+					$(this).prop("checked", true);
+|3,0,9,1,1,0,1590239894,"				$(this).prop(\"checked\", true);"
+"-	CHAR	0
+		
+|3,0,36,0,1,0,1590239906,"	"
 
 # File marks:
-'0  2  4  ~/.gitignore
-|4,48,2,4,1590243537,"~/.gitignore"
-'1  1  0  ~/static/css/responsive.css
-|4,49,1,0,1590242543,"~/static/css/responsive.css"
-'2  1  0  ~/templates/index.html
-|4,50,1,0,1590242326,"~/templates/index.html"
-'3  1  10  ~/.gitignore
-|4,51,1,10,1590241289,"~/.gitignore"
+'0  50  12  ~/templates/index.html
+|4,48,50,12,1590243700,"~/templates/index.html"
+'1  2  4  ~/.gitignore
+|4,49,2,4,1590243537,"~/.gitignore"
+'2  1  0  ~/static/css/responsive.css
+|4,50,1,0,1590242543,"~/static/css/responsive.css"
+'3  1  0  ~/templates/index.html
+|4,51,1,0,1590242326,"~/templates/index.html"
 '4  1  10  ~/.gitignore
 |4,52,1,10,1590241289,"~/.gitignore"
 '5  1  10  ~/.gitignore
-|4,53,1,10,1590241226,"~/.gitignore"
+|4,53,1,10,1590241289,"~/.gitignore"
 '6  1  10  ~/.gitignore
 |4,54,1,10,1590241226,"~/.gitignore"
-'7  1  0  ~/.gitignore
-|4,55,1,0,1590241210,"~/.gitignore"
+'7  1  10  ~/.gitignore
+|4,55,1,10,1590241226,"~/.gitignore"
 '8  1  0  ~/.gitignore
 |4,56,1,0,1590241210,"~/.gitignore"
 '9  1  0  ~/.gitignore
 |4,57,1,0,1590241210,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  50  12  ~/templates/index.html
+|4,39,50,12,1590243700,"~/templates/index.html"
 -'  2  4  ~/.gitignore
 |4,39,2,4,1590243537,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1590243527,"~/.gitignore"
+-'  22  2  ~/templates/index.html
+|4,39,22,2,1590243195,"~/templates/index.html"
 -'  1  0  ~/static/css/responsive.css
 |4,39,1,0,1590242543,"~/static/css/responsive.css"
 -'  1  0  ~/static/css/responsive.css
@@ -413,10 +425,6 @@ $
 |4,39,1,0,1590241188,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
 -'  1  0  ~/static/js/tree.js
 |4,39,1,0,1590237573,"~/static/js/tree.js"
 -'  1  0  ~/static/js/tree.js
@@ -448,92 +456,11 @@ $
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	*	1590243536	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	1	10
-	+	2	0
-	+	2	4
-
-> ~/.gitconfig
-	*	1590241187	0
-	"	1	0
-
-> ~/__init__.py
-	*	1590236821	0
-	"	44	0
-	^	49	15
-	.	49	14
-	+	42	4
-	+	16	0
-	+	8	0
-	+	9	43
-	+	18	14
-	+	43	82
-	+	18	29
-	+	43	94
-	+	44	0
-	+	51	22
-	+	48	0
-	+	51	23
-	+	8	0
-	+	2	10
-	+	3	0
-	+	4	0
-	+	9	0
-	+	48	25
-	+	50	31
-	+	21	27
-	+	51	0
-	+	53	13
-	+	52	21
-	+	54	98
-	+	54	0
-	+	54	52
-	+	54	55
-	+	12	26
-	+	54	52
-	+	58	3
-	+	54	56
-	+	54	59
-	+	54	85
-	+	57	22
-	+	54	56
-	+	55	54
-	+	55	51
-	+	21	14
-	+	29	15
-	+	48	15
-	+	49	14
-
-> ~/static/css/tree.css
-	*	1590236144	0
-	"	55	6
-	^	7	14
-	.	7	13
-	+	6	19
-	+	8	18
-	+	9	0
-	+	7	13
-
-> ~/static/js/tree.js
-	*	1590236030	0
-	"	15	1
-	^	1	1
-	.	1	0
-	+	1	0
-
 > ~/templates/index.html
-	*	1590236002	0
-	"	58	2
-	^	91	39
-	.	91	54
-	+	58	18
-	+	58	26
-	+	58	3
-	+	117	0
+	*	1590243699	0
+	"	50	12
+	^	65	108
+	.	65	107
 	+	116	1
 	+	50	0
 	+	50	4
@@ -630,6 +557,201 @@ $
 	+	81	56
 	+	88	101
 	+	91	54
+	+	56	21
+	+	85	0
+	+	97	10
+	+	65	107
+
+> ~/static/css/responsive.css
+	*	1590243698	0
+	"	14	0
+	^	9	1
+	.	10	0
+	+	1	1
+	+	1	0
+	+	1	1
+	+	29	0
+	+	1	33
+	+	1	7
+	+	1	0
+	+	1	14
+	+	1	33
+	+	1	18
+	+	1	14
+	+	1	7
+	+	1	1
+	+	1	13
+	+	1	0
+	+	1	7
+	+	2	13
+	+	2	1
+	+	28	0
+	+	28	10
+	+	28	15
+	+	1	22
+	+	28	0
+	+	2	0
+	+	1	0
+	+	2	14
+	+	3	10
+	+	7	0
+	+	4	14
+	+	6	0
+	+	2	13
+	+	4	14
+	+	3	7
+	+	5	0
+	+	4	13
+	+	5	11
+	+	3	7
+	+	19	1
+	+	20	0
+	+	17	11
+	+	18	8
+	+	20	4
+	+	23	0
+	+	22	11
+	+	24	0
+	+	21	8
+	+	22	9
+	+	7	6
+	+	8	19
+	+	24	6
+	+	26	0
+	+	24	1
+	+	25	12
+	+	8	15
+	+	10	0
+	+	10	15
+	+	10	14
+	+	13	11
+	+	14	16
+	+	11	1
+	+	9	1
+	+	10	0
+
+> ~/static/css/tree.css
+	*	1590243695	0
+	"	25	6
+	^	7	14
+	.	7	13
+	+	6	19
+	+	8	18
+	+	9	0
+	+	7	13
+
+> ~/.gitignore
+	*	1590243536	0
+	"	2	4
+	^	2	5
+	.	2	4
+	+	1	10
+	+	2	0
+	+	2	4
+
+> ~/static/js/tree.js
+	*	1590242367	0
+	"	42	34
+	^	42	35
+	.	42	34
+	+	1	0
+	+	47	0
+	+	34	49
+	+	47	0
+	+	36	36
+	+	39	3
+	+	37	32
+	+	47	4
+	+	34	45
+	+	36	12
+	+	37	71
+	+	38	34
+	+	38	4
+	+	38	34
+	+	39	43
+	+	39	45
+	+	39	35
+	+	39	41
+	+	39	0
+	+	34	25
+	+	37	26
+	+	47	0
+	+	39	0
+	+	47	31
+	+	47	60
+	+	47	31
+	+	47	71
+	+	47	107
+	+	39	49
+	+	47	68
+	+	47	4
+	+	47	45
+	+	47	38
+	+	47	0
+	+	47	23
+	+	38	24
+	+	47	24
+	+	38	0
+	+	47	0
+	+	45	0
+	+	39	4
+	+	45	0
+	+	40	35
+	+	43	4
+	+	42	27
+	+	41	28
+	+	42	34
+
+> ~/.gitconfig
+	*	1590241187	0
+	"	1	0
+
+> ~/__init__.py
+	*	1590236821	0
+	"	44	0
+	^	49	15
+	.	49	14
+	+	42	4
+	+	16	0
+	+	8	0
+	+	9	43
+	+	18	14
+	+	43	82
+	+	18	29
+	+	43	94
+	+	44	0
+	+	51	22
+	+	48	0
+	+	51	23
+	+	8	0
+	+	2	10
+	+	3	0
+	+	4	0
+	+	9	0
+	+	48	25
+	+	50	31
+	+	21	27
+	+	51	0
+	+	53	13
+	+	52	21
+	+	54	98
+	+	54	0
+	+	54	52
+	+	54	55
+	+	12	26
+	+	54	52
+	+	58	3
+	+	54	56
+	+	54	59
+	+	54	85
+	+	57	22
+	+	54	56
+	+	55	54
+	+	55	51
+	+	21	14
+	+	29	15
+	+	48	15
+	+	49	14
 
 > ~/aiengine.py
 	*	1590229641	0
@@ -1229,53 +1351,6 @@ $
 	+	19	17
 	+	20	13
 	+	25	13
-
-> ~/static/css/responsive.css
-	*	1588442127	0
-	"	9	8
-	^	9	9
-	.	9	8
-	+	1	1
-	+	1	0
-	+	1	1
-	+	13	0
-	+	1	33
-	+	1	7
-	+	1	0
-	+	1	14
-	+	1	33
-	+	1	18
-	+	1	14
-	+	1	7
-	+	1	1
-	+	1	13
-	+	1	0
-	+	1	7
-	+	2	13
-	+	2	1
-	+	12	0
-	+	12	10
-	+	12	15
-	+	1	22
-	+	12	0
-	+	2	0
-	+	1	0
-	+	2	14
-	+	3	10
-	+	7	0
-	+	4	14
-	+	6	0
-	+	2	13
-	+	4	14
-	+	3	7
-	+	5	0
-	+	4	13
-	+	5	11
-	+	3	7
-	+	10	1
-	+	11	0
-	+	8	11
-	+	9	8
 
 > ~/_mode
 	*	1588440034	0
