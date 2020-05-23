@@ -17,16 +17,16 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1590244404,,"wq"
+:w
+|2,0,1590244401,,"w"
 :q
 |2,0,1590243700,,"q"
-:w
-|2,0,1590243483,,"w"
 :W
 |2,0,1590243415,,"W"
 :vs ./static/css/responsive.css
 |2,0,1590243208,,"vs ./static/css/responsive.css"
-:wq
-|2,0,1590243186,,"wq"
 :vs ./static/css/tree.css
 |2,0,1590242699,,"vs ./static/css/tree.css"
 :40
@@ -189,16 +189,14 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
+""0	CHAR	0
+	 style="width:100%, height:100%"
+|3,1,0,0,1,0,1590244277," style=\"width:100%, height:100%\""
+"1	CHAR	0
 	.tree li ul li ul{
 		padding-left: 0px;
 	}
-|3,0,0,1,3,0,1590243290,".tree li ul li ul{","	padding-left: 0px;","}"
-""1	CHAR	0
-	.tree li ul li ul{
-		padding-left: 0px;
-	}
-|3,1,1,0,3,0,1590243440,".tree li ul li ul{","	padding-left: 0px;","}"
+|3,0,1,0,3,0,1590243440,".tree li ul li ul{","	padding-left: 0px;","}"
 "2	LINE	0
 	.tree li ul li ul{
 		padding-left: 0px;
@@ -231,40 +229,82 @@ $
 |3,0,36,0,1,0,1590239906,"	"
 
 # File marks:
-'0  50  12  ~/templates/index.html
-|4,48,50,12,1590243700,"~/templates/index.html"
-'1  2  4  ~/.gitignore
-|4,49,2,4,1590243537,"~/.gitignore"
-'2  1  0  ~/static/css/responsive.css
-|4,50,1,0,1590242543,"~/static/css/responsive.css"
-'3  1  0  ~/templates/index.html
-|4,51,1,0,1590242326,"~/templates/index.html"
-'4  1  10  ~/.gitignore
-|4,52,1,10,1590241289,"~/.gitignore"
-'5  1  10  ~/.gitignore
-|4,53,1,10,1590241289,"~/.gitignore"
-'6  1  10  ~/.gitignore
-|4,54,1,10,1590241226,"~/.gitignore"
-'7  1  10  ~/.gitignore
-|4,55,1,10,1590241226,"~/.gitignore"
-'8  1  0  ~/.gitignore
-|4,56,1,0,1590241210,"~/.gitignore"
-'9  1  0  ~/.gitignore
-|4,57,1,0,1590241210,"~/.gitignore"
+'0  35  7  ~/templates/index.html
+|4,48,35,7,1590244404,"~/templates/index.html"
+'1  102  35  ~/templates/index.html
+|4,49,102,35,1590244326,"~/templates/index.html"
+'2  102  35  ~/templates/index.html
+|4,50,102,35,1590244326,"~/templates/index.html"
+'3  50  12  ~/templates/index.html
+|4,51,50,12,1590243700,"~/templates/index.html"
+'4  50  12  ~/templates/index.html
+|4,52,50,12,1590243700,"~/templates/index.html"
+'5  50  12  ~/templates/index.html
+|4,53,50,12,1590243700,"~/templates/index.html"
+'6  50  12  ~/templates/index.html
+|4,54,50,12,1590243700,"~/templates/index.html"
+'7  2  4  ~/.gitignore
+|4,55,2,4,1590243537,"~/.gitignore"
+'8  1  0  ~/static/css/responsive.css
+|4,56,1,0,1590242543,"~/static/css/responsive.css"
+'9  1  0  ~/templates/index.html
+|4,57,1,0,1590242326,"~/templates/index.html"
 
 # Jumplist (newest first):
+-'  35  7  ~/templates/index.html
+|4,39,35,7,1590244404,"~/templates/index.html"
+-'  102  35  ~/templates/index.html
+|4,39,102,35,1590244365,"~/templates/index.html"
+-'  102  35  ~/templates/index.html
+|4,39,102,35,1590244326,"~/templates/index.html"
+-'  50  12  ~/templates/index.html
+|4,39,50,12,1590244225,"~/templates/index.html"
+-'  50  12  ~/templates/index.html
+|4,39,50,12,1590244225,"~/templates/index.html"
 -'  50  12  ~/templates/index.html
 |4,39,50,12,1590243700,"~/templates/index.html"
 -'  2  4  ~/.gitignore
 |4,39,2,4,1590243537,"~/.gitignore"
+-'  2  4  ~/.gitignore
+|4,39,2,4,1590243537,"~/.gitignore"
+-'  2  4  ~/.gitignore
+|4,39,2,4,1590243537,"~/.gitignore"
+-'  2  4  ~/.gitignore
+|4,39,2,4,1590243537,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1590243527,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590243527,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590243527,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590243527,"~/.gitignore"
+-'  22  2  ~/templates/index.html
+|4,39,22,2,1590243195,"~/templates/index.html"
+-'  22  2  ~/templates/index.html
+|4,39,22,2,1590243195,"~/templates/index.html"
 -'  22  2  ~/templates/index.html
 |4,39,22,2,1590243195,"~/templates/index.html"
 -'  1  0  ~/static/css/responsive.css
 |4,39,1,0,1590242543,"~/static/css/responsive.css"
 -'  1  0  ~/static/css/responsive.css
 |4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590242326,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590242326,"~/templates/index.html"
 -'  1  0  ~/templates/index.html
 |4,39,1,0,1590242326,"~/templates/index.html"
 -'  1  0  ~/templates/index.html
@@ -282,6 +322,34 @@ $
 -'  1  10  ~/.gitignore
 |4,39,1,10,1590241289,"~/.gitignore"
 -'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241289,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
 |4,39,1,10,1590241226,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1590241226,"~/.gitignore"
@@ -289,6 +357,50 @@ $
 |4,39,1,10,1590241226,"~/.gitignore"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590241226,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1590241210,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1590241210,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -339,134 +451,14 @@ $
 |4,39,1,0,1590241188,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
 
 # History of marks within files (newest to oldest):
 
 > ~/templates/index.html
-	*	1590243699	0
-	"	50	12
-	^	65	108
-	.	65	107
-	+	116	1
-	+	50	0
-	+	50	4
-	+	58	0
-	+	117	2
-	+	116	26
+	*	1590244401	0
+	"	35	7
+	^	35	8
+	.	65	135
 	+	44	0
 	+	40	201
 	+	42	11
@@ -560,7 +552,13 @@ $
 	+	56	21
 	+	85	0
 	+	97	10
-	+	65	107
+	+	65	148
+	+	73	117
+	+	81	130
+	+	88	128
+	+	81	149
+	+	73	135
+	+	65	135
 
 > ~/static/css/responsive.css
 	*	1590243698	0
