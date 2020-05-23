@@ -18,7 +18,7 @@ from sqlalchemy import text
 from datetime import datetime
 
 #형태소 분석을 위해 사용함. 
-from aiengine import predict
+import aiengine
 
 @app.route('/')
 def index():
@@ -45,7 +45,8 @@ def index():
 @app.route('/_search')
 def search():
     text = request.args.get('text',"empty",type=str)
-    result = predict(text)
+    s = School()
+    result = s.predict(text)
     return jsonify(result=result)
 
 @app.route('/_collect')

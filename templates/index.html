@@ -36,7 +36,7 @@
 		<section class="container-xg">
 			<section id ="headline" class="row justify-content-center">
 				<div class="col-12 text-center">
-				<h1>Yongwoon Jang</h1>
+				<h1>Y o n g w o o n  J a n g</h1>
 				</div>
 			</section>
 			<section id = "naviagtor" class="row justify-content-center m-3">
@@ -53,7 +53,7 @@
 					<!-- menu #1 -->
 					<div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
 						<!-- TREE View -->
-						<ul class="tree">
+						<ul id="profile-tree" class="tree">
 							<li>
 								<input type="checkbox" checked="checked" id="c1" />
 								<label class="tree_label" for="c1">장용운</label>
@@ -62,7 +62,7 @@
 									<input type="checkbox" id="c2" />
 									<label for="c2" class="tree_label">나이</label>
 										<ul>
-											<li><span class="tree_label">1988.12.22</span></li>
+											<li><span class="tree_label">1988.12.22 <img src="{{url_for('static', filename='pic/Olympic_rings_with_design.png')}}"/></span></li>
 											<li><span class="tree_label">33</span></li>
 										</ul>
 									</li>
@@ -70,7 +70,7 @@
 									<input type="checkbox" id="c3" />
 									<label for="c3" class="tree_label">하는일</label>
 										<ul>
-											<li><span class="tree_label">KT Manager</span></li>
+											<li><span class="tree_label">KT Manager <img src="{{url_for('static', filename='pic/Korea_Telecom.png')}}"/></span></li>
 										</ul>
 									</li>
 									<li>
@@ -78,23 +78,23 @@
 									<label for="c4" class="tree_label">공부한 경력</label>
 										<ul>
 											<li><span class="tree_label">대학 졸업</span></li>
-											<li><span class="tree_label">컴퓨터 공학</span></li>
+											<li><span class="tree_label">컴퓨터 공학 <img src="{{url_for('static', filename='pic/Computer_Science_Mark.png')}}"/></span></li>
 										</ul>
 									</li>
 									<li>
-										<input type="checkbox" id="c5" />
-										<label for="c5" class="tree_label">취미</label>
-											<ul>
-												<li><span class="tree_label">수영</span></li>
-												<li>
-													<input type="checkbox" id="c6" />
-													<label for="c6" class="tree_label"><span class="tree_custom">음악</span></label>
-														<ul>
-															<li><span class="tree_label">피아노</span></li>
-															<li><span class="tree_label">클래식</span></li>
-														</ul>
-												</li>
-											</ul>
+									<input type="checkbox" id="c5" />
+									<label for="c5" class="tree_label">취미</label>
+										<ul>
+											<li><span class="tree_label">댄스 <img src="{{url_for('static', filename='pic/DanceDance.png')}}"/></span></li>
+											<li>
+												<input type="checkbox" id="c6" />
+												<label for="c6" class="tree_label">음악</label>
+													<ul>
+														<li><span class="tree_label">피아노</span></li>
+														<li><span class="tree_label">클래식</span></li>
+													</ul>
+											</li>
+										</ul>
 									</li>
 								</ul>
 							</li>

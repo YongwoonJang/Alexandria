@@ -31,4 +31,16 @@ $(function() {
 				$('body').css({ fontSize: '1em' });  
 			}
 		});
+	  $("#profile-tree li ul input[type='checkbox']")
+		.bind('click', function(){ 
+			if($(this).prop("checked") == true){
+				$("#profile-tree li ul input[type='checkbox']").prop("checked",false);
+				$(this).prop("checked", true);
+			
+				if($(this).prop("id") == "c6"){
+					console.log("executing")
+					$("#c5").prop("checked", true);
+				}
+			}
+		});
 });
