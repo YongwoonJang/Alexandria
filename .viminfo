@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590241289,,"wq"
+|2,0,1590243537,,"wq"
 :q!
 |2,0,1590241188,,"q!"
 :q
@@ -223,34 +223,44 @@ $
 |3,1,36,0,1,0,1590235775,"</span>"
 
 # File marks:
-'0  1  0  ~/static/css/responsive.css
-|4,48,1,0,1590242543,"~/static/css/responsive.css"
-'1  1  0  ~/templates/index.html
-|4,49,1,0,1590242326,"~/templates/index.html"
-'2  1  10  ~/.gitignore
-|4,50,1,10,1590241289,"~/.gitignore"
+'0  2  4  ~/.gitignore
+|4,48,2,4,1590243537,"~/.gitignore"
+'1  1  0  ~/static/css/responsive.css
+|4,49,1,0,1590242543,"~/static/css/responsive.css"
+'2  1  0  ~/templates/index.html
+|4,50,1,0,1590242326,"~/templates/index.html"
 '3  1  10  ~/.gitignore
-|4,51,1,10,1590241226,"~/.gitignore"
-'4  1  0  ~/.gitignore
-|4,52,1,0,1590241210,"~/.gitignore"
-'5  1  0  ~/.gitignore
-|4,53,1,0,1590241210,"~/.gitignore"
-'6  1  0  ~/.gitconfig
-|4,54,1,0,1590241188,"~/.gitconfig"
-'7  1  0  ~/static/js/tree.js
-|4,55,1,0,1590237573,"~/static/js/tree.js"
-'8  1  0  ~/static/js/tree.js
-|4,56,1,0,1590237387,"~/static/js/tree.js"
-'9  1  0  ~/static/js/tree.js
-|4,57,1,0,1590237286,"~/static/js/tree.js"
+|4,51,1,10,1590241289,"~/.gitignore"
+'4  1  10  ~/.gitignore
+|4,52,1,10,1590241289,"~/.gitignore"
+'5  1  10  ~/.gitignore
+|4,53,1,10,1590241226,"~/.gitignore"
+'6  1  10  ~/.gitignore
+|4,54,1,10,1590241226,"~/.gitignore"
+'7  1  0  ~/.gitignore
+|4,55,1,0,1590241210,"~/.gitignore"
+'8  1  0  ~/.gitignore
+|4,56,1,0,1590241210,"~/.gitignore"
+'9  1  0  ~/.gitignore
+|4,57,1,0,1590241210,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  2  4  ~/.gitignore
+|4,39,2,4,1590243537,"~/.gitignore"
+-'  1  10  ~/.gitignore
+|4,39,1,10,1590243527,"~/.gitignore"
+-'  1  0  ~/static/css/responsive.css
+|4,39,1,0,1590242543,"~/static/css/responsive.css"
 -'  1  0  ~/static/css/responsive.css
 |4,39,1,0,1590242543,"~/static/css/responsive.css"
 -'  1  0  ~/templates/index.html
 |4,39,1,0,1590242326,"~/templates/index.html"
 -'  1  0  ~/templates/index.html
 |4,39,1,0,1590242326,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590242326,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590242326,"~/templates/index.html"
 -'  1  10  ~/.gitignore
 |4,39,1,10,1590241289,"~/.gitignore"
 -'  1  10  ~/.gitignore
@@ -339,80 +349,70 @@ $
 |4,39,1,0,1590241188,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1590241188,"~/.gitconfig"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
--'  1  0  ~/static/js/tree.js
-|4,39,1,0,1590237573,"~/static/js/tree.js"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1590241188,"~/.gitconfig"
 -'  1  0  ~/static/js/tree.js
 |4,39,1,0,1590237573,"~/static/js/tree.js"
 -'  1  0  ~/static/js/tree.js
@@ -449,11 +449,13 @@ $
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1590241289	0
-	"	1	10
-	^	1	11
-	.	1	10
+	*	1590243536	0
+	"	2	4
+	^	2	5
+	.	2	4
 	+	1	10
+	+	2	0
+	+	2	4
 
 > ~/.gitconfig
 	*	1590241187	0
