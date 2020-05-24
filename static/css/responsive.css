@@ -17,13 +17,31 @@
 	width:90%;
 	top:50%;
 }
-img{
-	width:100%;
-	height:100%;
-}
 h1{
 	font-size:30px;
 }
+
+#age_img{
+	width:70%;
+	height:70%;
+}
+
+#work_img{
+	width:70%;
+	height:70%;
+}	
+
+#study_img{
+	width:70%;
+	height:70%;
+}
+
+#dance_img{
+	width:50%; 
+	height:50%;
+
+}
+
 }
 
 

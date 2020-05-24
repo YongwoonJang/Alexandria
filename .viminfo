@@ -11,16 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/script
+~MSle0~/Dan
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590245615,,"wq"
+|2,0,1590279152,,"wq"
 :w
-|2,0,1590245445,,"w"
+|2,0,1590278551,,"w"
+:q!
+|2,0,1590277530,,"q!"
 :W
 |2,0,1590245233,,"W"
 :vs templates/index.html
@@ -35,8 +37,6 @@ $
 |2,0,1590237839,,"40"
 :vs ./static/js/tree.js
 |2,0,1590236169,,"vs ./static/js/tree.js"
-:q!
-|2,0,1590241188,,"q!"
 :wq!
 |2,0,1590229657,,"wq!"
 :36
@@ -143,6 +143,10 @@ $
 |2,0,1588343693,,"vs uwsgistart.sh"
 
 # Search String History (newest to oldest):
+?/Dan
+|2,1,1590277562,47,"Dan"
+?/olympic
+|2,1,1590277467,47,"olympic"
 ?/script
 |2,1,1590235943,47,"script"
 ?/predict
@@ -232,243 +236,236 @@ $
 |3,1,36,0,1,0,1590245522,"<img src=\"{{url_for('static', filename='pic/DanceDance.png')}}\" style=\"width:100%; height:100%\"/></span>"
 
 # File marks:
-'0  96  16  ~/templates/index.html
-|4,48,96,16,1590245615,"~/templates/index.html"
-'1  47  1  ~/templates/index.html
-|4,49,47,1,1590245036,"~/templates/index.html"
-'2  47  1  ~/templates/index.html
-|4,50,47,1,1590245036,"~/templates/index.html"
-'3  12  10  ~/static/css/font.css
-|4,51,12,10,1590244996,"~/static/css/font.css"
-'4  12  10  ~/static/css/font.css
-|4,52,12,10,1590244996,"~/static/css/font.css"
-'5  35  7  ~/templates/index.html
-|4,53,35,7,1590244404,"~/templates/index.html"
-'6  35  7  ~/templates/index.html
-|4,54,35,7,1590244404,"~/templates/index.html"
-'7  35  7  ~/templates/index.html
-|4,55,35,7,1590244404,"~/templates/index.html"
-'8  35  7  ~/templates/index.html
-|4,56,35,7,1590244404,"~/templates/index.html"
-'9  106  35  ~/templates/index.html
-|4,57,106,35,1590244326,"~/templates/index.html"
+'0  1  0  ~/templates/index.html
+|4,48,1,0,1590292470,"~/templates/index.html"
+'1  1  0  ~/templates/index.html
+|4,49,1,0,1590291693,"~/templates/index.html"
+'2  1  0  ~/templates/index.html
+|4,50,1,0,1590291499,"~/templates/index.html"
+'3  1  0  ~/templates/index.html
+|4,51,1,0,1590291499,"~/templates/index.html"
+'4  1  0  ~/templates/index.html
+|4,52,1,0,1590289474,"~/templates/index.html"
+'5  1  0  ~/templates/index.html
+|4,53,1,0,1590289474,"~/templates/index.html"
+'6  1  0  ~/templates/index.html
+|4,54,1,0,1590289474,"~/templates/index.html"
+'7  1  0  ~/templates/index.html
+|4,55,1,0,1590289474,"~/templates/index.html"
+'8  67  119  ~/templates/index.html
+|4,56,67,119,1590279152,"~/templates/index.html"
+'9  67  119  ~/templates/index.html
+|4,57,67,119,1590279152,"~/templates/index.html"
 
 # Jumplist (newest first):
--'  96  16  ~/templates/index.html
-|4,39,96,16,1590245615,"~/templates/index.html"
--'  15  8  ~/static/css/font.css
-|4,39,15,8,1590245111,"~/static/css/font.css"
--'  12  10  ~/static/css/font.css
-|4,39,12,10,1590245041,"~/static/css/font.css"
--'  47  1  ~/templates/index.html
-|4,39,47,1,1590245036,"~/templates/index.html"
--'  47  1  ~/templates/index.html
-|4,39,47,1,1590245036,"~/templates/index.html"
--'  35  7  ~/templates/index.html
-|4,39,35,7,1590245003,"~/templates/index.html"
--'  35  7  ~/templates/index.html
-|4,39,35,7,1590245003,"~/templates/index.html"
--'  12  10  ~/static/css/font.css
-|4,39,12,10,1590244996,"~/static/css/font.css"
--'  12  10  ~/static/css/font.css
-|4,39,12,10,1590244996,"~/static/css/font.css"
--'  19  17  ~/static/css/font.css
-|4,39,19,17,1590244979,"~/static/css/font.css"
--'  19  17  ~/static/css/font.css
-|4,39,19,17,1590244979,"~/static/css/font.css"
--'  19  17  ~/static/css/font.css
-|4,39,19,17,1590244979,"~/static/css/font.css"
--'  35  7  ~/templates/index.html
-|4,39,35,7,1590244404,"~/templates/index.html"
--'  35  7  ~/templates/index.html
-|4,39,35,7,1590244404,"~/templates/index.html"
--'  106  35  ~/templates/index.html
-|4,39,106,35,1590244365,"~/templates/index.html"
--'  102  35  ~/templates/index.html
-|4,39,102,35,1590244365,"~/templates/index.html"
--'  102  35  ~/templates/index.html
-|4,39,102,35,1590244365,"~/templates/index.html"
--'  102  35  ~/templates/index.html
-|4,39,102,35,1590244365,"~/templates/index.html"
--'  102  35  ~/templates/index.html
-|4,39,102,35,1590244326,"~/templates/index.html"
--'  102  35  ~/templates/index.html
-|4,39,102,35,1590244326,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590244225,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590244225,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590244225,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590244225,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590244225,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590244225,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590243700,"~/templates/index.html"
--'  50  12  ~/templates/index.html
-|4,39,50,12,1590243700,"~/templates/index.html"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  2  4  ~/.gitignore
-|4,39,2,4,1590243537,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  1  10  ~/.gitignore
-|4,39,1,10,1590243527,"~/.gitignore"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
--'  22  2  ~/templates/index.html
-|4,39,22,2,1590243195,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590292470,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590291693,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590291499,"~/templates/index.html"
+-'  1  0  ~/templates/index.html
+|4,39,1,0,1590289474,"~/templates/index.html"
+-'  67  119  ~/templates/index.html
+|4,39,67,119,1590279152,"~/templates/index.html"
+-'  67  119  ~/templates/index.html
+|4,39,67,119,1590279152,"~/templates/index.html"
+-'  67  119  ~/templates/index.html
+|4,39,67,119,1590279152,"~/templates/index.html"
+-'  67  119  ~/templates/index.html
+|4,39,67,119,1590279152,"~/templates/index.html"
+-'  67  119  ~/templates/index.html
+|4,39,67,119,1590279152,"~/templates/index.html"
+-'  128  6  ~/templates/index.html
+|4,39,128,6,1590279124,"~/templates/index.html"
+-'  128  6  ~/templates/index.html
+|4,39,128,6,1590279124,"~/templates/index.html"
+-'  128  6  ~/templates/index.html
+|4,39,128,6,1590279124,"~/templates/index.html"
+-'  128  6  ~/templates/index.html
+|4,39,128,6,1590279124,"~/templates/index.html"
+-'  128  6  ~/templates/index.html
+|4,39,128,6,1590279124,"~/templates/index.html"
+-'  128  6  ~/templates/index.html
+|4,39,128,6,1590278655,"~/templates/index.html"
+-'  67  108  ~/templates/index.html
+|4,39,67,108,1590278562,"~/templates/index.html"
+-'  67  108  ~/templates/index.html
+|4,39,67,108,1590278552,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278279,"~/templates/index.html"
+-'  84  86  ~/templates/index.html
+|4,39,84,86,1590278201,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590278189,"~/templates/index.html"
+-'  92  105  ~/templates/index.html
+|4,39,92,105,1590277606,"~/templates/index.html"
+-'  92  104  ~/templates/index.html
+|4,39,92,104,1590277574,"~/templates/index.html"
+-'  67  107  ~/templates/index.html
+|4,39,67,107,1590277562,"~/templates/index.html"
+-'  67  107  ~/templates/index.html
+|4,39,67,107,1590277562,"~/templates/index.html"
+-'  67  107  ~/templates/index.html
+|4,39,67,107,1590277562,"~/templates/index.html"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  3  0  ~/shell-script/uwsgistart.sh
+|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/templates/index.html
-	*	1590245613	0
-	"	96	16
-	^	96	17
-	.	92	112
-	+	4	2
-	+	4	185
-	+	4	176
-	+	4	6
-	+	4	182
-	+	5	0
-	+	4	160
+	*	1590279151	0
+	"	67	119
+	^	67	120
+	.	67	119
 	+	4	0
 	+	4	8
 	+	4	58
@@ -562,6 +559,17 @@ $
 	+	92	118
 	+	93	14
 	+	92	112
+	+	67	107
+	+	92	105
+	+	84	116
+	+	67	90
+	+	75	90
+	+	84	98
+	+	67	119
+
+> ~/shell-script/uwsgistart.sh
+	*	1590277528	0
+	"	3	0
 
 > ~/static/css/font.css
 	*	1590245281	0
@@ -1407,10 +1415,6 @@ $
 > ~/shell-script/uwsgistop.sh
 	*	1588343859	0
 	"	3	16
-
-> ~/shell-script/uwsgistart.sh
-	*	1588343759	0
-	"	3	0
 
 > ~/static/css/cd
 	*	1588343575	0

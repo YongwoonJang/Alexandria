@@ -12,6 +12,9 @@
 			$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
 		</script>
 
+		<!--css for basic setting-->
+		<link rel="stylesheet" href="{{url_for('static', filename='css/basic.css')}}?ver{{now}}">
+
 		<!--css for tree-->
 		<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver{{now}}">
 		<script src="{{url_for('static', filename='js/tree.js')}}?ver{{now}}"></script>
@@ -64,7 +67,7 @@
 										<ul>
 											<li><span class="tree_label">1988.12.22 </span></li>
 											<li><span class="tree_label">33</span></li>
-											<li><img src="{{url_for('static', filename='pic/Seoul_olympic.png')}}" style="width:80%; height:80%"/></li>
+											<li><img id="age_img" src="{{url_for('static', filename='pic/Seoul_olympic.png')}}?ver{{now}}"/></li>
 										</ul>
 									</li>
 									<li>
@@ -72,7 +75,7 @@
 									<label for="c3" class="tree_label">하는일</label>
 										<ul>
 											<li><span class="tree_label">KT Manager </span></li>
-											<li><img src="{{url_for('static', filename='pic/Korea_Telecom.png')}}" style="width:100%; height:100%"/></li>	
+											<li><span class="tree_label"><img id="work_img" src="{{url_for('static', filename='pic/Korea_telecom.png')}}?ver{{now}}"/></span></li>	
 										</ul>
 									</li>
 									<li>
@@ -81,7 +84,7 @@
 										<ul>
 											<li><span class="tree_label">대학 졸업</span></li>
 											<li><span class="tree_label">컴퓨터 공학 </span></li>
-											<li><img src="{{url_for('static', filename='pic/Computer_Science_Mark.png')}}" style="width:100%; height:100%"/></li>
+											<li><img id="study_img" src="{{url_for('static', filename='pic/Computer_Science_Mark.png')}}?ver{{now}}"/></li>
 										</ul>
 									</li>
 									<li>
@@ -89,13 +92,12 @@
 									<label for="c5" class="tree_label">취미</label>
 										<ul>
 											<li><span class="tree_label">댄스</span> </li>
-											<li><img src="{{url_for('static', filename='pic/DanceDance.png')}}" style="width:100%; height:100%"/><li>
+											<li><img id="dance_img" src="{{url_for('static', filename='pic/DanceDance.png')}}" /><li>
 											<li>
 												<input type="checkbox" id="c6" />
 												<label for="c6" class="tree_label">음악</label>
 													<ul>
 														<li><span class="tree_label">피아노</span></li>
-														<li><span class="tree_label">클래식</span></li>
 													</ul>
 											</li>
 										</ul>

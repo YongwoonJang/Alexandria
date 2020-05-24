@@ -1,0 +1,32 @@
+body::after{
+	background:url('../pic/YongwoonJang_Muju_20200524.png');
+	content: "";
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1; 
+}
+
+#age_img{
+	width:30%;
+	height:30%;
+}
+
+#work_img{
+	width:35%;
+	height:35%;
+}	
+
+#study_img{
+	width:35%;
+	height:35%;
+}
+
+#dance_img{
+	width:35%; 
+	height:35%;
+
+}

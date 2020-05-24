@@ -56,7 +56,6 @@ ul li {
 .tree_label {
 position: relative;
 display: inline-block;
-background: #fff;
 }
 
 label.tree_label { cursor: pointer; }
