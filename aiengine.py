@@ -84,12 +84,12 @@ class School:
         model = Sequential()
         model.add(Embedding(input_dim=self.max_features, output_dim=64, input_length=self.maxlen))
         model.add(Dropout(0.25))
-        model.add(Conv1D(filters = 64, 
-            kernel_size = 5, 
-            padding="valid", 
-            activation="relu",
-            strides=1))
-        model.add(MaxPooling1D(pool_size=3))
+        #model.add(Conv1D(filters = 64, 
+        #    kernel_size = 5, 
+        #    padding="valid", 
+        #    activation="relu",
+        #    strides=1))
+        #model.add(MaxPooling1D(pool_size=3))
         model.add(LSTM(self.maxlen))
         model.add(Dense(1))
         model.add(Activation("softmax"))
@@ -127,7 +127,7 @@ class School:
 
         self.model.fit(X_train, 
                 y_train,
-                epochs=2,
+                epochs=5,
                 validation_data=(X_test, y_test),
                 verbose=1)
        
@@ -137,28 +137,30 @@ class School:
         question = []
         question.append(mecab.morphs(text))
         text_sequence = self.tokenizer.texts_to_sequences(question)
-
+        if(len(text_sequence[0]) == 0):
+            text_sequence[0].append(0) # set default value
         response_sequence = self.model.predict(text_sequence)
-        print(self.tokenizer.sequences_to_texts(response_sequence))
 
-##        for element in morphs:
-##            answer = db_session.query(Question).filter(Question.answer_category == element).first()
-##            if(answer==None):
-##                answer = "응답이 준비되지 않았습니다."
-##            else:
-##                answer = answer.answer + "이고 " + answer.answer_detail
-##                break
-##        
-##        if(answer == None):
-##            answer="응답이 준비되지 않았습니다."
-##
-##        return answer
+        # search based on word
+        for element in question[0]:
+            answer = db_session.query(Question).filter(Question.answer_category == element).first()
+            if(answer==None):
+                answer = "응답이 준비되지 않았습니다."
+            else:
+                answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
+                break
+        
+        if(answer == None):
+            answer="응답이 준비되지 않았습니다."
+        
+        print(answer)
+        return answer
 
 
 if __name__ == '__main__':
     school = School()    
-    #school.make_tokenizer()
+    #school.update_tokenizer()
     #school.create_model()
     #school.learn()
-    school.predict("혜정이와 용운이는 어떤 사이야?")
+    school.predict("이름이 뭐야")
     print("Hello world")

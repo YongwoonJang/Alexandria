@@ -22,7 +22,6 @@ import aiengine
 
 @app.route('/')
 def index():
-    ## 카카오톡을 return
     company = db_session.query(Company).filter(Company.corp_code == "00258801").all()
     menu = db_session.query(Menu).all()
 
@@ -37,15 +36,12 @@ def index():
         if(element.__dict__['menu_name'] == '장용운은?'):
             main_character = element.__dict__
     
-    print(companys)#list로 등록된 회사를 출력한다.
-    print(main_character)
-    
     return render_template('index.html', companys=companys, now=datetime.now().strftime('%H%M%S'), menus=menus, main_character=main_character)
 
 @app.route('/_search')
 def search():
     text = request.args.get('text',"empty",type=str)
-    s = School()
+    s = aiengine.School()
     result = s.predict(text)
     return jsonify(result=result)
 

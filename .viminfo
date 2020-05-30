@@ -11,28 +11,50 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Dan
+~MSle0~/print
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590279152,,"wq"
+|2,0,1590811606,,"wq"
 :w
-|2,0,1590278551,,"w"
+|2,0,1590811270,,"w"
+:130
+|2,0,1590810980,,"130"
+:144
+|2,0,1590810438,,"144"
+:146
+|2,0,1590810340,,"146"
 :q!
-|2,0,1590277530,,"q!"
-:W
-|2,0,1590245233,,"W"
-:vs templates/index.html
-|2,0,1590245111,,"vs templates/index.html"
+|2,0,1590810007,,"q!"
+:WQ
+|2,0,1590807992,,"WQ"
+:Q!
+|2,0,1590807264,,"Q!"
+:141
+|2,0,1590803262,,"141"
+:Wq
+|2,0,1590742667,,"Wq"
+:48
+|2,0,1590742611,,"48"
 :q
-|2,0,1590243700,,"q"
+|2,0,1590293171,,"q"
+:W
+|2,0,1590292574,,"W"
 :vs ./static/css/responsive.css
-|2,0,1590243208,,"vs ./static/css/responsive.css"
+|2,0,1590291832,,"vs ./static/css/responsive.css"
+:vs ./static/css/basic.css
+|2,0,1590291750,,"vs ./static/css/basic.css"
+:Q
+|2,0,1590291735,,"Q"
 :vs ./static/css/tree.css
-|2,0,1590242699,,"vs ./static/css/tree.css"
+|2,0,1590289868,,"vs ./static/css/tree.css"
+:vs ./templates/index.html
+|2,0,1590288147,,"vs ./templates/index.html"
+:vs templates/index.html
+|2,0,1590288071,,"vs templates/index.html"
 :40
 |2,0,1590237839,,"40"
 :vs ./static/js/tree.js
@@ -41,18 +63,10 @@ $
 |2,0,1590229657,,"wq!"
 :36
 |2,0,1590229350,,"36"
-:Wq
-|2,0,1590226755,,"Wq"
-:Q
-|2,0,1590224621,,"Q"
 :21
 |2,0,1590224493,,"21"
-:Q!
-|2,0,1590224481,,"Q!"
 :30
 |2,0,1590222399,,"30"
-:WQ
-|2,0,1589648969,,"WQ"
 :u
 |2,0,1589648676,,"u"
 :vs aiengine.py
@@ -109,8 +123,6 @@ $
 |2,0,1588653910,,"¿?¿"
 :wq:
 |2,0,1588442220,,"wq:"
-:vs ./templates/index.html
-|2,0,1588441724,,"vs ./templates/index.html"
 :vs ./static/css/search.css
 |2,0,1588441974,,"vs ./static/css/search.css"
 :54
@@ -143,6 +155,16 @@ $
 |2,0,1588343693,,"vs uwsgistart.sh"
 
 # Search String History (newest to oldest):
+?/print
+|2,1,1590807384,47,"print"
+?/maxlen
+|2,1,1590806832,47,"maxlen"
+?/korea
+|2,1,1590289958,47,"korea"
+?/kt
+|2,1,1590289951,47,"kt"
+?/label
+|2,1,1590289876,47,"label"
 ?/Dan
 |2,1,1590277562,47,"Dan"
 ?/olympic
@@ -171,8 +193,6 @@ $
 |2,1,1589637555,47,"nu"
 ?/tokenizer_path
 |2,1,1589605938,47,"tokenizer_path"
-?/print
-|2,1,1589594645,47,"print"
 ?/datetime
 |2,1,1588659938,47,"datetime"
 ?/Table
@@ -194,378 +214,710 @@ $
 
 # Registers:
 "0	LINE	0
-		font-family:"Noto Sans KR", sans-serif;
-|3,0,0,1,1,0,1590245057,"	font-family:\"Noto Sans KR\", sans-serif;"
-"1	LINE	0
-												<li><span class="tree_label">댄스 <img src="{{url_for('static', filename='pic/DanceDance.png')}}" style="width:100%; height:100%"/></span></li>
-|3,0,1,1,1,0,1590245464,"											<li><span class=\"tree_label\">댄스 <img src=\"{{url_for('static', filename='pic/DanceDance.png')}}\" style=\"width:100%; height:100%\"/></span></li>"
+	    school.predict("이름이 뭐야")
+|3,0,0,1,1,0,1590810274,"    school.predict(\"이름이 뭐야\")"
+""1	LINE	0
+	            print(element)
+|3,1,1,1,1,0,1590811459,"            print(element)"
 "2	LINE	0
-	.tree .navitem{
-	/*	font-family:"Noto Sans KR", sans-serif;
-	*/
-	}
-|3,0,2,1,4,0,1590245231,".tree .navitem{","/*	font-family:\"Noto Sans KR\", sans-serif;","*/","}"
-"3	CHAR	0
-	.tree li ul li ul{
-		padding-left: 0px;
-	}
-|3,0,3,0,3,0,1590243440,".tree li ul li ul{","	padding-left: 0px;","}"
+	            print("word checkin
+|3,0,2,1,1,0,1590811398,"            print(\"word checkin"
+"3	BLOCK	1
+	##
+	##
+	##
+	##
+	##
+	##
+	##
+	##
+	##
+	##
+	##
+	##
+|3,0,3,2,12,1,1590811231,"##","##","##","##","##","##","##","##","##","##","##","##"
 "4	LINE	0
-	.tree li ul li ul{
-		padding-left: 0px;
-	}
-|3,0,4,1,3,0,1590243413,".tree li ul li ul{","	padding-left: 0px;","}"
+	    school.predict("이혜정과의 관계는 어떻게 되어?")
+|3,0,4,1,1,0,1590811177,"    school.predict(\"이혜정과의 관계는 어떻게 되어?\")"
 "5	LINE	0
-			});
-	});
-|3,0,5,1,2,0,1590239898,"		});","});"
+	    school.predict("음식은 어때")
+|3,0,5,1,1,0,1590811177,"    school.predict(\"음식은 어때\")"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1590239897,""
+	    school.predict("많이 피곤해 보여")
+|3,0,6,1,1,0,1590811176,"    school.predict(\"많이 피곤해 보여\")"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1590239897,""
+	    school.predict("요즘 연습하는 음악은 뭐야")
+|3,0,7,1,1,0,1590811176,"    school.predict(\"요즘 연습하는 음악은 뭐야\")"
 "8	LINE	0
-			});
-|3,0,8,1,1,0,1590239896,"		});"
+	    school.predict("베토벤은 언제 태어났어")
+|3,0,8,1,1,0,1590811175,"    school.predict(\"베토벤은 언제 태어났어\")"
 "9	LINE	0
-				console.log("lower function is executing");
-|3,0,9,1,1,0,1590239895,"			console.log(\"lower function is executing\");"
-""-	CHAR	0
-	<img src="{{url_for('static', filename='pic/DanceDance.png')}}" style="width:100%; height:100%"/></span>
-|3,1,36,0,1,0,1590245522,"<img src=\"{{url_for('static', filename='pic/DanceDance.png')}}\" style=\"width:100%; height:100%\"/></span>"
+	    school.predict("슈베르트는 어떻사람 이야")
+|3,0,9,1,1,0,1590811175,"    school.predict(\"슈베르트는 어떻사람 이야\")"
+"-	CHAR	0
+	g
+|3,0,36,0,1,0,1590811397,"g"
 
 # File marks:
-'0  1  0  ~/templates/index.html
-|4,48,1,0,1590292470,"~/templates/index.html"
-'1  1  0  ~/templates/index.html
-|4,49,1,0,1590291693,"~/templates/index.html"
-'2  1  0  ~/templates/index.html
-|4,50,1,0,1590291499,"~/templates/index.html"
-'3  1  0  ~/templates/index.html
-|4,51,1,0,1590291499,"~/templates/index.html"
-'4  1  0  ~/templates/index.html
-|4,52,1,0,1590289474,"~/templates/index.html"
-'5  1  0  ~/templates/index.html
-|4,53,1,0,1590289474,"~/templates/index.html"
-'6  1  0  ~/templates/index.html
-|4,54,1,0,1590289474,"~/templates/index.html"
-'7  1  0  ~/templates/index.html
-|4,55,1,0,1590289474,"~/templates/index.html"
-'8  67  119  ~/templates/index.html
-|4,56,67,119,1590279152,"~/templates/index.html"
-'9  67  119  ~/templates/index.html
-|4,57,67,119,1590279152,"~/templates/index.html"
+'0  150  159  ~/aiengine.py
+|4,48,150,159,1590811606,"~/aiengine.py"
+'1  156  20  ~/aiengine.py
+|4,49,156,20,1590811567,"~/aiengine.py"
+'2  156  20  ~/aiengine.py
+|4,50,156,20,1590811567,"~/aiengine.py"
+'3  150  164  ~/aiengine.py
+|4,51,150,164,1590811544,"~/aiengine.py"
+'4  150  164  ~/aiengine.py
+|4,52,150,164,1590811544,"~/aiengine.py"
+'5  150  164  ~/aiengine.py
+|4,53,150,164,1590811544,"~/aiengine.py"
+'6  145  33  ~/aiengine.py
+|4,54,145,33,1590811425,"~/aiengine.py"
+'7  145  33  ~/aiengine.py
+|4,55,145,33,1590811425,"~/aiengine.py"
+'8  145  33  ~/aiengine.py
+|4,56,145,33,1590811425,"~/aiengine.py"
+'9  145  33  ~/aiengine.py
+|4,57,145,33,1590811425,"~/aiengine.py"
 
 # Jumplist (newest first):
--'  1  0  ~/templates/index.html
-|4,39,1,0,1590292470,"~/templates/index.html"
--'  1  0  ~/templates/index.html
-|4,39,1,0,1590291693,"~/templates/index.html"
--'  1  0  ~/templates/index.html
-|4,39,1,0,1590291499,"~/templates/index.html"
--'  1  0  ~/templates/index.html
-|4,39,1,0,1590289474,"~/templates/index.html"
--'  67  119  ~/templates/index.html
-|4,39,67,119,1590279152,"~/templates/index.html"
--'  67  119  ~/templates/index.html
-|4,39,67,119,1590279152,"~/templates/index.html"
--'  67  119  ~/templates/index.html
-|4,39,67,119,1590279152,"~/templates/index.html"
--'  67  119  ~/templates/index.html
-|4,39,67,119,1590279152,"~/templates/index.html"
--'  67  119  ~/templates/index.html
-|4,39,67,119,1590279152,"~/templates/index.html"
--'  128  6  ~/templates/index.html
-|4,39,128,6,1590279124,"~/templates/index.html"
--'  128  6  ~/templates/index.html
-|4,39,128,6,1590279124,"~/templates/index.html"
--'  128  6  ~/templates/index.html
-|4,39,128,6,1590279124,"~/templates/index.html"
--'  128  6  ~/templates/index.html
-|4,39,128,6,1590279124,"~/templates/index.html"
--'  128  6  ~/templates/index.html
-|4,39,128,6,1590279124,"~/templates/index.html"
--'  128  6  ~/templates/index.html
-|4,39,128,6,1590278655,"~/templates/index.html"
--'  67  108  ~/templates/index.html
-|4,39,67,108,1590278562,"~/templates/index.html"
--'  67  108  ~/templates/index.html
-|4,39,67,108,1590278552,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278279,"~/templates/index.html"
--'  84  86  ~/templates/index.html
-|4,39,84,86,1590278201,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590278189,"~/templates/index.html"
--'  92  105  ~/templates/index.html
-|4,39,92,105,1590277606,"~/templates/index.html"
--'  92  104  ~/templates/index.html
-|4,39,92,104,1590277574,"~/templates/index.html"
--'  67  107  ~/templates/index.html
-|4,39,67,107,1590277562,"~/templates/index.html"
--'  67  107  ~/templates/index.html
-|4,39,67,107,1590277562,"~/templates/index.html"
--'  67  107  ~/templates/index.html
-|4,39,67,107,1590277562,"~/templates/index.html"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
--'  3  0  ~/shell-script/uwsgistart.sh
-|4,39,3,0,1590277530,"~/shell-script/uwsgistart.sh"
+-'  150  159  ~/aiengine.py
+|4,39,150,159,1590811606,"~/aiengine.py"
+-'  156  20  ~/aiengine.py
+|4,39,156,20,1590811578,"~/aiengine.py"
+-'  156  20  ~/aiengine.py
+|4,39,156,20,1590811567,"~/aiengine.py"
+-'  150  164  ~/aiengine.py
+|4,39,150,164,1590811556,"~/aiengine.py"
+-'  150  164  ~/aiengine.py
+|4,39,150,164,1590811544,"~/aiengine.py"
+-'  145  33  ~/aiengine.py
+|4,39,145,33,1590811433,"~/aiengine.py"
+-'  145  33  ~/aiengine.py
+|4,39,145,33,1590811433,"~/aiengine.py"
+-'  145  33  ~/aiengine.py
+|4,39,145,33,1590811433,"~/aiengine.py"
+-'  145  33  ~/aiengine.py
+|4,39,145,33,1590811425,"~/aiengine.py"
+-'  146  33  ~/aiengine.py
+|4,39,146,33,1590811395,"~/aiengine.py"
+-'  146  33  ~/aiengine.py
+|4,39,146,33,1590811395,"~/aiengine.py"
+-'  146  33  ~/aiengine.py
+|4,39,146,33,1590811395,"~/aiengine.py"
+-'  146  33  ~/aiengine.py
+|4,39,146,33,1590811395,"~/aiengine.py"
+-'  146  33  ~/aiengine.py
+|4,39,146,33,1590811384,"~/aiengine.py"
+-'  146  25  ~/aiengine.py
+|4,39,146,25,1590811356,"~/aiengine.py"
+-'  164  4  ~/aiengine.py
+|4,39,164,4,1590811326,"~/aiengine.py"
+-'  163  4  ~/aiengine.py
+|4,39,163,4,1590811326,"~/aiengine.py"
+-'  165  4  ~/aiengine.py
+|4,39,165,4,1590811326,"~/aiengine.py"
+-'  166  4  ~/aiengine.py
+|4,39,166,4,1590811326,"~/aiengine.py"
+-'  162  4  ~/aiengine.py
+|4,39,162,4,1590811326,"~/aiengine.py"
+-'  164  4  ~/aiengine.py
+|4,39,164,4,1590811326,"~/aiengine.py"
+-'  163  4  ~/aiengine.py
+|4,39,163,4,1590811326,"~/aiengine.py"
+-'  165  4  ~/aiengine.py
+|4,39,165,4,1590811326,"~/aiengine.py"
+-'  166  4  ~/aiengine.py
+|4,39,166,4,1590811326,"~/aiengine.py"
+-'  163  4  ~/aiengine.py
+|4,39,163,4,1590811326,"~/aiengine.py"
+-'  162  4  ~/aiengine.py
+|4,39,162,4,1590811326,"~/aiengine.py"
+-'  164  4  ~/aiengine.py
+|4,39,164,4,1590811326,"~/aiengine.py"
+-'  164  4  ~/aiengine.py
+|4,39,164,4,1590811326,"~/aiengine.py"
+-'  163  4  ~/aiengine.py
+|4,39,163,4,1590811326,"~/aiengine.py"
+-'  165  4  ~/aiengine.py
+|4,39,165,4,1590811326,"~/aiengine.py"
+-'  164  4  ~/aiengine.py
+|4,39,164,4,1590811326,"~/aiengine.py"
+-'  161  4  ~/aiengine.py
+|4,39,161,4,1590811308,"~/aiengine.py"
+-'  162  4  ~/aiengine.py
+|4,39,162,4,1590811308,"~/aiengine.py"
+-'  161  4  ~/aiengine.py
+|4,39,161,4,1590811308,"~/aiengine.py"
+-'  162  4  ~/aiengine.py
+|4,39,162,4,1590811308,"~/aiengine.py"
+-'  164  4  ~/aiengine.py
+|4,39,164,4,1590811308,"~/aiengine.py"
+-'  163  4  ~/aiengine.py
+|4,39,163,4,1590811308,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  31  0  ~/aiengine.py
+|4,39,31,0,1590811170,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  130  23  ~/aiengine.py
+|4,39,130,23,1590811121,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  139  23  ~/aiengine.py
+|4,39,139,23,1590811105,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  127  25  ~/aiengine.py
+|4,39,127,25,1590811049,"~/aiengine.py"
+-'  130  25  ~/aiengine.py
+|4,39,130,25,1590811049,"~/aiengine.py"
+-'  130  25  ~/aiengine.py
+|4,39,130,25,1590811004,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810978,"~/aiengine.py"
+-'  134  26  ~/aiengine.py
+|4,39,134,26,1590810966,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  75  3  ~/aiengine.py
+|4,39,75,3,1590810813,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
+-'  128  31  ~/aiengine.py
+|4,39,128,31,1590810749,"~/aiengine.py"
+-'  137  31  ~/aiengine.py
+|4,39,137,31,1590810749,"~/aiengine.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/templates/index.html
-	*	1590279151	0
-	"	67	119
-	^	67	120
-	.	67	119
-	+	4	0
-	+	4	8
-	+	4	58
-	+	4	122
-	+	4	1
-	+	5	5
-	+	5	188
-	+	58	52
-	+	37	59
-	+	58	48
-	+	45	70
-	+	58	63
-	+	37	14
-	+	43	15
-	+	44	27
-	+	43	33
+> ~/aiengine.py
+	*	1590811605	0
+	"	150	159
+	^	150	160
+	.	150	160
+	+	140	0
+	+	26	46
+	+	140	61
+	+	143	61
+	+	143	38
+	+	143	33
+	+	143	38
+	+	143	36
+	+	143	41
+	+	143	64
+	+	143	0
+	+	165	39
+	+	2	0
+	+	165	4
+	+	140	30
+	+	140	22
+	+	162	4
+	+	163	4
+	+	164	4
+	+	165	4
+	+	162	4
+	+	163	4
+	+	164	4
+	+	137	31
+	+	137	18
+	+	165	36
+	+	163	4
+	+	164	4
+	+	165	3
+	+	163	4
+	+	164	4
+	+	165	3
+	+	87	8
+	+	88	8
+	+	89	8
+	+	90	8
+	+	91	8
+	+	92	8
+	+	163	4
+	+	164	4
+	+	165	4
+	+	163	33
+	+	163	21
+	+	163	24
+	+	163	4
+	+	164	4
+	+	165	4
+	+	163	4
+	+	164	4
+	+	165	4
+	+	163	4
+	+	164	4
+	+	143	9
+	+	143	26
+	+	165	0
+	+	165	38
+	+	165	55
+	+	165	49
+	+	165	56
+	+	165	40
+	+	165	36
+	+	165	62
+	+	143	45
+	+	140	39
+	+	141	57
+	+	128	0
+	+	128	22
+	+	128	21
+	+	128	35
+	+	164	4
+	+	128	24
+	+	128	31
+	+	128	0
+	+	164	4
+	+	162	16
+	+	164	4
+	+	127	0
+	+	127	51
+	+	127	26
+	+	127	22
+	+	130	23
+	+	143	0
+	+	140	0
+	+	137	0
+	+	127	0
+	+	165	0
+	+	163	4
+	+	144	29
+	+	145	30
+	+	165	37
+	+	162	4
+	+	163	4
+	+	164	4
+	+	146	0
+	+	145	33
+	+	146	0
+	+	150	164
+	+	156	20
+	+	150	160
+
+> /etc/mysql/conf.d/mysql.cnf
+	*	1590810023	0
+	"	1	6
+	^	1	7
+	.	2	0
+	+	1	7
+	+	2	0
+
+> /etc/mysql/my.cnf
+	*	1590810006	0
+	"	1	0
+
+> ~/__init__.py
+	*	1590807595	0
+	"	78	4
+	.	25	0
+	+	38	4
+	+	16	0
+	+	8	0
+	+	9	43
+	+	18	14
+	+	39	82
+	+	18	29
+	+	39	94
+	+	40	0
+	+	47	22
 	+	44	0
-	+	45	27
-	+	48	0
+	+	47	23
+	+	8	0
+	+	2	10
+	+	3	0
+	+	4	0
+	+	9	0
+	+	44	25
+	+	46	31
+	+	21	27
+	+	47	0
+	+	49	13
+	+	48	21
+	+	50	98
 	+	50	0
-	+	44	4
-	+	48	4
-	+	45	31
-	+	50	0
-	+	54	12
-	+	51	3
-	+	52	2
-	+	53	2
-	+	54	2
-	+	55	0
-	+	43	4
-	+	43	115
-	+	45	108
-	+	45	120
-	+	37	60
-	+	43	6
-	+	43	122
-	+	44	3
-	+	45	0
+	+	50	52
+	+	50	55
+	+	12	26
+	+	50	52
+	+	54	3
+	+	50	56
+	+	50	59
+	+	50	85
+	+	53	22
+	+	50	56
+	+	51	54
+	+	51	51
+	+	21	14
+	+	28	15
 	+	44	15
-	+	37	68
-	+	38	6
-	+	118	11
-	+	114	35
-	+	119	8
-	+	115	0
-	+	119	0
-	+	46	24
+	+	45	14
+	+	21	5
+	+	44	16
+	+	38	4
+	+	38	0
+	+	25	0
+
+> ~/model/checkpoint
+	*	1590807264	0
+	"	1	0
+
+> /tmp/uwsgierr.log
+	*	1590742558	0
+	"	1266	0
+	^	170	2
+	.	170	1
+	+	1746	0
+	+	170	1
+
+> ~/templates/index.html
+	*	1590293170	0
+	"	83	41
+	^	95	35
+	.	101	0
+	+	46	15
+	+	47	27
+	+	46	33
+	+	47	0
+	+	48	27
+	+	51	0
+	+	53	0
 	+	47	4
+	+	51	4
+	+	48	31
+	+	53	0
+	+	57	12
+	+	54	3
+	+	55	2
+	+	56	2
+	+	57	2
+	+	58	0
+	+	46	4
+	+	46	115
+	+	48	108
+	+	48	120
+	+	40	60
+	+	46	6
+	+	46	122
+	+	47	3
+	+	48	0
+	+	47	15
+	+	40	68
+	+	41	6
+	+	120	11
+	+	116	35
+	+	121	8
+	+	117	0
+	+	121	0
+	+	49	24
+	+	50	4
+	+	49	0
+	+	52	4
+	+	51	8
+	+	95	44
+	+	42	30
+	+	68	10
+	+	68	50
+	+	77	116
+	+	68	0
+	+	86	56
+	+	95	101
+	+	98	54
+	+	59	21
+	+	91	0
+	+	103	10
+	+	68	148
+	+	77	117
+	+	86	130
+	+	95	128
+	+	86	149
+	+	77	135
+	+	68	144
+	+	68	51
+	+	70	15
+	+	70	117
+	+	77	51
+	+	78	10
+	+	78	110
+	+	78	14
+	+	78	119
+	+	79	10
+	+	86	57
+	+	87	10
+	+	87	118
+	+	87	14
+	+	87	127
+	+	95	0
+	+	94	47
+	+	95	11
+	+	94	52
+	+	95	23
+	+	95	118
+	+	96	14
+	+	95	112
+	+	70	107
+	+	95	105
+	+	87	116
+	+	70	90
+	+	78	90
+	+	87	98
+	+	70	119
+	+	17	0
+	+	16	90
+	+	78	39
+	+	78	117
+	+	85	65
+	+	78	57
+	+	87	20
+	+	78	52
+	+	70	105
+	+	87	34
+	+	87	115
+	+	95	94
+	+	101	0
+
+> ~/static/css/basic.css
+	*	1590293169	0
+	"	12	0
+	^	23	11
+	.	30	11
+	+	11	0
+	+	1	98
+	+	1	75
+	+	2	57
+	+	1	10
+	+	9	34
+	+	1	12
+	+	2	0
+	+	3	0
+	+	3	13
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	14
+	+	11	0
+	+	4	12
+	+	12	0
+	+	12	1
+	+	12	0
+	+	13	9
+	+	14	0
+	+	22	0
+	+	27	0
+	+	13	8
+	+	14	0
+	+	17	0
+	+	21	0
+	+	26	0
+	+	32	0
+	+	15	10
+	+	14	10
+	+	15	11
+	+	20	11
+	+	25	11
+	+	28	11
+	+	29	12
+	+	30	11
+
+> ~/static/css/responsive.css
+	*	1590293168	0
+	"	21	14
+	^	1	22
+	.	1	21
+	+	1	1
+	+	1	0
+	+	1	1
+	+	47	0
+	+	1	33
+	+	1	7
+	+	1	0
+	+	1	14
+	+	1	33
+	+	1	18
+	+	1	14
+	+	1	7
+	+	1	1
+	+	1	13
+	+	1	0
+	+	1	7
+	+	2	13
+	+	2	1
 	+	46	0
-	+	49	4
-	+	48	8
-	+	92	44
-	+	39	30
-	+	65	10
-	+	65	50
-	+	74	116
-	+	65	0
-	+	83	56
-	+	92	101
-	+	95	54
-	+	56	21
-	+	88	0
-	+	101	10
-	+	65	148
-	+	74	117
-	+	83	130
-	+	92	128
-	+	83	149
-	+	74	135
-	+	65	144
-	+	65	51
-	+	67	15
-	+	67	117
-	+	74	51
-	+	75	10
-	+	75	110
-	+	75	14
-	+	75	119
-	+	76	10
-	+	83	57
-	+	84	10
-	+	84	118
-	+	84	14
-	+	84	127
-	+	92	0
-	+	91	47
-	+	92	11
-	+	91	52
-	+	92	23
-	+	92	118
-	+	93	14
-	+	92	112
-	+	67	107
-	+	92	105
-	+	84	116
-	+	67	90
-	+	75	90
-	+	84	98
-	+	67	119
+	+	46	10
+	+	46	15
+	+	1	22
+	+	46	0
+	+	2	0
+	+	1	0
+	+	2	14
+	+	3	10
+	+	7	0
+	+	4	14
+	+	6	0
+	+	2	13
+	+	4	14
+	+	3	7
+	+	5	0
+	+	4	13
+	+	5	11
+	+	3	7
+	+	19	1
+	+	20	0
+	+	17	11
+	+	18	8
+	+	20	4
+	+	20	0
+	+	20	11
+	+	20	0
+	+	20	8
+	+	20	9
+	+	7	6
+	+	8	19
+	+	20	6
+	+	22	0
+	+	20	1
+	+	21	12
+	+	8	15
+	+	10	0
+	+	10	15
+	+	10	14
+	+	13	11
+	+	14	16
+	+	11	1
+	+	9	1
+	+	10	0
+	+	20	0
+	+	44	0
+	+	24	0
+	+	44	0
+	+	25	7
+	+	26	8
+	+	25	7
+	+	26	8
+	+	30	8
+	+	31	9
+	+	30	7
+	+	31	8
+	+	35	8
+	+	36	9
+	+	35	7
+	+	36	8
+	+	31	8
+	+	30	7
+	+	26	8
+	+	25	7
+	+	40	8
+	+	41	9
+	+	45	0
+	+	1	21
+
+> ~/static/css/tree.css
+	*	1590291735	0
+	"	64	0
+	.	59	0
+	+	6	19
+	+	8	18
+	+	9	0
+	+	7	13
+	+	59	1
+	+	59	0
 
 > ~/shell-script/uwsgistart.sh
 	*	1590277528	0
@@ -625,84 +977,6 @@ $
 	+	7	0
 	+	15	1
 	+	15	0
-
-> ~/static/css/responsive.css
-	*	1590243698	0
-	"	14	0
-	^	9	1
-	.	10	0
-	+	1	1
-	+	1	0
-	+	1	1
-	+	29	0
-	+	1	33
-	+	1	7
-	+	1	0
-	+	1	14
-	+	1	33
-	+	1	18
-	+	1	14
-	+	1	7
-	+	1	1
-	+	1	13
-	+	1	0
-	+	1	7
-	+	2	13
-	+	2	1
-	+	28	0
-	+	28	10
-	+	28	15
-	+	1	22
-	+	28	0
-	+	2	0
-	+	1	0
-	+	2	14
-	+	3	10
-	+	7	0
-	+	4	14
-	+	6	0
-	+	2	13
-	+	4	14
-	+	3	7
-	+	5	0
-	+	4	13
-	+	5	11
-	+	3	7
-	+	19	1
-	+	20	0
-	+	17	11
-	+	18	8
-	+	20	4
-	+	23	0
-	+	22	11
-	+	24	0
-	+	21	8
-	+	22	9
-	+	7	6
-	+	8	19
-	+	24	6
-	+	26	0
-	+	24	1
-	+	25	12
-	+	8	15
-	+	10	0
-	+	10	15
-	+	10	14
-	+	13	11
-	+	14	16
-	+	11	1
-	+	9	1
-	+	10	0
-
-> ~/static/css/tree.css
-	*	1590243695	0
-	"	25	6
-	^	7	14
-	.	7	13
-	+	6	19
-	+	8	18
-	+	9	0
-	+	7	13
 
 > ~/.gitignore
 	*	1590243536	0
@@ -769,159 +1043,6 @@ $
 > ~/.gitconfig
 	*	1590241187	0
 	"	1	0
-
-> ~/__init__.py
-	*	1590236821	0
-	"	44	0
-	^	49	15
-	.	49	14
-	+	42	4
-	+	16	0
-	+	8	0
-	+	9	43
-	+	18	14
-	+	43	82
-	+	18	29
-	+	43	94
-	+	44	0
-	+	51	22
-	+	48	0
-	+	51	23
-	+	8	0
-	+	2	10
-	+	3	0
-	+	4	0
-	+	9	0
-	+	48	25
-	+	50	31
-	+	21	27
-	+	51	0
-	+	53	13
-	+	52	21
-	+	54	98
-	+	54	0
-	+	54	52
-	+	54	55
-	+	12	26
-	+	54	52
-	+	58	3
-	+	54	56
-	+	54	59
-	+	54	85
-	+	57	22
-	+	54	56
-	+	55	54
-	+	55	51
-	+	21	14
-	+	29	15
-	+	48	15
-	+	49	14
-
-> ~/aiengine.py
-	*	1590229641	0
-	"	115	3
-	^	115	4
-	.	163	4
-	+	121	28
-	+	121	33
-	+	121	132
-	+	121	0
-	+	121	8
-	+	127	0
-	+	127	22
-	+	121	29
-	+	127	37
-	+	127	29
-	+	22	0
-	+	8	17
-	+	20	0
-	+	28	16
-	+	121	8
-	+	127	8
-	+	127	0
-	+	128	0
-	+	127	0
-	+	128	0
-	+	128	24
-	+	129	22
-	+	131	46
-	+	28	6
-	+	130	21
-	+	128	25
-	+	132	24
-	+	128	0
-	+	131	0
-	+	135	0
-	+	134	34
-	+	102	20
-	+	128	12
-	+	134	12
-	+	34	43
-	+	48	41
-	+	48	12
-	+	26	21
-	+	26	45
-	+	48	0
-	+	49	0
-	+	50	0
-	+	37	0
-	+	38	7
-	+	49	0
-	+	53	23
-	+	103	0
-	+	139	48
-	+	143	0
-	+	140	26
-	+	139	23
-	+	140	47
-	+	143	0
-	+	144	1
-	+	145	0
-	+	161	78
-	+	139	56
-	+	140	28
-	+	140	0
-	+	121	40
-	+	121	57
-	+	161	42
-	+	121	33
-	+	121	32
-	+	118	8
-	+	121	8
-	+	118	0
-	+	121	0
-	+	118	8
-	+	137	20
-	+	138	43
-	+	139	22
-	+	139	65
-	+	161	29
-	+	163	4
-	+	92	41
-	+	161	30
-	+	161	16
-	+	163	4
-	+	161	25
-	+	162	4
-	+	161	3
-	+	162	4
-	+	163	4
-	+	161	5
-	+	139	0
-	+	140	0
-	+	26	46
-	+	141	61
-	+	142	61
-	+	142	38
-	+	142	33
-	+	142	38
-	+	142	36
-	+	142	41
-	+	142	64
-	+	142	0
-	+	163	39
-	+	2	0
-	+	163	4
 
 > ~/blog/파리대왕 : 네이버 블로그-110067524352.html
 	*	1590229553	0
@@ -1032,14 +1153,6 @@ $
 	+	19	24
 	+	22	99
 	+	25	20
-
-> /tmp/uwsgierr.log
-	*	1590224621	0
-	"	36	41
-	^	170	2
-	.	170	1
-	+	1746	0
-	+	170	1
 
 > ~/blog/라따뚜이 : 네이버 블로그-110067524361.html
 	*	1590222877	0
