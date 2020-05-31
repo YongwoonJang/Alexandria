@@ -11,24 +11,48 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/print
+~MSle0~/result
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590811606,,"wq"
+|2,0,1590889845,,"wq"
 :w
-|2,0,1590811270,,"w"
+|2,0,1590889779,,"w"
+:W
+|2,0,1590888792,,"W"
+:q
+|2,0,1590887333,,"q"
+:q!
+|2,0,1590887275,,"q!"
+:180
+|2,0,1590850721,,"180"
+::w
+|2,0,1590850656,,":w"
+:vs aiengine.py
+|2,0,1590849588,,"vs aiengine.py"
+:vs __init__.py
+|2,0,1590849501,,"vs __init__.py"
+:144
+|2,0,1590847925,,"144"
+:s
+|2,0,1590843666,,"s"
+:vs ./aiengine.py
+|2,0,1590843563,,"vs ./aiengine.py"
+:vs ./__init__.py
+|2,0,1590843520,,"vs ./__init__.py"
+:vs .
+|2,0,1590843511,,"vs ."
+:vs ./templates/index.html
+|2,0,1590843369,,"vs ./templates/index.html"
+:vs responsive.css
+|2,0,1590843163,,"vs responsive.css"
 :130
 |2,0,1590810980,,"130"
-:144
-|2,0,1590810438,,"144"
 :146
 |2,0,1590810340,,"146"
-:q!
-|2,0,1590810007,,"q!"
 :WQ
 |2,0,1590807992,,"WQ"
 :Q!
@@ -39,10 +63,6 @@ $
 |2,0,1590742667,,"Wq"
 :48
 |2,0,1590742611,,"48"
-:q
-|2,0,1590293171,,"q"
-:W
-|2,0,1590292574,,"W"
 :vs ./static/css/responsive.css
 |2,0,1590291832,,"vs ./static/css/responsive.css"
 :vs ./static/css/basic.css
@@ -51,8 +71,6 @@ $
 |2,0,1590291735,,"Q"
 :vs ./static/css/tree.css
 |2,0,1590289868,,"vs ./static/css/tree.css"
-:vs ./templates/index.html
-|2,0,1590288147,,"vs ./templates/index.html"
 :vs templates/index.html
 |2,0,1590288071,,"vs templates/index.html"
 :40
@@ -69,8 +87,6 @@ $
 |2,0,1590222399,,"30"
 :u
 |2,0,1589648676,,"u"
-:vs aiengine.py
-|2,0,1589648368,,"vs aiengine.py"
 :142
 |2,0,1589646746,,"142"
 :132
@@ -97,8 +113,6 @@ $
 |2,0,1589601485,,"47"
 :91
 |2,0,1589601413,,"91"
-:180
-|2,0,1589601404,,"180"
 :51
 |2,0,1589601346,,"51"
 :28
@@ -135,12 +149,8 @@ $
 |2,0,1588439957,,"22"
 :55
 |2,0,1588439051,,"55"
-:vs __init__.py
-|2,0,1588439039,,"vs __init__.py"
 :46
 |2,0,1588437441,,"46"
-:vs ./__init__.py
-|2,0,1588434216,,"vs ./__init__.py"
 :vs static/css/search.css
 |2,0,1588431314,,"vs static/css/search.css"
 :vsplit templates/index.html
@@ -155,6 +165,16 @@ $
 |2,0,1588343693,,"vs uwsgistart.sh"
 
 # Search String History (newest to oldest):
+?/result
+|2,1,1590848725,47,"result"
+?/predict
+|2,1,1590843570,47,"predict"
+? @$
+|2,1,1590843511,,"@$"
+?/search
+|2,1,1590843373,47,"search"
+?/ju
+|2,1,1590841518,47,"ju"
 ?/print
 |2,1,1590807384,47,"print"
 ?/maxlen
@@ -171,12 +191,8 @@ $
 |2,1,1590277467,47,"olympic"
 ?/script
 |2,1,1590235943,47,"script"
-?/predict
-|2,1,1590224580,47,"predict"
 ?/요리사
 |2,1,1590222874,47,"요리사"
-? @$
-|2,1,1590222295,,"@$"
 ?/open
 |2,1,1589648282,47,"open"
 ?/save
@@ -213,397 +229,600 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    school.predict("이름이 뭐야")
-|3,0,0,1,1,0,1590810274,"    school.predict(\"이름이 뭐야\")"
-""1	LINE	0
-	            print(element)
-|3,1,1,1,1,0,1590811459,"            print(element)"
+""0	LINE	0
+							var bias_for_desktop = 60/3793;
+							var size_for_desktop = data.result.length*bias_for_desktop;
+							var em_size_for_desktop = size_for_desktop + 'em';
+							
+							var bias_for_mobile = 85/3793;
+							var size_for_mobile = data.result.length*bias_for_mobile;
+							var em_size_for_mobile = size_for_mobile + 'em';
+	
+							if($(window).width() <= 1000){
+								$("#contents div div .wrap").css('top', em_size_for_mobile);
+							}else{
+								$("#contents div div .wrap").css('top', em_size_for_desktop);
+							}
+|3,1,0,1,13,0,1590889758,"						var bias_for_desktop = 60/3793;","						var size_for_desktop = data.result.length*bias_for_desktop;","						var em_size_for_desktop = size_for_desktop + 'em';","						","						var bias_for_mobile = 85/3793;","						var size_for_mobile = data.result.length*bias_for_mobile;","						var em_size_for_mobile = size_for_mobile + 'em';","","						if($(window).width() <= 1000){",>71
+|<"							$(\"#contents div div .wrap\").css('top', em_size_for_mobile);","						}else{","							$(\"#contents div div .wrap\").css('top', em_size_for_desktop);","						}"
+"1	LINE	0
+								//가변적으로 em의 값을 변경하도록 수정해야함. 
+|3,0,1,1,1,0,1590889749,"							//가변적으로 em의 값을 변경하도록 수정해야함. "
 "2	LINE	0
-	            print("word checkin
-|3,0,2,1,1,0,1590811398,"            print(\"word checkin"
-"3	BLOCK	1
-	##
-	##
-	##
-	##
-	##
-	##
-	##
-	##
-	##
-	##
-	##
-	##
-|3,0,3,2,12,1,1590811231,"##","##","##","##","##","##","##","##","##","##","##","##"
+						if($(window).width() <= 1000){
+							$("#contents div div .wrap").css('top', '195em');
+						}else{
+							$("#contents div div .wrap").css('top', '145em');
+						}
+|3,0,2,1,5,0,1590889741,"					if($(window).width() <= 1000){","						$(\"#contents div div .wrap\").css('top', '195em');","					}else{","						$(\"#contents div div .wrap\").css('top', '145em');","					}"
+"3	LINE	0
+							console.log(data.result.length
+|3,0,3,1,1,0,1590889492,"						console.log(data.result.length"
 "4	LINE	0
-	    school.predict("이혜정과의 관계는 어떻게 되어?")
-|3,0,4,1,1,0,1590811177,"    school.predict(\"이혜정과의 관계는 어떻게 되어?\")"
+					}
+|3,0,4,1,1,0,1590887579,"				}"
 "5	LINE	0
-	    school.predict("음식은 어때")
-|3,0,5,1,1,0,1590811177,"    school.predict(\"음식은 어때\")"
+						$("#contents div div .wrap").css('margin-top', '150em');
+|3,0,5,1,1,0,1590887579,"					$(\"#contents div div .wrap\").css('margin-top', '150em');"
 "6	LINE	0
-	    school.predict("많이 피곤해 보여")
-|3,0,6,1,1,0,1590811176,"    school.predict(\"많이 피곤해 보여\")"
+					if(data.result.length > 300){
+|3,0,6,1,1,0,1590887578,"				if(data.result.length > 300){"
 "7	LINE	0
-	    school.predict("요즘 연습하는 음악은 뭐야")
-|3,0,7,1,1,0,1590811176,"    school.predict(\"요즘 연습하는 음악은 뭐야\")"
+				//return
+|3,0,7,1,1,0,1590886885,"			//return"
 "8	LINE	0
-	    school.predict("베토벤은 언제 태어났어")
-|3,0,8,1,1,0,1590811175,"    school.predict(\"베토벤은 언제 태어났어\")"
+				e.stopPropagation();
+|3,0,8,1,1,0,1590886798,"			e.stopPropagation();"
 "9	LINE	0
-	    school.predict("슈베르트는 어떻사람 이야")
-|3,0,9,1,1,0,1590811175,"    school.predict(\"슈베르트는 어떻사람 이야\")"
+						console.log(data.result.length);
+|3,0,9,1,1,0,1590886704,"					console.log(data.result.length);"
 "-	CHAR	0
-	g
-|3,0,36,0,1,0,1590811397,"g"
+	)
+|3,0,36,0,1,0,1590889491,")"
 
 # File marks:
-'0  150  159  ~/aiengine.py
-|4,48,150,159,1590811606,"~/aiengine.py"
-'1  156  20  ~/aiengine.py
-|4,49,156,20,1590811567,"~/aiengine.py"
-'2  156  20  ~/aiengine.py
-|4,50,156,20,1590811567,"~/aiengine.py"
-'3  150  164  ~/aiengine.py
-|4,51,150,164,1590811544,"~/aiengine.py"
-'4  150  164  ~/aiengine.py
-|4,52,150,164,1590811544,"~/aiengine.py"
-'5  150  164  ~/aiengine.py
-|4,53,150,164,1590811544,"~/aiengine.py"
-'6  145  33  ~/aiengine.py
-|4,54,145,33,1590811425,"~/aiengine.py"
-'7  145  33  ~/aiengine.py
-|4,55,145,33,1590811425,"~/aiengine.py"
-'8  145  33  ~/aiengine.py
-|4,56,145,33,1590811425,"~/aiengine.py"
-'9  145  33  ~/aiengine.py
-|4,57,145,33,1590811425,"~/aiengine.py"
+'0  57  5  ~/static/js/search.js
+|4,48,57,5,1590889845,"~/static/js/search.js"
+'1  19  70  ~/static/js/search.js
+|4,49,19,70,1590889023,"~/static/js/search.js"
+'2  11  70  ~/static/js/search.js
+|4,50,11,70,1590889023,"~/static/js/search.js"
+'3  3  22  ~/static/css/responsive.css
+|4,51,3,22,1590888031,"~/static/css/responsive.css"
+'4  43  32  ~/static/js/search.js
+|4,52,43,32,1590888024,"~/static/js/search.js"
+'5  42  32  ~/static/js/search.js
+|4,53,42,32,1590888024,"~/static/js/search.js"
+'6  36  32  ~/static/js/search.js
+|4,54,36,32,1590888024,"~/static/js/search.js"
+'7  35  32  ~/static/js/search.js
+|4,55,35,32,1590888024,"~/static/js/search.js"
+'8  3  22  ~/static/css/responsive.css
+|4,56,3,22,1590887333,"~/static/css/responsive.css"
+'9  12  30  ~/static/js/search.js
+|4,57,12,30,1590887327,"~/static/js/search.js"
 
 # Jumplist (newest first):
--'  150  159  ~/aiengine.py
-|4,39,150,159,1590811606,"~/aiengine.py"
--'  156  20  ~/aiengine.py
-|4,39,156,20,1590811578,"~/aiengine.py"
--'  156  20  ~/aiengine.py
-|4,39,156,20,1590811567,"~/aiengine.py"
--'  150  164  ~/aiengine.py
-|4,39,150,164,1590811556,"~/aiengine.py"
--'  150  164  ~/aiengine.py
-|4,39,150,164,1590811544,"~/aiengine.py"
--'  145  33  ~/aiengine.py
-|4,39,145,33,1590811433,"~/aiengine.py"
--'  145  33  ~/aiengine.py
-|4,39,145,33,1590811433,"~/aiengine.py"
--'  145  33  ~/aiengine.py
-|4,39,145,33,1590811433,"~/aiengine.py"
--'  145  33  ~/aiengine.py
-|4,39,145,33,1590811425,"~/aiengine.py"
--'  146  33  ~/aiengine.py
-|4,39,146,33,1590811395,"~/aiengine.py"
--'  146  33  ~/aiengine.py
-|4,39,146,33,1590811395,"~/aiengine.py"
--'  146  33  ~/aiengine.py
-|4,39,146,33,1590811395,"~/aiengine.py"
--'  146  33  ~/aiengine.py
-|4,39,146,33,1590811395,"~/aiengine.py"
--'  146  33  ~/aiengine.py
-|4,39,146,33,1590811384,"~/aiengine.py"
--'  146  25  ~/aiengine.py
-|4,39,146,25,1590811356,"~/aiengine.py"
--'  164  4  ~/aiengine.py
-|4,39,164,4,1590811326,"~/aiengine.py"
--'  163  4  ~/aiengine.py
-|4,39,163,4,1590811326,"~/aiengine.py"
--'  165  4  ~/aiengine.py
-|4,39,165,4,1590811326,"~/aiengine.py"
--'  166  4  ~/aiengine.py
-|4,39,166,4,1590811326,"~/aiengine.py"
--'  162  4  ~/aiengine.py
-|4,39,162,4,1590811326,"~/aiengine.py"
--'  164  4  ~/aiengine.py
-|4,39,164,4,1590811326,"~/aiengine.py"
--'  163  4  ~/aiengine.py
-|4,39,163,4,1590811326,"~/aiengine.py"
--'  165  4  ~/aiengine.py
-|4,39,165,4,1590811326,"~/aiengine.py"
--'  166  4  ~/aiengine.py
-|4,39,166,4,1590811326,"~/aiengine.py"
--'  163  4  ~/aiengine.py
-|4,39,163,4,1590811326,"~/aiengine.py"
--'  162  4  ~/aiengine.py
-|4,39,162,4,1590811326,"~/aiengine.py"
--'  164  4  ~/aiengine.py
-|4,39,164,4,1590811326,"~/aiengine.py"
--'  164  4  ~/aiengine.py
-|4,39,164,4,1590811326,"~/aiengine.py"
--'  163  4  ~/aiengine.py
-|4,39,163,4,1590811326,"~/aiengine.py"
--'  165  4  ~/aiengine.py
-|4,39,165,4,1590811326,"~/aiengine.py"
--'  164  4  ~/aiengine.py
-|4,39,164,4,1590811326,"~/aiengine.py"
--'  161  4  ~/aiengine.py
-|4,39,161,4,1590811308,"~/aiengine.py"
--'  162  4  ~/aiengine.py
-|4,39,162,4,1590811308,"~/aiengine.py"
--'  161  4  ~/aiengine.py
-|4,39,161,4,1590811308,"~/aiengine.py"
--'  162  4  ~/aiengine.py
-|4,39,162,4,1590811308,"~/aiengine.py"
--'  164  4  ~/aiengine.py
-|4,39,164,4,1590811308,"~/aiengine.py"
--'  163  4  ~/aiengine.py
-|4,39,163,4,1590811308,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  31  0  ~/aiengine.py
-|4,39,31,0,1590811170,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  130  23  ~/aiengine.py
-|4,39,130,23,1590811121,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  139  23  ~/aiengine.py
-|4,39,139,23,1590811105,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  127  25  ~/aiengine.py
-|4,39,127,25,1590811049,"~/aiengine.py"
--'  130  25  ~/aiengine.py
-|4,39,130,25,1590811049,"~/aiengine.py"
--'  130  25  ~/aiengine.py
-|4,39,130,25,1590811004,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810978,"~/aiengine.py"
--'  134  26  ~/aiengine.py
-|4,39,134,26,1590810966,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  75  3  ~/aiengine.py
-|4,39,75,3,1590810813,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
--'  128  31  ~/aiengine.py
-|4,39,128,31,1590810749,"~/aiengine.py"
--'  137  31  ~/aiengine.py
-|4,39,137,31,1590810749,"~/aiengine.py"
+-'  57  5  ~/static/js/search.js
+|4,39,57,5,1590889845,"~/static/js/search.js"
+-'  19  70  ~/static/js/search.js
+|4,39,19,70,1590889199,"~/static/js/search.js"
+-'  11  70  ~/static/js/search.js
+|4,39,11,70,1590889023,"~/static/js/search.js"
+-'  43  32  ~/static/js/search.js
+|4,39,43,32,1590888032,"~/static/js/search.js"
+-'  36  32  ~/static/js/search.js
+|4,39,36,32,1590888032,"~/static/js/search.js"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590888031,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590888031,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590888031,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590888031,"~/static/css/responsive.css"
+-'  42  32  ~/static/js/search.js
+|4,39,42,32,1590888024,"~/static/js/search.js"
+-'  35  32  ~/static/js/search.js
+|4,39,35,32,1590888024,"~/static/js/search.js"
+-'  35  32  ~/static/js/search.js
+|4,39,35,32,1590888024,"~/static/js/search.js"
+-'  12  30  ~/static/js/search.js
+|4,39,12,30,1590887335,"~/static/js/search.js"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887335,"~/static/js/search.js"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887335,"~/static/js/search.js"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887335,"~/static/js/search.js"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887333,"~/static/css/responsive.css"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887327,"~/static/js/search.js"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887327,"~/static/js/search.js"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887327,"~/static/js/search.js"
+-'  10  30  ~/static/js/search.js
+|4,39,10,30,1590887327,"~/static/js/search.js"
+-'  41  57  ~/static/js/search.js
+|4,39,41,57,1590887299,"~/static/js/search.js"
+-'  40  57  ~/static/js/search.js
+|4,39,40,57,1590887299,"~/static/js/search.js"
+-'  43  57  ~/static/js/search.js
+|4,39,43,57,1590887299,"~/static/js/search.js"
+-'  34  57  ~/static/js/search.js
+|4,39,34,57,1590887299,"~/static/js/search.js"
+-'  40  57  ~/static/js/search.js
+|4,39,40,57,1590887299,"~/static/js/search.js"
+-'  33  57  ~/static/js/search.js
+|4,39,33,57,1590887299,"~/static/js/search.js"
+-'  33  57  ~/static/js/search.js
+|4,39,33,57,1590887299,"~/static/js/search.js"
+-'  40  57  ~/static/js/search.js
+|4,39,40,57,1590887299,"~/static/js/search.js"
+-'  33  57  ~/static/js/search.js
+|4,39,33,57,1590887299,"~/static/js/search.js"
+-'  33  57  ~/static/js/search.js
+|4,39,33,57,1590887299,"~/static/js/search.js"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  3  22  ~/static/css/responsive.css
+|4,39,3,22,1590887275,"~/static/css/responsive.css"
+-'  39  57  ~/static/js/search.js
+|4,39,39,57,1590887265,"~/static/js/search.js"
+-'  33  57  ~/static/js/search.js
+|4,39,33,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  32  57  ~/static/js/search.js
+|4,39,32,57,1590887265,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590886050,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  4  3  ~/static/js/search.js
+|4,39,4,3,1590851803,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
+-'  5  25  ~/static/js/search.js
+|4,39,5,25,1590851110,"~/static/js/search.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/aiengine.py
-	*	1590811605	0
-	"	150	159
-	^	150	160
-	.	150	160
-	+	140	0
-	+	26	46
-	+	140	61
-	+	143	61
-	+	143	38
-	+	143	33
-	+	143	38
-	+	143	36
-	+	143	41
-	+	143	64
-	+	143	0
-	+	165	39
-	+	2	0
-	+	165	4
-	+	140	30
-	+	140	22
-	+	162	4
-	+	163	4
-	+	164	4
-	+	165	4
-	+	162	4
-	+	163	4
-	+	164	4
-	+	137	31
-	+	137	18
-	+	165	36
-	+	163	4
-	+	164	4
-	+	165	3
-	+	163	4
-	+	164	4
-	+	165	3
-	+	87	8
-	+	88	8
-	+	89	8
-	+	90	8
-	+	91	8
-	+	92	8
-	+	163	4
-	+	164	4
-	+	165	4
-	+	163	33
-	+	163	21
-	+	163	24
-	+	163	4
-	+	164	4
-	+	165	4
-	+	163	4
-	+	164	4
-	+	165	4
-	+	163	4
-	+	164	4
-	+	143	9
-	+	143	26
-	+	165	0
-	+	165	38
-	+	165	55
-	+	165	49
-	+	165	56
-	+	165	40
-	+	165	36
-	+	165	62
-	+	143	45
-	+	140	39
-	+	141	57
-	+	128	0
-	+	128	22
-	+	128	21
-	+	128	35
-	+	164	4
-	+	128	24
-	+	128	31
-	+	128	0
-	+	164	4
-	+	162	16
-	+	164	4
-	+	127	0
-	+	127	51
-	+	127	26
-	+	127	22
-	+	130	23
-	+	143	0
-	+	140	0
-	+	137	0
-	+	127	0
-	+	165	0
-	+	163	4
-	+	144	29
-	+	145	30
-	+	165	37
-	+	162	4
-	+	163	4
-	+	164	4
-	+	146	0
-	+	145	33
-	+	146	0
-	+	150	164
-	+	156	20
-	+	150	160
+> ~/static/js/search.js
+	*	1590889842	0
+	"	57	5
+	^	57	6
+	.	58	0
+	+	40	25
+	+	4	24
+	+	4	31
+	+	4	25
+	+	62	26
+	+	4	0
+	+	32	0
+	+	36	22
+	+	3	15
+	+	9	88
+	+	9	33
+	+	9	39
+	+	24	4
+	+	22	5
+	+	9	34
+	+	21	0
+	+	9	34
+	+	9	25
+	+	34	56
+	+	9	0
+	+	57	10
+	+	57	9
+	+	57	8
+	+	36	0
+	+	34	5
+	+	36	4
+	+	34	4
+	+	36	0
+	+	31	2
+	+	21	58
+	+	57	63
+	+	12	40
+	+	20	12
+	+	21	6
+	+	21	0
+	+	23	5
+	+	22	6
+	+	19	63
+	+	20	0
+	+	19	57
+	+	21	56
+	+	12	40
+	+	19	57
+	+	43	0
+	+	57	6
+	+	43	0
+	+	21	57
+	+	57	61
+	+	19	57
+	+	57	61
+	+	19	57
+	+	57	61
+	+	19	56
+	+	57	63
+	+	19	57
+	+	57	61
+	+	43	25
+	+	57	45
+	+	19	41
+	+	21	41
+	+	19	50
+	+	57	54
+	+	43	34
+	+	44	28
+	+	12	34
+	+	19	50
+	+	57	54
+	+	44	32
+	+	57	6
+	+	59	3
+	+	57	10
+	+	34	46
+	+	19	70
+	+	19	71
+	+	19	0
+	+	10	38
+	+	10	25
+	+	11	40
+	+	10	0
+	+	12	31
+	+	21	53
+	+	10	25
+	+	11	25
+	+	12	28
+	+	21	65
+	+	13	6
+	+	17	0
+	+	10	6
+	+	14	24
+	+	15	61
+	+	16	27
+	+	19	64
+	+	57	10
+	+	19	0
+	+	45	0
+	+	57	6
+	+	58	0
 
-> /etc/mysql/conf.d/mysql.cnf
-	*	1590810023	0
-	"	1	6
-	^	1	7
-	.	2	0
+> ~/static/css/responsive.css
+	*	1590888030	0
+	"	3	22
+	^	3	23
+	.	3	22
+	+	1	1
+	+	1	0
+	+	1	1
+	+	50	0
+	+	1	33
 	+	1	7
+	+	1	0
+	+	1	14
+	+	1	33
+	+	1	18
+	+	1	14
+	+	1	7
+	+	1	1
+	+	1	13
+	+	1	0
+	+	1	7
+	+	2	13
+	+	2	1
+	+	49	0
+	+	49	10
+	+	49	15
+	+	1	22
+	+	49	0
 	+	2	0
+	+	1	0
+	+	2	14
+	+	6	10
+	+	10	0
+	+	7	14
+	+	9	0
+	+	2	13
+	+	7	14
+	+	6	7
+	+	8	0
+	+	7	13
+	+	8	11
+	+	6	7
+	+	22	1
+	+	23	0
+	+	20	11
+	+	21	8
+	+	23	4
+	+	23	0
+	+	23	11
+	+	23	0
+	+	23	8
+	+	23	9
+	+	10	6
+	+	11	19
+	+	23	6
+	+	25	0
+	+	23	1
+	+	24	12
+	+	11	15
+	+	13	0
+	+	13	15
+	+	13	14
+	+	16	11
+	+	17	16
+	+	14	1
+	+	12	1
+	+	13	0
+	+	23	0
+	+	47	0
+	+	27	0
+	+	47	0
+	+	28	7
+	+	29	8
+	+	28	7
+	+	29	8
+	+	33	8
+	+	34	9
+	+	33	7
+	+	34	8
+	+	38	8
+	+	39	9
+	+	38	7
+	+	39	8
+	+	34	8
+	+	33	7
+	+	29	8
+	+	28	7
+	+	43	8
+	+	44	9
+	+	48	0
+	+	1	21
+	+	5	0
+	+	4	1
+	+	5	0
+	+	3	22
 
-> /etc/mysql/my.cnf
-	*	1590810006	0
-	"	1	0
+> ~/aiengine.py
+	*	1590850848	0
+	"	139	28
+	^	139	29
+	.	139	28
+	+	170	43
+	+	171	0
+	+	174	12
+	+	175	0
+	+	183	0
+	+	171	11
+	+	170	37
+	+	174	0
+	+	175	0
+	+	174	21
+	+	173	12
+	+	174	0
+	+	170	33
+	+	171	24
+	+	191	4
+	+	150	8
+	+	143	29
+	+	150	0
+	+	143	58
+	+	143	52
+	+	143	59
+	+	143	52
+	+	143	67
+	+	149	0
+	+	144	62
+	+	144	74
+	+	147	60
+	+	144	73
+	+	147	68
+	+	149	39
+	+	143	36
+	+	144	0
+	+	150	12
+	+	144	12
+	+	144	24
+	+	150	12
+	+	163	12
+	+	163	13
+	+	164	0
+	+	159	0
+	+	152	11
+	+	144	67
+	+	152	48
+	+	153	29
+	+	144	78
+	+	191	23
+	+	144	65
+	+	153	31
+	+	147	29
+	+	146	44
+	+	148	49
+	+	144	12
+	+	146	0
+	+	152	0
+	+	152	52
+	+	152	0
+	+	153	18
+	+	158	12
+	+	153	0
+	+	149	45
+	+	151	38
+	+	149	39
+	+	151	38
+	+	149	35
+	+	151	38
+	+	153	72
+	+	154	0
+	+	156	0
+	+	155	0
+	+	156	0
+	+	157	0
+	+	158	0
+	+	154	57
+	+	155	62
+	+	156	54
+	+	157	45
+	+	158	52
+	+	155	0
+	+	154	0
+	+	160	12
+	+	162	0
+	+	145	42
+	+	143	29
+	+	161	39
+	+	153	61
+	+	154	63
+	+	158	72
+	+	155	67
+	+	156	50
+	+	157	65
+	+	156	74
+	+	154	35
+	+	153	71
+	+	154	69
+	+	155	73
+	+	156	80
+	+	157	71
+	+	141	0
+	+	138	8
+	+	139	28
+
+> /tmp/uwsgierr.log
+	*	1590850745	0
+	"	396	0
+	^	170	2
+	.	170	1
+	+	1746	0
+	+	170	1
 
 > ~/__init__.py
-	*	1590807595	0
-	"	78	4
+	*	1590849567	0
+	"	45	3
+	^	44	4
 	.	25	0
 	+	38	4
 	+	16	0
@@ -652,261 +871,179 @@ $
 	+	38	0
 	+	25	0
 
-> ~/model/checkpoint
-	*	1590807264	0
-	"	1	0
-
-> /tmp/uwsgierr.log
-	*	1590742558	0
-	"	1266	0
-	^	170	2
-	.	170	1
-	+	1746	0
-	+	170	1
-
 > ~/templates/index.html
-	*	1590293170	0
-	"	83	41
-	^	95	35
-	.	101	0
-	+	46	15
-	+	47	27
-	+	46	33
-	+	47	0
-	+	48	27
-	+	51	0
-	+	53	0
-	+	47	4
-	+	51	4
-	+	48	31
-	+	53	0
-	+	57	12
-	+	54	3
-	+	55	2
-	+	56	2
-	+	57	2
+	*	1590848772	0
+	"	126	16
+	^	22	0
+	.	23	0
+	+	56	4
+	+	53	31
 	+	58	0
-	+	46	4
-	+	46	115
-	+	48	108
-	+	48	120
-	+	40	60
+	+	62	12
+	+	59	3
+	+	60	2
+	+	61	2
+	+	62	2
+	+	63	0
+	+	51	4
+	+	51	115
+	+	53	108
+	+	53	120
+	+	45	60
+	+	51	6
+	+	51	122
+	+	52	3
+	+	53	0
+	+	52	15
+	+	45	68
 	+	46	6
-	+	46	122
-	+	47	3
-	+	48	0
-	+	47	15
-	+	40	68
-	+	41	6
-	+	120	11
-	+	116	35
-	+	121	8
-	+	117	0
-	+	121	0
-	+	49	24
-	+	50	4
-	+	49	0
-	+	52	4
-	+	51	8
-	+	95	44
-	+	42	30
-	+	68	10
-	+	68	50
-	+	77	116
-	+	68	0
-	+	86	56
-	+	95	101
-	+	98	54
-	+	59	21
-	+	91	0
-	+	103	10
-	+	68	148
-	+	77	117
-	+	86	130
-	+	95	128
-	+	86	149
-	+	77	135
-	+	68	144
-	+	68	51
-	+	70	15
-	+	70	117
-	+	77	51
-	+	78	10
-	+	78	110
-	+	78	14
-	+	78	119
-	+	79	10
-	+	86	57
-	+	87	10
-	+	87	118
-	+	87	14
-	+	87	127
-	+	95	0
-	+	94	47
-	+	95	11
-	+	94	52
-	+	95	23
-	+	95	118
-	+	96	14
-	+	95	112
-	+	70	107
-	+	95	105
-	+	87	116
-	+	70	90
-	+	78	90
-	+	87	98
-	+	70	119
+	+	125	11
+	+	121	35
+	+	126	8
+	+	122	0
+	+	126	0
+	+	54	24
+	+	55	4
+	+	54	0
+	+	57	4
+	+	56	8
+	+	100	44
+	+	47	30
+	+	73	10
+	+	73	50
+	+	82	116
+	+	73	0
+	+	91	56
+	+	100	101
+	+	103	54
+	+	64	21
+	+	96	0
+	+	108	10
+	+	73	148
+	+	82	117
+	+	91	130
+	+	100	128
+	+	91	149
+	+	82	135
+	+	73	144
+	+	73	51
+	+	75	15
+	+	75	117
+	+	82	51
+	+	83	10
+	+	83	110
+	+	83	14
+	+	83	119
+	+	84	10
+	+	91	57
+	+	92	10
+	+	92	118
+	+	92	14
+	+	92	127
+	+	100	0
+	+	99	47
+	+	100	11
+	+	99	52
+	+	100	23
+	+	100	118
+	+	101	14
+	+	100	112
+	+	75	107
+	+	100	105
+	+	92	116
+	+	75	90
+	+	83	90
+	+	92	98
+	+	75	119
 	+	17	0
 	+	16	90
-	+	78	39
-	+	78	117
-	+	85	65
-	+	78	57
-	+	87	20
-	+	78	52
-	+	70	105
-	+	87	34
-	+	87	115
-	+	95	94
-	+	101	0
+	+	83	39
+	+	83	117
+	+	90	65
+	+	83	57
+	+	92	20
+	+	83	52
+	+	75	105
+	+	92	34
+	+	92	115
+	+	100	94
+	+	106	0
+	+	27	0
+	+	19	91
+	+	22	0
+	+	21	81
+	+	20	0
+	+	22	0
+	+	23	0
 
 > ~/static/css/basic.css
-	*	1590293169	0
-	"	12	0
-	^	23	11
-	.	30	11
-	+	11	0
+	*	1590843238	0
+	"	3	26
+	^	3	27
+	.	3	26
+	+	12	0
 	+	1	98
 	+	1	75
 	+	2	57
 	+	1	10
-	+	9	34
+	+	10	34
 	+	1	12
 	+	2	0
 	+	3	0
 	+	3	13
-	+	4	0
 	+	5	0
 	+	6	0
 	+	7	0
 	+	8	0
 	+	9	0
-	+	10	14
-	+	11	0
-	+	4	12
-	+	12	0
-	+	12	1
-	+	12	0
-	+	13	9
-	+	14	0
-	+	22	0
-	+	27	0
-	+	13	8
-	+	14	0
-	+	17	0
-	+	21	0
-	+	26	0
-	+	32	0
-	+	15	10
-	+	14	10
-	+	15	11
-	+	20	11
-	+	25	11
-	+	28	11
-	+	29	12
-	+	30	11
-
-> ~/static/css/responsive.css
-	*	1590293168	0
-	"	21	14
-	^	1	22
-	.	1	21
-	+	1	1
-	+	1	0
-	+	1	1
-	+	47	0
-	+	1	33
-	+	1	7
-	+	1	0
-	+	1	14
-	+	1	33
-	+	1	18
-	+	1	14
-	+	1	7
-	+	1	1
-	+	1	13
-	+	1	0
-	+	1	7
-	+	2	13
-	+	2	1
-	+	46	0
-	+	46	10
-	+	46	15
-	+	1	22
-	+	46	0
-	+	2	0
-	+	1	0
-	+	2	14
-	+	3	10
-	+	7	0
-	+	4	14
-	+	6	0
-	+	2	13
-	+	4	14
-	+	3	7
-	+	5	0
-	+	4	13
-	+	5	11
-	+	3	7
-	+	19	1
-	+	20	0
-	+	17	11
-	+	18	8
-	+	20	4
-	+	20	0
-	+	20	11
-	+	20	0
-	+	20	8
-	+	20	9
-	+	7	6
-	+	8	19
-	+	20	6
-	+	22	0
-	+	20	1
-	+	21	12
-	+	8	15
 	+	10	0
-	+	10	15
-	+	10	14
-	+	13	11
-	+	14	16
-	+	11	1
-	+	9	1
-	+	10	0
-	+	20	0
-	+	44	0
+	+	11	14
+	+	12	0
+	+	5	12
+	+	14	0
+	+	14	1
+	+	14	0
+	+	15	9
+	+	16	0
 	+	24	0
-	+	44	0
-	+	25	7
-	+	26	8
-	+	25	7
-	+	26	8
-	+	30	8
-	+	31	9
-	+	30	7
-	+	31	8
-	+	35	8
-	+	36	9
-	+	35	7
-	+	36	8
-	+	31	8
-	+	30	7
-	+	26	8
-	+	25	7
-	+	40	8
-	+	41	9
-	+	45	0
-	+	1	21
+	+	29	0
+	+	15	8
+	+	16	0
+	+	19	0
+	+	23	0
+	+	28	0
+	+	34	0
+	+	17	10
+	+	16	10
+	+	17	11
+	+	22	11
+	+	27	11
+	+	30	11
+	+	31	12
+	+	32	11
+	+	2	24
+	+	5	12
+	+	12	11
+	+	12	8
+	+	12	0
+	+	4	0
+	+	3	26
+
+> /etc/mysql/conf.d/mysql.cnf
+	*	1590810023	0
+	"	1	6
+	^	1	7
+	.	2	0
+	+	1	7
+	+	2	0
+
+> /etc/mysql/my.cnf
+	*	1590810006	0
+	"	1	0
+
+> ~/model/checkpoint
+	*	1590807264	0
+	"	1	0
 
 > ~/static/css/tree.css
 	*	1590291735	0
@@ -1340,69 +1477,6 @@ $
 	+	1	80
 	+	1	73
 	+	1	0
-
-> ~/static/js/search.js
-	*	1588467861	0
-	"	34	6
-	^	31	27
-	.	27	0
-	+	1	0
-	+	2	12
-	+	3	0
-	+	4	21
-	+	19	37
-	+	5	2
-	+	18	0
-	+	45	0
-	+	19	21
-	+	2	17
-	+	19	20
-	+	19	4
-	+	5	43
-	+	9	25
-	+	5	30
-	+	5	0
-	+	5	3
-	+	6	3
-	+	7	3
-	+	8	3
-	+	7	3
-	+	6	0
-	+	8	0
-	+	9	0
-	+	9	7
-	+	5	37
-	+	6	13
-	+	7	0
-	+	6	24
-	+	5	39
-	+	8	40
-	+	8	30
-	+	5	29
-	+	8	29
-	+	8	0
-	+	5	0
-	+	36	0
-	+	24	0
-	+	36	4
-	+	37	0
-	+	18	0
-	+	16	4
-	+	11	0
-	+	17	0
-	+	11	38
-	+	29	4
-	+	30	3
-	+	22	11
-	+	15	0
-	+	14	0
-	+	33	0
-	+	34	0
-	+	19	23
-	+	25	26
-	+	31	26
-	+	8	0
-	+	27	0
 
 > ~/shell-script/uwsgirestart.sh
 	*	1588442408	0

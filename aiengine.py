@@ -135,25 +135,51 @@ class School:
 
     def predict(self, text):
         question = []
-        question.append(mecab.morphs(text))
-        text_sequence = self.tokenizer.texts_to_sequences(question)
-        if(len(text_sequence[0]) == 0):
-            text_sequence[0].append(0) # set default value
-        response_sequence = self.model.predict(text_sequence)
+        
+        print("bug identify")
+        print(text)
 
-        # search based on word
-        for element in question[0]:
-            answer = db_session.query(Question).filter(Question.answer_category == element).first()
-            if(answer==None):
-                answer = "응답이 준비되지 않았습니다."
-            else:
+        if ( text == "수정" ) : 
+            answer = "<table>"
+            
+            answer = answer + "<thead><tr>"
+            for element in Question.__table__.columns.keys() :
+                print(element)
+                answer = answer + "<th>" + element + "</th>"
+            answer = answer + "</tr></thead>"
+        
+            answer = answer + "<tbody>"
+            for element in db_session.query(Question).all():
+                answer = answer + "<tr><td>" + str(element.id) + "</td>"
+                answer = answer + "<td>" + str(element.date) + "</td>"
+                answer = answer + "<td>" + str(element.question) + "</td>"
+                answer = answer + "<td>" + str(element.answer_category) + "</td>"
+                answer = answer + "<td>" + str(element.answer) + "</td>"
+                answer = answer + "<td>" + str(element.answer_detail) + "</td></tr>"
+            answer = answer + "</tbody>"
+            
+            answer = answer + "</table>"
+
+        else:
+            question.append(mecab.morphs(text))
+            text_sequence = self.tokenizer.texts_to_sequences(question)
+            if(len(text_sequence[0]) == 0):
+                text_sequence[0].append(0) # set default value
+            response_sequence = self.model.predict(text_sequence)
+
+            if(response_sequence[0] != 1.0):
+                print("test")
+                answer = db_session.query(Question).filter(Question.answer_category == response_sequence[0]).first()
                 answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
-                break
-        
-        if(answer == None):
-            answer="응답이 준비되지 않았습니다."
-        
-        print(answer)
+            else:
+                for element in question[0]:
+                    answer = db_session.query(Question).filter(Question.answer_category == element).first()
+                    if(answer==None):
+                        answer = "응답이 준비되지 않았습니다."
+                    else:
+                        answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
+                        break
+    
         return answer
 
 
@@ -162,5 +188,5 @@ if __name__ == '__main__':
     #school.update_tokenizer()
     #school.create_model()
     #school.learn()
-    school.predict("이름이 뭐야")
+    school.predict("수정")
     print("Hello world")

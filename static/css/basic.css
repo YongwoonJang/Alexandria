@@ -1,13 +1,15 @@
 body::after{
-	background:url('../pic/YongwoonJang_Muju_20200524.png');
+	background:url('../pic/Background.png');
+	background-size: 100% auto;
 	content: "";
-	opacity: 0.2;
+	opacity: 0.1;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	right: 0;
 	position: absolute;
 	z-index: -1; 
+
 }
 
 #age_img{
