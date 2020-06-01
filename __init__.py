@@ -48,10 +48,13 @@ def search():
 @app.route('/_collect')
 def collect():
     text = request.args.get('text','empty',type=str)
-    q = Question(date = datetime.now().strftime('%Y%m%d%H%M'), question = text)
-    db_session.add(q)
-    db_session.commit()
-    return jsonify(result="insert is complete")
+    if(text != '수정'):
+        q = Question(date = datetime.now().strftime('%Y%m%d%H%M'), question = text)
+        db_session.add(q)
+        db_session.commit()
+        return jsonify(result="insert is complete")
+    else:
+        return jsonify(result="special search word is executed")
 
 @app.teardown_appcontext 
 def shutdown_session(exception=None):

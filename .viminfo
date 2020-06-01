@@ -18,15 +18,15 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590889845,,"wq"
+|2,0,1591001061,,"wq"
 :w
-|2,0,1590889779,,"w"
+|2,0,1591001005,,"w"
+:q!
+|2,0,1591000175,,"q!"
 :W
 |2,0,1590888792,,"W"
 :q
 |2,0,1590887333,,"q"
-:q!
-|2,0,1590887275,,"q!"
 :180
 |2,0,1590850721,,"180"
 ::w
@@ -165,6 +165,8 @@ $
 |2,0,1588343693,,"vs uwsgistart.sh"
 
 # Search String History (newest to oldest):
+?/wrap
+|2,1,1591000174,47,"wrap"
 ?/result
 |2,1,1590848725,47,"result"
 ?/predict
@@ -229,7 +231,7 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 							var bias_for_desktop = 60/3793;
 							var size_for_desktop = data.result.length*bias_for_desktop;
 							var em_size_for_desktop = size_for_desktop + 'em';
@@ -243,274 +245,274 @@ $
 							}else{
 								$("#contents div div .wrap").css('top', em_size_for_desktop);
 							}
-|3,1,0,1,13,0,1590889758,"						var bias_for_desktop = 60/3793;","						var size_for_desktop = data.result.length*bias_for_desktop;","						var em_size_for_desktop = size_for_desktop + 'em';","						","						var bias_for_mobile = 85/3793;","						var size_for_mobile = data.result.length*bias_for_mobile;","						var em_size_for_mobile = size_for_mobile + 'em';","","						if($(window).width() <= 1000){",>71
+|3,0,0,1,13,0,1590889758,"						var bias_for_desktop = 60/3793;","						var size_for_desktop = data.result.length*bias_for_desktop;","						var em_size_for_desktop = size_for_desktop + 'em';","						","						var bias_for_mobile = 85/3793;","						var size_for_mobile = data.result.length*bias_for_mobile;","						var em_size_for_mobile = size_for_mobile + 'em';","","						if($(window).width() <= 1000){",>71
 |<"							$(\"#contents div div .wrap\").css('top', em_size_for_mobile);","						}else{","							$(\"#contents div div .wrap\").css('top', em_size_for_desktop);","						}"
-"1	LINE	0
-								//가변적으로 em의 값을 변경하도록 수정해야함. 
-|3,0,1,1,1,0,1590889749,"							//가변적으로 em의 값을 변경하도록 수정해야함. "
+""1	LINE	0
+		position: relative;
+|3,1,1,1,1,0,1591000888,"	position: relative;"
 "2	LINE	0
+							<div class="container
+|3,0,2,1,1,0,1591000642,"						<div class=\"container"
+"3	LINE	0
+								//가변적으로 em의 값을 변경하도록 수정해야함. 
+|3,0,3,1,1,0,1590889749,"							//가변적으로 em의 값을 변경하도록 수정해야함. "
+"4	LINE	0
 						if($(window).width() <= 1000){
 							$("#contents div div .wrap").css('top', '195em');
 						}else{
 							$("#contents div div .wrap").css('top', '145em');
 						}
-|3,0,2,1,5,0,1590889741,"					if($(window).width() <= 1000){","						$(\"#contents div div .wrap\").css('top', '195em');","					}else{","						$(\"#contents div div .wrap\").css('top', '145em');","					}"
-"3	LINE	0
-							console.log(data.result.length
-|3,0,3,1,1,0,1590889492,"						console.log(data.result.length"
-"4	LINE	0
-					}
-|3,0,4,1,1,0,1590887579,"				}"
+|3,0,4,1,5,0,1590889741,"					if($(window).width() <= 1000){","						$(\"#contents div div .wrap\").css('top', '195em');","					}else{","						$(\"#contents div div .wrap\").css('top', '145em');","					}"
 "5	LINE	0
-						$("#contents div div .wrap").css('margin-top', '150em');
-|3,0,5,1,1,0,1590887579,"					$(\"#contents div div .wrap\").css('margin-top', '150em');"
+							console.log(data.result.length
+|3,0,5,1,1,0,1590889492,"						console.log(data.result.length"
 "6	LINE	0
-					if(data.result.length > 300){
-|3,0,6,1,1,0,1590887578,"				if(data.result.length > 300){"
+					}
+|3,0,6,1,1,0,1590887579,"				}"
 "7	LINE	0
-				//return
-|3,0,7,1,1,0,1590886885,"			//return"
+						$("#contents div div .wrap").css('margin-top', '150em');
+|3,0,7,1,1,0,1590887579,"					$(\"#contents div div .wrap\").css('margin-top', '150em');"
 "8	LINE	0
-				e.stopPropagation();
-|3,0,8,1,1,0,1590886798,"			e.stopPropagation();"
+					if(data.result.length > 300){
+|3,0,8,1,1,0,1590887578,"				if(data.result.length > 300){"
 "9	LINE	0
-						console.log(data.result.length);
-|3,0,9,1,1,0,1590886704,"					console.log(data.result.length);"
+				//return
+|3,0,9,1,1,0,1590886885,"			//return"
 "-	CHAR	0
-	)
-|3,0,36,0,1,0,1590889491,")"
+	"
+|3,0,36,0,1,0,1591000641,"\""
 
 # File marks:
-'0  57  5  ~/static/js/search.js
-|4,48,57,5,1590889845,"~/static/js/search.js"
-'1  19  70  ~/static/js/search.js
-|4,49,19,70,1590889023,"~/static/js/search.js"
-'2  11  70  ~/static/js/search.js
-|4,50,11,70,1590889023,"~/static/js/search.js"
-'3  3  22  ~/static/css/responsive.css
-|4,51,3,22,1590888031,"~/static/css/responsive.css"
-'4  43  32  ~/static/js/search.js
-|4,52,43,32,1590888024,"~/static/js/search.js"
-'5  42  32  ~/static/js/search.js
-|4,53,42,32,1590888024,"~/static/js/search.js"
-'6  36  32  ~/static/js/search.js
-|4,54,36,32,1590888024,"~/static/js/search.js"
-'7  35  32  ~/static/js/search.js
-|4,55,35,32,1590888024,"~/static/js/search.js"
-'8  3  22  ~/static/css/responsive.css
-|4,56,3,22,1590887333,"~/static/css/responsive.css"
-'9  12  30  ~/static/js/search.js
-|4,57,12,30,1590887327,"~/static/js/search.js"
+'0  9  0  ~/static/js/search.js
+|4,48,9,0,1591001061,"~/static/js/search.js"
+'1  38  15  ~/static/css/search.css
+|4,49,38,15,1591000934,"~/static/css/search.css"
+'2  39  16  ~/static/css/search.css
+|4,50,39,16,1591000691,"~/static/css/search.css"
+'3  39  16  ~/static/css/search.css
+|4,51,39,16,1591000691,"~/static/css/search.css"
+'4  119  23  ~/templates/index.html
+|4,52,119,23,1591000652,"~/templates/index.html"
+'5  37  11  ~/static/css/search.css
+|4,53,37,11,1591000634,"~/static/css/search.css"
+'6  37  11  ~/static/css/search.css
+|4,54,37,11,1591000634,"~/static/css/search.css"
+'7  37  11  ~/static/css/search.css
+|4,55,37,11,1591000634,"~/static/css/search.css"
+'8  37  11  ~/static/css/search.css
+|4,56,37,11,1591000634,"~/static/css/search.css"
+'9  120  23  ~/templates/index.html
+|4,57,120,23,1591000607,"~/templates/index.html"
 
 # Jumplist (newest first):
+-'  9  0  ~/static/js/search.js
+|4,39,9,0,1591001061,"~/static/js/search.js"
 -'  57  5  ~/static/js/search.js
-|4,39,57,5,1590889845,"~/static/js/search.js"
--'  19  70  ~/static/js/search.js
-|4,39,19,70,1590889199,"~/static/js/search.js"
--'  11  70  ~/static/js/search.js
-|4,39,11,70,1590889023,"~/static/js/search.js"
--'  43  32  ~/static/js/search.js
-|4,39,43,32,1590888032,"~/static/js/search.js"
--'  36  32  ~/static/js/search.js
-|4,39,36,32,1590888032,"~/static/js/search.js"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590888031,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590888031,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590888031,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590888031,"~/static/css/responsive.css"
--'  42  32  ~/static/js/search.js
-|4,39,42,32,1590888024,"~/static/js/search.js"
--'  35  32  ~/static/js/search.js
-|4,39,35,32,1590888024,"~/static/js/search.js"
--'  35  32  ~/static/js/search.js
-|4,39,35,32,1590888024,"~/static/js/search.js"
--'  12  30  ~/static/js/search.js
-|4,39,12,30,1590887335,"~/static/js/search.js"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887335,"~/static/js/search.js"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887335,"~/static/js/search.js"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887335,"~/static/js/search.js"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887333,"~/static/css/responsive.css"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887327,"~/static/js/search.js"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887327,"~/static/js/search.js"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887327,"~/static/js/search.js"
--'  10  30  ~/static/js/search.js
-|4,39,10,30,1590887327,"~/static/js/search.js"
--'  41  57  ~/static/js/search.js
-|4,39,41,57,1590887299,"~/static/js/search.js"
--'  40  57  ~/static/js/search.js
-|4,39,40,57,1590887299,"~/static/js/search.js"
--'  43  57  ~/static/js/search.js
-|4,39,43,57,1590887299,"~/static/js/search.js"
--'  34  57  ~/static/js/search.js
-|4,39,34,57,1590887299,"~/static/js/search.js"
--'  40  57  ~/static/js/search.js
-|4,39,40,57,1590887299,"~/static/js/search.js"
--'  33  57  ~/static/js/search.js
-|4,39,33,57,1590887299,"~/static/js/search.js"
--'  33  57  ~/static/js/search.js
-|4,39,33,57,1590887299,"~/static/js/search.js"
--'  40  57  ~/static/js/search.js
-|4,39,40,57,1590887299,"~/static/js/search.js"
--'  33  57  ~/static/js/search.js
-|4,39,33,57,1590887299,"~/static/js/search.js"
--'  33  57  ~/static/js/search.js
-|4,39,33,57,1590887299,"~/static/js/search.js"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1590887275,"~/static/css/responsive.css"
--'  39  57  ~/static/js/search.js
-|4,39,39,57,1590887265,"~/static/js/search.js"
--'  33  57  ~/static/js/search.js
-|4,39,33,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  32  57  ~/static/js/search.js
-|4,39,32,57,1590887265,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590886050,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  4  3  ~/static/js/search.js
-|4,39,4,3,1590851803,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
--'  5  25  ~/static/js/search.js
-|4,39,5,25,1590851110,"~/static/js/search.js"
+|4,39,57,5,1591000971,"~/static/js/search.js"
+-'  38  15  ~/static/css/search.css
+|4,39,38,15,1591000934,"~/static/css/search.css"
+-'  38  15  ~/static/css/search.css
+|4,39,38,15,1591000934,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000766,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000766,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000691,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000691,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  121  18  ~/templates/index.html
+|4,39,121,18,1591000475,"~/templates/index.html"
+-'  126  16  ~/templates/index.html
+|4,39,126,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  126  16  ~/templates/index.html
+|4,39,126,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  126  16  ~/templates/index.html
+|4,39,126,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  126  16  ~/templates/index.html
+|4,39,126,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  126  16  ~/templates/index.html
+|4,39,126,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  126  16  ~/templates/index.html
+|4,39,126,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
+-'  127  16  ~/templates/index.html
+|4,39,127,16,1591000301,"~/templates/index.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/static/js/search.js
-	*	1590889842	0
-	"	57	5
-	^	57	6
-	.	58	0
+	*	1591001059	0
+	"	9	0
+	^	9	0
+	.	44	0
 	+	40	25
 	+	4	24
 	+	4	31
@@ -574,11 +576,11 @@ $
 	+	19	50
 	+	57	54
 	+	43	34
-	+	44	28
+	+	43	63
 	+	12	34
 	+	19	50
 	+	57	54
-	+	44	32
+	+	43	67
 	+	57	6
 	+	59	3
 	+	57	10
@@ -608,106 +610,250 @@ $
 	+	45	0
 	+	57	6
 	+	58	0
+	+	43	35
+	+	44	0
 
-> ~/static/css/responsive.css
-	*	1590888030	0
-	"	3	22
-	^	3	23
-	.	3	22
-	+	1	1
+> ~/static/css/search.css
+	*	1591000933	0
+	"	38	15
+	^	38	16
+	.	38	15
+	+	42	0
+	+	1	9
 	+	1	0
-	+	1	1
-	+	50	0
-	+	1	33
-	+	1	7
-	+	1	0
-	+	1	14
-	+	1	33
-	+	1	18
-	+	1	14
-	+	1	7
-	+	1	1
-	+	1	13
-	+	1	0
-	+	1	7
-	+	2	13
-	+	2	1
-	+	49	0
-	+	49	10
-	+	49	15
-	+	1	22
-	+	49	0
+	+	5	0
 	+	2	0
-	+	1	0
-	+	2	14
-	+	6	10
-	+	10	0
-	+	7	14
-	+	9	0
-	+	2	13
-	+	7	14
-	+	6	7
+	+	3	0
+	+	4	0
+	+	3	0
+	+	4	0
 	+	8	0
-	+	7	13
-	+	8	11
-	+	6	7
-	+	22	1
-	+	23	0
-	+	20	11
-	+	21	8
-	+	23	4
-	+	23	0
-	+	23	11
-	+	23	0
-	+	23	8
-	+	23	9
-	+	10	6
-	+	11	19
-	+	23	6
+	+	9	0
+	+	9	27
+	+	10	20
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	23
+	+	16	1
+	+	17	0
+	+	19	0
+	+	19	16
+	+	24	0
 	+	25	0
-	+	23	1
-	+	24	12
-	+	11	15
-	+	13	0
-	+	13	15
-	+	13	14
-	+	16	11
-	+	17	16
-	+	14	1
-	+	12	1
-	+	13	0
-	+	23	0
-	+	47	0
+	+	26	0
 	+	27	0
+	+	28	0
+	+	29	0
+	+	29	19
+	+	31	0
+	+	32	0
+	+	33	0
+	+	26	0
+	+	33	17
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	36	0
+	+	20	0
+	+	37	8
+	+	21	0
+	+	20	9
+	+	12	13
+	+	26	13
+	+	33	13
+	+	25	8
+	+	6	0
+	+	7	0
+	+	7	12
+	+	7	10
+	+	7	0
+	+	44	0
+	+	39	6
+	+	19	14
+	+	9	25
+	+	27	26
+	+	28	19
+	+	39	1
+	+	38	24
+	+	39	0
+	+	38	15
+	p	1	0
+
+> ~/templates/index.html
+	*	1591000650	0
+	"	119	23
+	^	119	24
+	.	119	23
+	+	58	0
+	+	62	12
+	+	59	3
+	+	60	2
+	+	61	2
+	+	62	2
+	+	63	0
+	+	51	4
+	+	51	115
+	+	53	108
+	+	53	120
+	+	45	60
+	+	51	6
+	+	51	122
+	+	52	3
+	+	53	0
+	+	52	15
+	+	45	68
+	+	46	6
+	+	125	11
+	+	121	35
+	+	126	8
+	+	122	0
+	+	126	0
+	+	54	24
+	+	55	4
+	+	54	0
+	+	57	4
+	+	56	8
+	+	100	44
+	+	47	30
+	+	73	10
+	+	73	50
+	+	82	116
+	+	73	0
+	+	91	56
+	+	100	101
+	+	103	54
+	+	64	21
+	+	96	0
+	+	108	10
+	+	73	148
+	+	82	117
+	+	91	130
+	+	100	128
+	+	91	149
+	+	82	135
+	+	73	144
+	+	73	51
+	+	75	15
+	+	75	117
+	+	82	51
+	+	83	10
+	+	83	110
+	+	83	14
+	+	83	119
+	+	84	10
+	+	91	57
+	+	92	10
+	+	92	118
+	+	92	14
+	+	92	127
+	+	100	0
+	+	99	47
+	+	100	11
+	+	99	52
+	+	100	23
+	+	100	118
+	+	101	14
+	+	100	112
+	+	75	107
+	+	100	105
+	+	92	116
+	+	75	90
+	+	83	90
+	+	92	98
+	+	75	119
+	+	17	0
+	+	16	90
+	+	83	39
+	+	83	117
+	+	90	65
+	+	83	57
+	+	92	20
+	+	83	52
+	+	75	105
+	+	92	34
+	+	92	115
+	+	100	94
+	+	106	0
+	+	27	0
+	+	19	91
+	+	22	0
+	+	21	81
+	+	20	0
+	+	22	0
+	+	23	0
+	+	119	31
+	+	120	0
+	+	119	23
+
+> ~/__init__.py
+	*	1590991495	0
+	"	58	0
+	^	58	0
+	.	57	63
+	+	38	4
+	+	16	0
+	+	8	0
+	+	9	43
+	+	18	14
+	+	39	82
+	+	18	29
+	+	39	94
+	+	40	0
+	+	47	22
+	+	44	0
+	+	47	23
+	+	8	0
+	+	2	10
+	+	3	0
+	+	4	0
+	+	9	0
+	+	44	25
+	+	46	31
+	+	21	27
 	+	47	0
-	+	28	7
-	+	29	8
-	+	28	7
-	+	29	8
-	+	33	8
-	+	34	9
-	+	33	7
-	+	34	8
-	+	38	8
-	+	39	9
-	+	38	7
-	+	39	8
-	+	34	8
-	+	33	7
-	+	29	8
-	+	28	7
-	+	43	8
-	+	44	9
-	+	48	0
-	+	1	21
-	+	5	0
-	+	4	1
-	+	5	0
-	+	3	22
+	+	49	13
+	+	48	21
+	+	50	98
+	+	50	0
+	+	50	52
+	+	50	55
+	+	12	26
+	+	50	52
+	+	55	3
+	+	50	56
+	+	50	59
+	+	50	85
+	+	54	22
+	+	50	56
+	+	50	106
+	+	50	103
+	+	21	14
+	+	28	15
+	+	44	15
+	+	45	14
+	+	21	5
+	+	44	16
+	+	38	4
+	+	38	0
+	+	25	0
+	+	50	52
+	+	52	0
+	+	51	24
+	+	52	0
+	+	55	7
+	+	56	0
+	+	51	24
+	+	56	9
+	+	57	63
 
 > ~/aiengine.py
-	*	1590850848	0
-	"	139	28
+	*	1590991414	0
+	"	159	28
 	^	139	29
 	.	139	28
 	+	170	43
@@ -811,6 +957,102 @@ $
 	+	138	8
 	+	139	28
 
+> ~/static/css/responsive.css
+	*	1590888030	0
+	"	3	22
+	^	3	23
+	.	3	22
+	+	1	1
+	+	1	0
+	+	1	1
+	+	50	0
+	+	1	33
+	+	1	7
+	+	1	0
+	+	1	14
+	+	1	33
+	+	1	18
+	+	1	14
+	+	1	7
+	+	1	1
+	+	1	13
+	+	1	0
+	+	1	7
+	+	2	13
+	+	2	1
+	+	49	0
+	+	49	10
+	+	49	15
+	+	1	22
+	+	49	0
+	+	2	0
+	+	1	0
+	+	2	14
+	+	6	10
+	+	10	0
+	+	7	14
+	+	9	0
+	+	2	13
+	+	7	14
+	+	6	7
+	+	8	0
+	+	7	13
+	+	8	11
+	+	6	7
+	+	22	1
+	+	23	0
+	+	20	11
+	+	21	8
+	+	23	4
+	+	23	0
+	+	23	11
+	+	23	0
+	+	23	8
+	+	23	9
+	+	10	6
+	+	11	19
+	+	23	6
+	+	25	0
+	+	23	1
+	+	24	12
+	+	11	15
+	+	13	0
+	+	13	15
+	+	13	14
+	+	16	11
+	+	17	16
+	+	14	1
+	+	12	1
+	+	13	0
+	+	23	0
+	+	47	0
+	+	27	0
+	+	47	0
+	+	28	7
+	+	29	8
+	+	28	7
+	+	29	8
+	+	33	8
+	+	34	9
+	+	33	7
+	+	34	8
+	+	38	8
+	+	39	9
+	+	38	7
+	+	39	8
+	+	34	8
+	+	33	7
+	+	29	8
+	+	28	7
+	+	43	8
+	+	44	9
+	+	48	0
+	+	1	21
+	+	5	0
+	+	4	1
+	+	5	0
+	+	3	22
+
 > /tmp/uwsgierr.log
 	*	1590850745	0
 	"	396	0
@@ -818,163 +1060,6 @@ $
 	.	170	1
 	+	1746	0
 	+	170	1
-
-> ~/__init__.py
-	*	1590849567	0
-	"	45	3
-	^	44	4
-	.	25	0
-	+	38	4
-	+	16	0
-	+	8	0
-	+	9	43
-	+	18	14
-	+	39	82
-	+	18	29
-	+	39	94
-	+	40	0
-	+	47	22
-	+	44	0
-	+	47	23
-	+	8	0
-	+	2	10
-	+	3	0
-	+	4	0
-	+	9	0
-	+	44	25
-	+	46	31
-	+	21	27
-	+	47	0
-	+	49	13
-	+	48	21
-	+	50	98
-	+	50	0
-	+	50	52
-	+	50	55
-	+	12	26
-	+	50	52
-	+	54	3
-	+	50	56
-	+	50	59
-	+	50	85
-	+	53	22
-	+	50	56
-	+	51	54
-	+	51	51
-	+	21	14
-	+	28	15
-	+	44	15
-	+	45	14
-	+	21	5
-	+	44	16
-	+	38	4
-	+	38	0
-	+	25	0
-
-> ~/templates/index.html
-	*	1590848772	0
-	"	126	16
-	^	22	0
-	.	23	0
-	+	56	4
-	+	53	31
-	+	58	0
-	+	62	12
-	+	59	3
-	+	60	2
-	+	61	2
-	+	62	2
-	+	63	0
-	+	51	4
-	+	51	115
-	+	53	108
-	+	53	120
-	+	45	60
-	+	51	6
-	+	51	122
-	+	52	3
-	+	53	0
-	+	52	15
-	+	45	68
-	+	46	6
-	+	125	11
-	+	121	35
-	+	126	8
-	+	122	0
-	+	126	0
-	+	54	24
-	+	55	4
-	+	54	0
-	+	57	4
-	+	56	8
-	+	100	44
-	+	47	30
-	+	73	10
-	+	73	50
-	+	82	116
-	+	73	0
-	+	91	56
-	+	100	101
-	+	103	54
-	+	64	21
-	+	96	0
-	+	108	10
-	+	73	148
-	+	82	117
-	+	91	130
-	+	100	128
-	+	91	149
-	+	82	135
-	+	73	144
-	+	73	51
-	+	75	15
-	+	75	117
-	+	82	51
-	+	83	10
-	+	83	110
-	+	83	14
-	+	83	119
-	+	84	10
-	+	91	57
-	+	92	10
-	+	92	118
-	+	92	14
-	+	92	127
-	+	100	0
-	+	99	47
-	+	100	11
-	+	99	52
-	+	100	23
-	+	100	118
-	+	101	14
-	+	100	112
-	+	75	107
-	+	100	105
-	+	92	116
-	+	75	90
-	+	83	90
-	+	92	98
-	+	75	119
-	+	17	0
-	+	16	90
-	+	83	39
-	+	83	117
-	+	90	65
-	+	83	57
-	+	92	20
-	+	83	52
-	+	75	105
-	+	92	34
-	+	92	115
-	+	100	94
-	+	106	0
-	+	27	0
-	+	19	91
-	+	22	0
-	+	21	81
-	+	20	0
-	+	22	0
-	+	23	0
 
 > ~/static/css/basic.css
 	*	1590843238	0
@@ -1488,73 +1573,6 @@ $
 	+	3	8
 	+	4	0
 	+	5	6
-
-> ~/static/css/search.css
-	*	1588442217	0
-	"	28	19
-	^	28	20
-	.	28	19
-	+	42	0
-	+	1	9
-	+	1	0
-	+	5	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	3	0
-	+	4	0
-	+	8	0
-	+	9	0
-	+	9	27
-	+	10	20
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	23
-	+	16	1
-	+	17	0
-	+	19	0
-	+	19	16
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	29	19
-	+	31	0
-	+	32	0
-	+	33	0
-	+	26	0
-	+	33	17
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	36	0
-	+	20	0
-	+	37	8
-	+	21	0
-	+	20	9
-	+	12	13
-	+	26	13
-	+	33	13
-	+	25	8
-	+	6	0
-	+	7	0
-	+	7	12
-	+	7	10
-	+	7	0
-	+	44	0
-	+	39	6
-	+	19	14
-	+	9	25
-	+	27	26
-	+	28	19
-	p	1	0
 
 > ~/_mode
 	*	1588440034	0
