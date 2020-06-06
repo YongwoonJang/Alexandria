@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1591001061,,"wq"
+|2,0,1591418218,,"wq"
 :w
-|2,0,1591001005,,"w"
+|2,0,1591418178,,"w"
 :q!
 |2,0,1591000175,,"q!"
 :W
@@ -283,40 +283,60 @@ $
 |3,0,36,0,1,0,1591000641,"\""
 
 # File marks:
-'0  9  0  ~/static/js/search.js
-|4,48,9,0,1591001061,"~/static/js/search.js"
-'1  38  15  ~/static/css/search.css
-|4,49,38,15,1591000934,"~/static/css/search.css"
-'2  39  16  ~/static/css/search.css
-|4,50,39,16,1591000691,"~/static/css/search.css"
+'0  10  0  ~/Jenkinsfile
+|4,48,10,0,1591418218,"~/Jenkinsfile"
+'1  9  0  ~/static/js/search.js
+|4,49,9,0,1591001061,"~/static/js/search.js"
+'2  38  15  ~/static/css/search.css
+|4,50,38,15,1591000934,"~/static/css/search.css"
 '3  39  16  ~/static/css/search.css
 |4,51,39,16,1591000691,"~/static/css/search.css"
-'4  119  23  ~/templates/index.html
-|4,52,119,23,1591000652,"~/templates/index.html"
-'5  37  11  ~/static/css/search.css
-|4,53,37,11,1591000634,"~/static/css/search.css"
+'4  39  16  ~/static/css/search.css
+|4,52,39,16,1591000691,"~/static/css/search.css"
+'5  119  23  ~/templates/index.html
+|4,53,119,23,1591000652,"~/templates/index.html"
 '6  37  11  ~/static/css/search.css
 |4,54,37,11,1591000634,"~/static/css/search.css"
 '7  37  11  ~/static/css/search.css
 |4,55,37,11,1591000634,"~/static/css/search.css"
 '8  37  11  ~/static/css/search.css
 |4,56,37,11,1591000634,"~/static/css/search.css"
-'9  120  23  ~/templates/index.html
-|4,57,120,23,1591000607,"~/templates/index.html"
+'9  37  11  ~/static/css/search.css
+|4,57,37,11,1591000634,"~/static/css/search.css"
 
 # Jumplist (newest first):
+-'  10  0  ~/Jenkinsfile
+|4,39,10,0,1591418218,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1591418136,"~/Jenkinsfile"
 -'  9  0  ~/static/js/search.js
 |4,39,9,0,1591001061,"~/static/js/search.js"
+-'  9  0  ~/static/js/search.js
+|4,39,9,0,1591001061,"~/static/js/search.js"
+-'  57  5  ~/static/js/search.js
+|4,39,57,5,1591000971,"~/static/js/search.js"
 -'  57  5  ~/static/js/search.js
 |4,39,57,5,1591000971,"~/static/js/search.js"
 -'  38  15  ~/static/css/search.css
 |4,39,38,15,1591000934,"~/static/css/search.css"
 -'  38  15  ~/static/css/search.css
 |4,39,38,15,1591000934,"~/static/css/search.css"
+-'  38  15  ~/static/css/search.css
+|4,39,38,15,1591000934,"~/static/css/search.css"
+-'  38  15  ~/static/css/search.css
+|4,39,38,15,1591000934,"~/static/css/search.css"
 -'  39  16  ~/static/css/search.css
 |4,39,39,16,1591000766,"~/static/css/search.css"
 -'  39  16  ~/static/css/search.css
 |4,39,39,16,1591000766,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000766,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000766,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000691,"~/static/css/search.css"
+-'  39  16  ~/static/css/search.css
+|4,39,39,16,1591000691,"~/static/css/search.css"
 -'  39  16  ~/static/css/search.css
 |4,39,39,16,1591000691,"~/static/css/search.css"
 -'  39  16  ~/static/css/search.css
@@ -329,6 +349,14 @@ $
 |4,39,37,11,1591000660,"~/static/css/search.css"
 -'  37  11  ~/static/css/search.css
 |4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000660,"~/static/css/search.css"
 -'  119  23  ~/templates/index.html
 |4,39,119,23,1591000652,"~/templates/index.html"
 -'  119  23  ~/templates/index.html
@@ -345,6 +373,38 @@ $
 |4,39,119,23,1591000652,"~/templates/index.html"
 -'  119  23  ~/templates/index.html
 |4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  119  23  ~/templates/index.html
+|4,39,119,23,1591000652,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
+-'  120  23  ~/templates/index.html
+|4,39,120,23,1591000636,"~/templates/index.html"
 -'  120  23  ~/templates/index.html
 |4,39,120,23,1591000636,"~/templates/index.html"
 -'  120  23  ~/templates/index.html
@@ -369,6 +429,30 @@ $
 |4,39,37,11,1591000634,"~/static/css/search.css"
 -'  37  11  ~/static/css/search.css
 |4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  37  11  ~/static/css/search.css
+|4,39,37,11,1591000634,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
+-'  28  19  ~/static/css/search.css
+|4,39,28,19,1591000618,"~/static/css/search.css"
 -'  28  19  ~/static/css/search.css
 |4,39,28,19,1591000618,"~/static/css/search.css"
 -'  28  19  ~/static/css/search.css
@@ -417,96 +501,23 @@ $
 |4,39,121,23,1591000607,"~/templates/index.html"
 -'  121  23  ~/templates/index.html
 |4,39,121,23,1591000607,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  121  18  ~/templates/index.html
-|4,39,121,18,1591000475,"~/templates/index.html"
--'  126  16  ~/templates/index.html
-|4,39,126,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  126  16  ~/templates/index.html
-|4,39,126,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  126  16  ~/templates/index.html
-|4,39,126,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  126  16  ~/templates/index.html
-|4,39,126,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  126  16  ~/templates/index.html
-|4,39,126,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  126  16  ~/templates/index.html
-|4,39,126,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
--'  127  16  ~/templates/index.html
-|4,39,127,16,1591000301,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
+-'  121  23  ~/templates/index.html
+|4,39,121,23,1591000607,"~/templates/index.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/Jenkinsfile
+	*	1591418217	0
+	"	10	0
+	^	10	1
+	.	10	1
+	+	1	9
+	+	10	0
+	+	2	0
+	+	1	2
+	+	10	1
 
 > ~/static/js/search.js
 	*	1591001059	0
