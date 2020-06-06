@@ -7,7 +7,7 @@
 	transform: translate(25%,25%);
 }
 
-body::after{
+body::after {
 	background:url('../pic/Background.png');
 	background-size: 100% auto;
 	content: "";
@@ -19,5 +19,19 @@ body::after{
 	position: absolute;
 	z-index: -1; 
 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff7361;
+}
+
+a {
+    color: #ff7361;
+}
+
+a:hover {
+    color: #ff7361;
+    background-color: #f8e8e8;
 }
 
