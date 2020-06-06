@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1591452112,,"wq"
+|2,0,1591452425,,"wq"
 :w
-|2,0,1591452043,,"w"
+|2,0,1591452414,,"w"
 :vs ./static/css/search.css
 |2,0,1591451896,,"vs ./static/css/search.css"
 :q
@@ -281,38 +281,56 @@ $
 |3,0,36,0,1,0,1591449063,"	float:left;"
 
 # File marks:
-'0  5  0  ~/static/css/basic.css
-|4,48,5,0,1591452112,"~/static/css/basic.css"
-'1  28  0  ~/static/css/basic.css
-|4,49,28,0,1591451063,"~/static/css/basic.css"
+'0  71  34  ~/templates/index.html
+|4,48,71,34,1591452425,"~/templates/index.html"
+'1  5  0  ~/static/css/basic.css
+|4,49,5,0,1591452112,"~/static/css/basic.css"
 '2  28  0  ~/static/css/basic.css
 |4,50,28,0,1591451063,"~/static/css/basic.css"
-'3  2  13  ~/static/css/basic.css
-|4,51,2,13,1591450458,"~/static/css/basic.css"
+'3  28  0  ~/static/css/basic.css
+|4,51,28,0,1591451063,"~/static/css/basic.css"
 '4  2  13  ~/static/css/basic.css
 |4,52,2,13,1591450458,"~/static/css/basic.css"
 '5  2  13  ~/static/css/basic.css
 |4,53,2,13,1591450458,"~/static/css/basic.css"
 '6  2  13  ~/static/css/basic.css
 |4,54,2,13,1591450458,"~/static/css/basic.css"
-'7  7  0  ~/static/css/font.css
-|4,55,7,0,1591450444,"~/static/css/font.css"
-'8  1  0  ~/static/css/about.css
-|4,56,1,0,1591450423,"~/static/css/about.css"
-'9  2  13  ~/static/css/basic.css
-|4,57,2,13,1591450132,"~/static/css/basic.css"
+'7  2  13  ~/static/css/basic.css
+|4,55,2,13,1591450458,"~/static/css/basic.css"
+'8  7  0  ~/static/css/font.css
+|4,56,7,0,1591450444,"~/static/css/font.css"
+'9  1  0  ~/static/css/about.css
+|4,57,1,0,1591450423,"~/static/css/about.css"
 
 # Jumplist (newest first):
+-'  71  34  ~/templates/index.html
+|4,39,71,34,1591452425,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591452405,"~/templates/index.html"
+-'  5  0  ~/static/css/basic.css
+|4,39,5,0,1591452112,"~/static/css/basic.css"
 -'  5  0  ~/static/css/basic.css
 |4,39,5,0,1591452112,"~/static/css/basic.css"
 -'  33  0  ~/static/css/responsive.css
 |4,39,33,0,1591451552,"~/static/css/responsive.css"
+-'  33  0  ~/static/css/responsive.css
+|4,39,33,0,1591451552,"~/static/css/responsive.css"
+-'  4  0  ~/static/css/responsive.css
+|4,39,4,0,1591451101,"~/static/css/responsive.css"
 -'  4  0  ~/static/css/responsive.css
 |4,39,4,0,1591451101,"~/static/css/responsive.css"
 -'  28  0  ~/static/css/basic.css
 |4,39,28,0,1591451063,"~/static/css/basic.css"
 -'  28  0  ~/static/css/basic.css
 |4,39,28,0,1591451063,"~/static/css/basic.css"
+-'  28  0  ~/static/css/basic.css
+|4,39,28,0,1591451063,"~/static/css/basic.css"
+-'  28  0  ~/static/css/basic.css
+|4,39,28,0,1591451063,"~/static/css/basic.css"
+-'  30  4  ~/static/css/basic.css
+|4,39,30,4,1591450748,"~/static/css/basic.css"
+-'  30  4  ~/static/css/basic.css
+|4,39,30,4,1591450748,"~/static/css/basic.css"
 -'  30  4  ~/static/css/basic.css
 |4,39,30,4,1591450748,"~/static/css/basic.css"
 -'  30  4  ~/static/css/basic.css
@@ -321,10 +339,20 @@ $
 |4,39,31,0,1591450747,"~/static/css/basic.css"
 -'  31  0  ~/static/css/basic.css
 |4,39,31,0,1591450747,"~/static/css/basic.css"
+-'  31  0  ~/static/css/basic.css
+|4,39,31,0,1591450747,"~/static/css/basic.css"
+-'  31  0  ~/static/css/basic.css
+|4,39,31,0,1591450747,"~/static/css/basic.css"
 -'  2  13  ~/static/css/basic.css
 |4,39,2,13,1591450481,"~/static/css/basic.css"
 -'  2  13  ~/static/css/basic.css
 |4,39,2,13,1591450481,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450481,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450481,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450458,"~/static/css/basic.css"
 -'  2  13  ~/static/css/basic.css
 |4,39,2,13,1591450458,"~/static/css/basic.css"
 -'  7  0  ~/static/css/font.css
@@ -343,6 +371,22 @@ $
 |4,39,7,0,1591450444,"~/static/css/font.css"
 -'  7  0  ~/static/css/font.css
 |4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
+-'  7  0  ~/static/css/font.css
+|4,39,7,0,1591450444,"~/static/css/font.css"
 -'  8  0  ~/static/css/font.css
 |4,39,8,0,1591450432,"~/static/css/font.css"
 -'  8  0  ~/static/css/font.css
@@ -359,6 +403,54 @@ $
 |4,39,8,0,1591450432,"~/static/css/font.css"
 -'  8  0  ~/static/css/font.css
 |4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  8  0  ~/static/css/font.css
+|4,39,8,0,1591450432,"~/static/css/font.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
+-'  1  0  ~/static/css/about.css
+|4,39,1,0,1591450423,"~/static/css/about.css"
 -'  1  0  ~/static/css/about.css
 |4,39,1,0,1591450423,"~/static/css/about.css"
 -'  1  0  ~/static/css/about.css
@@ -400,111 +492,125 @@ $
 -'  2  13  ~/static/css/basic.css
 |4,39,2,13,1591450132,"~/static/css/basic.css"
 -'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450048,"~/static/css/basic.css"
+|4,39,2,13,1591450132,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450132,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450132,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450132,"~/static/css/basic.css"
 -'  2  13  ~/static/css/basic.css
 |4,39,2,13,1591450048,"~/static/css/basic.css"
 -'  2  13  ~/static/css/basic.css
 |4,39,2,13,1591450048,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450048,"~/static/css/basic.css"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591450040,"~/templates/index.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/templates/index.html
+	*	1591452423	0
+	"	71	34
+	^	71	37
+	.	71	37
+	+	16	90
+	+	73	83
+	+	73	161
+	+	73	121
+	+	73	101
+	+	73	76
+	+	73	96
+	+	73	154
+	+	73	90
+	+	73	171
+	+	73	150
+	+	73	148
+	+	27	0
+	+	19	91
+	+	23	0
+	+	22	81
+	+	20	0
+	+	23	0
+	+	24	0
+	+	79	31
+	+	80	0
+	+	79	23
+	+	73	55
+	+	73	49
+	+	73	44
+	+	73	54
+	+	73	146
+	+	73	44
+	+	63	112
+	+	64	63
+	+	64	153
+	+	64	0
+	+	73	55
+	+	73	148
+	+	73	55
+	+	66	190
+	+	73	71
+	+	72	65
+	+	73	67
+	+	73	148
+	+	73	149
+	+	78	0
+	+	77	5
+	+	74	0
+	+	62	23
+	+	52	0
+	+	58	0
+	+	55	0
+	+	53	40
+	+	56	41
+	+	56	85
+	+	53	140
+	+	56	148
+	+	74	10
+	+	66	179
+	+	63	58
+	+	78	47
+	+	64	23
+	+	76	5
+	+	74	11
+	+	66	82
+	+	72	6
+	+	73	6
+	+	64	22
+	+	25	69
+	+	26	0
+	+	24	18
+	+	20	2
+	+	66	188
+	+	74	6
+	+	72	63
+	+	74	0
+	+	74	101
+	+	74	5
+	+	73	43
+	+	74	0
+	+	74	80
+	+	74	5
+	+	74	6
+	+	66	76
+	+	72	0
+	+	66	6
+	+	67	80
+	+	70	113
+	+	72	64
+	+	73	43
+	+	74	0
+	+	64	23
+	+	60	60
+	+	67	38
+	+	70	60
+	+	67	6
+	+	50	23
+	+	66	22
+	+	67	38
+	+	74	11
+	+	67	0
+	+	68	23
+	+	70	17
+	+	71	37
 
 > ~/static/css/basic.css
 	*	1591452111	0
@@ -861,112 +967,6 @@ $
 	+	6	23
 	+	3	6
 	+	1	0
-
-> ~/templates/index.html
-	*	1591450039	0
-	"	73	14
-	^	68	24
-	.	68	23
-	+	73	168
-	+	17	0
-	+	16	90
-	+	73	83
-	+	73	161
-	+	73	121
-	+	73	101
-	+	73	76
-	+	73	96
-	+	73	154
-	+	73	90
-	+	73	171
-	+	73	150
-	+	73	148
-	+	27	0
-	+	19	91
-	+	23	0
-	+	22	81
-	+	20	0
-	+	23	0
-	+	24	0
-	+	79	31
-	+	80	0
-	+	79	23
-	+	73	55
-	+	73	49
-	+	73	44
-	+	73	54
-	+	73	146
-	+	73	44
-	+	63	112
-	+	64	63
-	+	64	153
-	+	64	0
-	+	73	55
-	+	73	148
-	+	73	55
-	+	66	190
-	+	73	71
-	+	72	65
-	+	73	67
-	+	73	148
-	+	73	149
-	+	78	0
-	+	77	5
-	+	74	0
-	+	62	23
-	+	52	0
-	+	58	0
-	+	55	0
-	+	53	40
-	+	56	41
-	+	56	85
-	+	53	140
-	+	56	148
-	+	74	10
-	+	66	179
-	+	63	58
-	+	78	47
-	+	64	23
-	+	76	5
-	+	74	11
-	+	66	82
-	+	72	6
-	+	73	6
-	+	64	22
-	+	25	69
-	+	26	0
-	+	24	18
-	+	20	2
-	+	66	188
-	+	74	6
-	+	72	63
-	+	74	0
-	+	74	101
-	+	74	5
-	+	73	43
-	+	74	0
-	+	74	80
-	+	74	5
-	+	74	6
-	+	66	76
-	+	72	0
-	+	66	6
-	+	67	80
-	+	70	113
-	+	72	64
-	+	73	43
-	+	74	0
-	+	64	23
-	+	60	60
-	+	67	38
-	+	70	60
-	+	67	6
-	+	50	23
-	+	66	22
-	+	67	38
-	+	74	11
-	+	67	0
-	+	68	23
 
 > ~/Jenkinsfile
 	*	1591418217	0
