@@ -1,3 +1,12 @@
+#headline{
+	margin-top: 1em;
+}
+
+#navigator{
+	width:65%;
+	transform: translate(25%,25%);
+}
+
 body::after{
 	background:url('../pic/Background.png');
 	background-size: 100% auto;
@@ -10,6 +19,11 @@ body::after{
 	position: absolute;
 	z-index: -1; 
 
+}
+
+img{
+	float:left;
+	margin: 0em 1em 1em 1em;
 }
 
 #age_img{

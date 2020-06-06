@@ -2,26 +2,25 @@
 body::after{
 	background-size: auto;
 }
+
+h1{
+	font-size:30px;
+}
+
+.about {
+	top:55%;
+	
+}
+
 .searchButton{
 	width:40%;
 	height:1.5em;
 	font-size:1em;
 }
-.tree{
-	margin-left: 0em;
-}
-.tree li ul li{
-	padding-left: 0px;
-}
-.tree li ul{
-	padding-left: 10px;
-}
+
 .wrap{
 	width:90%;
 	top:50%;
-}
-h1{
-	font-size:30px;
 }
 
 #age_img{

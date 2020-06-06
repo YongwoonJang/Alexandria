@@ -17,12 +17,12 @@
 		
 		<!--css for table-->
 		<link rel="stylesheet" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+		
 		<!--javascript for table-->
 		<script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 
-		<!--css for tree-->
-		<link rel="stylesheet" href="{{url_for('static', filename='css/tree.css')}}?ver{{now}}">
-		<script src="{{url_for('static', filename='js/tree.js')}}?ver{{now}}"></script>
+		<!--css for about-->
+		<link rel="stylesheet" href="{{url_for('static', filename='css/about.css')}}?ver{{now}}">
 
 		<!--css for search-->
 		<link rel="stylesheet" href="{{url_for('static', filename='css/search.css')}}?ver{{now}}">
@@ -47,75 +47,35 @@
 				<h1>Y o n g w o o n  J a n g</h1>
 				</div>
 			</section>
-			<section id = "naviagtor" class="row justify-content-center m-3">
+			<section id = "navigator" class="row justify-content-center m-3">
 				<ul class="nav nav-pills col-12 justify-content-center" id="pills-tab" role="tablist">
-					{% for menu in menus %}
 					<li class="nav-item text-center col-6">
-						<a class="nav-link" id="pills-{{menu['id']}}-tab" data-toggle="pill" href="#pills-{{menu['id']}}" aria-controls="pills-{{menu['id']}}" aria-selected="false">{{menu['menu_name']}}</a>
+						<a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" aria-controls="pills-about" aria-selected="false">about</a>
 					</li>
-					{% endfor %}
+					<li class="nav-item text-center col-6">
+						<a class="nav-link" id="pills-search-tab" data-toggle="pill" href="#pills-search" aria-controls="pills-search" aria-selected="false">search</a>
+					</li>
 				</ul>
 			</section>
-			<section id = "contents" class="row justify-content-start">
+			<section id = "contents" class="row justify-content-center">
 				<div class="tab-content" id="pills-tabContent">
-					<!-- menu #1 -->
-					<div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-						<!-- TREE View -->
-						<ul id="profile-tree" class="tree">
-							<li>
-								<input type="checkbox" checked="checked" id="c1" />
-								<label class="tree_label" for="c1">장용운</label>
-								<ul>
-									<li>
-									<input type="checkbox" id="c2" />
-									<label for="c2" class="tree_label">나이</label>
-										<ul>
-											<li><span class="tree_label">1988.12.22 </span></li>
-											<li><span class="tree_label">33</span></li>
-											<li><img id="age_img" src="{{url_for('static', filename='pic/Seoul_olympic.png')}}?ver{{now}}"/></li>
-										</ul>
-									</li>
-									<li>
-									<input type="checkbox" id="c3" />
-									<label for="c3" class="tree_label">하는일</label>
-										<ul>
-											<li><span class="tree_label">KT Manager </span></li>
-											<li><span class="tree_label"><img id="work_img" src="{{url_for('static', filename='pic/Korea_telecom.png')}}?ver{{now}}"/></span></li>	
-										</ul>
-									</li>
-									<li>
-									<input type="checkbox" id="c4" />
-									<label for="c4" class="tree_label">공부한 경력</label>
-										<ul>
-											<li><span class="tree_label">대학 졸업</span></li>
-											<li><span class="tree_label">컴퓨터 공학 </span></li>
-											<li><img id="study_img" src="{{url_for('static', filename='pic/Computer_Science_Mark.png')}}?ver{{now}}"/></li>
-										</ul>
-									</li>
-									<li>
-									<input type="checkbox" id="c5" />
-									<label for="c5" class="tree_label">취미</label>
-										<ul>
-											<li><span class="tree_label">댄스</span> </li>
-											<li><img id="dance_img" src="{{url_for('static', filename='pic/DanceDance.png')}}" /><li>
-											<li>
-												<input type="checkbox" id="c6" />
-												<label for="c6" class="tree_label">음악</label>
-													<ul>
-														<li><span class="tree_label">피아노</span></li>
-													</ul>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<!--<div id="fontSizeWrapper">
-							<input type="range" value="1" id="fontSize" step="0.5" min="0.5" max="4.5" />
-						</div>-->
+					<!-- menu #1 about -->
+					<div class="tab-pane fade active show" id="pills-about" role="tabpanel" aria-labelledby="pills-1-tab">
+						<div class="about">
+						
+						<img id="age_img" src="{{url_for('static', filename='pic/Seoul_olympic.png')}}?ver{{now}}">
+						
+						저는 장용운입니다. <br/>
+						1988년 12월 22일에 태어났습니다. <br/>						
+						KT 에서 과장으로 근무하고 있습니다. <br/>
+						Cloud플랫폼개발업무를 진행하고 있습니다. <br/>
+						컴퓨터 공학 학사 학위를 가지고 있습니다. <br/>
+						취미는 댄스와 음악입니다. <br/>	
+						
+						</div>
 					</div>
 					<!-- menu #2 search -->
-					<div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+					<div class="tab-pane fade" id="pills-search" role="tabpanel" aria-labelledby="pills-2-tab">
 						<div class="wrap">
 							<div class="search">
 							<input id="search-text" type="text" class="searchTerm" placeholder="무엇이 궁금하세요?">
