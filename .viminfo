@@ -18,17 +18,21 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1591440288,,"wq"
+|2,0,1591450132,,"wq"
 :w
-|2,0,1591439794,,"w"
+|2,0,1591450081,,"w"
+:vs ./static/css/responsive.css
+|2,0,1591450067,,"vs ./static/css/responsive.css"
+:vs ./static/css/basic.css
+|2,0,1591448766,,"vs ./static/css/basic.css"
+:W
+|2,0,1591448595,,"W"
 :q!
 |2,0,1591439767,,"q!"
 :WQ
 |2,0,1591439627,,"WQ"
 :vs ./static/css/about.css
 |2,0,1591438386,,"vs ./static/css/about.css"
-:W
-|2,0,1591436918,,"W"
 :vs ./static/css/search.css
 |2,0,1591435814,,"vs ./static/css/search.css"
 :q
@@ -67,10 +71,6 @@ $
 |2,0,1590742667,,"Wq"
 :48
 |2,0,1590742611,,"48"
-:vs ./static/css/responsive.css
-|2,0,1590291832,,"vs ./static/css/responsive.css"
-:vs ./static/css/basic.css
-|2,0,1590291750,,"vs ./static/css/basic.css"
 :Q
 |2,0,1590291735,,"Q"
 :vs ./static/css/tree.css
@@ -236,286 +236,336 @@ $
 "0	LINE	0
 	.about {
 		width:60%;
-		top:35%;
+		top:48%;
 		
 		position: absolute;
-		transform: translate(-50%, -50%);
+		transform: translate(-40%, -50%);
 		
 		line-height: 2.0em;
 	}
-|3,0,0,1,9,0,1591439626,".about {","	width:60%;","	top:35%;","	","	position: absolute;","	transform: translate(-50%, -50%);","	","	line-height: 2.0em;","}"
-""1	CHAR	0
-	h1{
-		font-size:30px;
+	
+	.about_text_contents {
+		margin-top: 2em;
+		margin-left: 18em;
 	}
-|3,1,1,0,3,0,1591439710,"h1{","	font-size:30px;","}"
+	
+	img{
+		float:left;
+		margin: 0em 1em 1em 1em;
+	}
+	
+	#yongwoon_img{
+		width:30%;
+		height:30%;
+	}
+|3,0,0,1,24,0,1591448375,".about {","	width:60%;","	top:48%;","	","	position: absolute;","	transform: translate(-40%, -50%);","	","	line-height: 2.0em;","}","",".about_text_contents {","	margin-top: 2em;","	margin-left: 18em;","}","","img{","	float:left;","	margin: 0em 1em 1em 1em;","}","","#yongwoon_img{","	width:30%;","	height:30%;","}"
+""1	LINE	0
+		background:none;
+|3,1,1,1,1,0,1591450128,"	background:none;"
 "2	LINE	0
-	.tree{
-		margin-left: 0em;
-	}
-	.tree li ul li{
-		padding-left: 0px;
-	}
-	.tree li ul{
-		padding-left: 10px;
-	}
-|3,0,2,1,9,0,1591439697,".tree{","	margin-left: 0em;","}",".tree li ul li{","	padding-left: 0px;","}",".tree li ul{","	padding-left: 10px;","}"
+		background: none;
+|3,0,2,1,1,0,1591450019,"	background: none;"
 "3	LINE	0
-		line-height: 2.0em;
-|3,0,3,1,1,0,1591439653,"	line-height: 2.0em;"
+	#age_img{
+		width:70%;
+		height:70%;
+	}
+	
+	#work_img{
+		width:70%;
+		height:70%;
+	}	
+	
+	#study_img{
+		width:70%;
+		height:70%;
+	}
+	
+	#dance_img{
+		width:50%; 
+		height:50%;
+	
+	}
+|3,0,3,1,20,0,1591448571,"#age_img{","	width:70%;","	height:70%;","}","","#work_img{","	width:70%;","	height:70%;","}	","","#study_img{","	width:70%;","	height:70%;","}","","#dance_img{","	width:50%; ","	height:50%;","","}"
 "4	LINE	0
-		
-|3,0,4,1,1,0,1591439652,"	"
+	
+|3,0,4,1,1,0,1591448419,""
 "5	LINE	0
-		transform: translate(-50%, -50%);
-|3,0,5,1,1,0,1591439652,"	transform: translate(-50%, -50%);"
-"6	LINE	0
-		position: absolute;
-|3,0,6,1,1,0,1591439652,"	position: absolute;"
+	
+|3,0,5,1,1,0,1591448418,""
+"6	CHAR	0
+	vv.about {
+		top:55%;
+		
+	}
+|3,0,6,0,4,0,1591448417,"vv.about {","	top:55%;","	","}"
 "7	LINE	0
-	DDdd	width:60%;
-|3,0,7,1,1,0,1591439650,"DDdd	width:60%;"
+		text-align:right;
+|3,0,7,1,1,0,1591447993,"	text-align:right;"
 "8	LINE	0
-		right:0;
-|3,0,8,1,1,0,1591438242,"	right:0;"
+	img{
+		float:left;
+		margin: 0em 1em 1em 1em;
+	}
+	
+	#yongwoon_img{
+		width:30%;
+		height:30%;
+	}
+|3,0,8,1,9,0,1591447573,"img{","	float:left;","	margin: 0em 1em 1em 1em;","}","","#yongwoon_img{","	width:30%;","	height:30%;","}"
 "9	LINE	0
-		left:0;
-|3,0,9,1,1,0,1591438241,"	left:0;"
+	
+	#work_img{
+		width:35%;
+		height:35%;
+	}	
+	
+	#study_img{
+		width:35%;
+		height:35%;
+	}
+	
+	#dance_img{
+		width:35%; 
+		height:35%;
+	
+	}
+|3,0,9,1,16,0,1591447566,"","#work_img{","	width:35%;","	height:35%;","}	","","#study_img{","	width:35%;","	height:35%;","}","","#dance_img{","	width:35%; ","	height:35%;","","}"
 "-	CHAR	0
-		left:20%;
-|3,0,36,0,1,0,1591437009,"	left:20%;"
+		float:left;
+|3,0,36,0,1,0,1591449063,"	float:left;"
 
 # File marks:
-'0  2  12  ~/static/css/basic.css
-|4,48,2,12,1591440288,"~/static/css/basic.css"
-'1  70  5  ~/templates/index.html
-|4,49,70,5,1591439767,"~/templates/index.html"
-'2  25  0  ~/static/css/responsive.css
-|4,50,25,0,1591439730,"~/static/css/responsive.css"
-'3  1  0  ~/static/css/about.css
-|4,51,1,0,1591439629,"~/static/css/about.css"
-'4  7  26  ~/static/css/basic.css
-|4,52,7,26,1591439541,"~/static/css/basic.css"
-'5  3  26  ~/static/css/basic.css
-|4,53,3,26,1591439541,"~/static/css/basic.css"
-'6  70  5  ~/templates/index.html
-|4,54,70,5,1591439528,"~/templates/index.html"
-'7  9  0  ~/static/css/font.css
-|4,55,9,0,1591438569,"~/static/css/font.css"
-'8  4  8  ~/static/css/about.css
-|4,56,4,8,1591438457,"~/static/css/about.css"
-'9  4  8  ~/static/css/about.css
-|4,57,4,8,1591438457,"~/static/css/about.css"
+'0  2  13  ~/static/css/basic.css
+|4,48,2,13,1591450132,"~/static/css/basic.css"
+'1  2  13  ~/static/css/basic.css
+|4,49,2,13,1591450048,"~/static/css/basic.css"
+'2  73  14  ~/templates/index.html
+|4,50,73,14,1591450040,"~/templates/index.html"
+'3  25  0  ~/static/css/responsive.css
+|4,51,25,0,1591450022,"~/static/css/responsive.css"
+'4  25  0  ~/static/css/responsive.css
+|4,52,25,0,1591450022,"~/static/css/responsive.css"
+'5  73  14  ~/templates/index.html
+|4,53,73,14,1591450001,"~/templates/index.html"
+'6  32  17  ~/static/css/responsive.css
+|4,54,32,17,1591449993,"~/static/css/responsive.css"
+'7  32  17  ~/static/css/responsive.css
+|4,55,32,17,1591449993,"~/static/css/responsive.css"
+'8  32  17  ~/static/css/responsive.css
+|4,56,32,17,1591449993,"~/static/css/responsive.css"
+'9  32  17  ~/static/css/responsive.css
+|4,57,32,17,1591449993,"~/static/css/responsive.css"
 
 # Jumplist (newest first):
--'  2  12  ~/static/css/basic.css
-|4,39,2,12,1591440288,"~/static/css/basic.css"
--'  7  26  ~/static/css/basic.css
-|4,39,7,26,1591439773,"~/static/css/basic.css"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439767,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439767,"~/templates/index.html"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450132,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591450048,"~/static/css/basic.css"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450040,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450040,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450040,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450040,"~/templates/index.html"
 -'  25  0  ~/static/css/responsive.css
-|4,39,25,0,1591439730,"~/static/css/responsive.css"
+|4,39,25,0,1591450022,"~/static/css/responsive.css"
 -'  25  0  ~/static/css/responsive.css
-|4,39,25,0,1591439730,"~/static/css/responsive.css"
+|4,39,25,0,1591450022,"~/static/css/responsive.css"
 -'  25  0  ~/static/css/responsive.css
-|4,39,25,0,1591439730,"~/static/css/responsive.css"
+|4,39,25,0,1591450022,"~/static/css/responsive.css"
 -'  25  0  ~/static/css/responsive.css
-|4,39,25,0,1591439730,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1591439633,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1591439633,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1591439633,"~/static/css/responsive.css"
--'  3  22  ~/static/css/responsive.css
-|4,39,3,22,1591439633,"~/static/css/responsive.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591439629,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  4  8  ~/static/css/about.css
-|4,39,4,8,1591439551,"~/static/css/about.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  3  26  ~/static/css/basic.css
-|4,39,3,26,1591439541,"~/static/css/basic.css"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  70  5  ~/templates/index.html
-|4,39,70,5,1591439528,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  50  23  ~/templates/index.html
-|4,39,50,23,1591439509,"~/templates/index.html"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
--'  9  0  ~/static/css/font.css
-|4,39,9,0,1591438569,"~/static/css/font.css"
+|4,39,25,0,1591450022,"~/static/css/responsive.css"
+-'  25  0  ~/static/css/responsive.css
+|4,39,25,0,1591450022,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591450017,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591450017,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591450017,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591450017,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591450017,"~/static/css/responsive.css"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591450001,"~/templates/index.html"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  32  17  ~/static/css/responsive.css
+|4,39,32,17,1591449993,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  30  9  ~/static/css/responsive.css
+|4,39,30,9,1591449977,"~/static/css/responsive.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  2  13  ~/static/css/basic.css
+|4,39,2,13,1591449605,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  9  0  ~/static/css/basic.css
+|4,39,9,0,1591449599,"~/static/css/basic.css"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
+-'  73  14  ~/templates/index.html
+|4,39,73,14,1591449592,"~/templates/index.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/static/css/basic.css
-	*	1591440287	0
-	"	2	12
-	^	2	13
-	.	2	12
+	*	1591450131	0
+	"	2	13
+	^	2	14
+	.	2	13
 	+	21	0
 	+	1	98
 	+	1	75
@@ -538,24 +588,14 @@ $
 	+	23	0
 	+	23	1
 	+	23	0
-	+	29	9
-	+	30	0
-	+	38	0
-	+	43	0
-	+	29	8
-	+	30	0
-	+	33	0
-	+	37	0
-	+	42	0
-	+	48	0
-	+	31	10
-	+	30	10
-	+	31	11
-	+	36	11
-	+	41	11
-	+	44	11
-	+	45	12
-	+	46	11
+	+	24	9
+	+	24	0
+	+	24	8
+	+	24	0
+	+	24	10
+	+	24	11
+	+	24	12
+	+	24	11
 	+	11	24
 	+	14	12
 	+	21	11
@@ -564,10 +604,10 @@ $
 	+	13	0
 	+	12	26
 	+	23	0
-	+	27	0
-	+	25	12
-	+	26	9
-	+	49	0
+	+	24	0
+	+	24	12
+	+	24	9
+	+	24	0
 	+	1	11
 	+	8	0
 	+	6	8
@@ -580,17 +620,113 @@ $
 	+	4	0
 	+	3	0
 	+	2	12
+	+	24	8
+	+	24	0
+	+	2	13
+
+> ~/static/css/responsive.css
+	*	1591450129	0
+	"	4	0
+	.	4	0
+	+	45	19
+	+	50	6
+	+	50	0
+	+	50	1
+	+	50	12
+	+	45	15
+	+	45	0
+	+	45	15
+	+	45	14
+	+	45	11
+	+	45	16
+	+	45	1
+	+	45	0
+	+	50	0
+	+	51	0
+	+	51	7
+	+	51	8
+	+	51	7
+	+	51	8
+	+	51	9
+	+	51	7
+	+	51	8
+	+	51	9
+	+	51	7
+	+	51	8
+	+	51	7
+	+	51	8
+	+	51	7
+	+	51	8
+	+	51	9
+	+	52	0
+	+	1	21
+	+	38	0
+	+	4	1
+	+	38	0
+	+	3	22
+	+	6	0
+	+	9	0
+	+	10	0
+	+	10	5
+	+	45	0
+	+	50	0
+	+	6	0
+	+	9	0
+	+	51	0
+	+	10	0
+	+	15	26
+	+	11	8
+	+	23	14
+	+	22	13
+	+	51	0
+	+	39	0
+	+	16	0
+	+	15	30
+	+	17	15
+	+	15	29
+	+	17	14
+	+	31	11
+	+	24	18
+	+	29	11
+	+	24	2
+	+	25	0
+	+	24	21
+	+	25	0
+	+	24	1
+	+	25	0
+	+	15	24
+	+	12	6
+	+	30	0
+	+	29	12
+	+	30	9
+	+	35	7
+	+	36	8
+	+	35	7
+	+	36	8
+	+	35	8
+	+	36	9
+	+	31	11
+	+	30	9
+	+	15	30
+	+	30	9
+	+	31	11
+	+	35	8
+	+	36	9
+	+	31	12
+	+	35	8
+	+	36	9
+	+	31	12
+	+	17	14
+	+	15	24
+	+	30	9
+	+	32	0
+	+	4	0
 
 > ~/templates/index.html
-	*	1591439766	0
-	"	70	5
-	^	50	24
-	.	50	23
-	+	73	161
-	+	73	172
-	+	73	139
-	+	73	134
-	+	73	154
+	*	1591450039	0
+	"	73	14
+	^	68	24
+	.	68	23
 	+	73	168
 	+	17	0
 	+	16	90
@@ -686,116 +822,17 @@ $
 	+	70	60
 	+	67	6
 	+	50	23
-
-> ~/static/css/responsive.css
-	*	1591439728	0
-	"	25	0
-	^	25	0
-	.	26	0
-	+	1	0
-	+	1	1
-	+	49	0
-	+	1	33
-	+	1	7
-	+	1	0
-	+	1	14
-	+	1	33
-	+	1	18
-	+	1	14
-	+	1	7
-	+	1	1
-	+	1	13
-	+	1	0
-	+	1	7
-	+	2	13
-	+	2	1
-	+	48	0
-	+	48	10
-	+	48	15
-	+	1	22
-	+	48	0
-	+	2	0
-	+	1	0
-	+	2	14
-	+	16	10
-	+	20	0
-	+	17	14
-	+	19	0
-	+	2	13
-	+	17	14
-	+	16	7
-	+	18	0
-	+	17	13
-	+	18	11
-	+	16	7
-	+	24	1
-	+	25	0
-	+	22	11
-	+	23	8
-	+	25	4
-	+	25	0
-	+	25	11
-	+	25	0
-	+	25	8
-	+	25	9
-	+	20	6
-	+	20	19
-	+	25	6
-	+	25	0
-	+	25	1
-	+	25	12
-	+	20	15
-	+	20	0
-	+	20	15
-	+	20	14
-	+	20	11
-	+	20	16
-	+	20	1
-	+	20	0
-	+	25	0
-	+	46	0
-	+	26	0
-	+	46	0
-	+	27	7
-	+	28	8
-	+	27	7
-	+	28	8
-	+	32	8
-	+	33	9
-	+	32	7
-	+	33	8
-	+	37	8
-	+	38	9
-	+	37	7
-	+	38	8
-	+	33	8
-	+	32	7
-	+	28	8
-	+	27	7
-	+	42	8
-	+	43	9
-	+	47	0
-	+	1	21
-	+	15	0
-	+	4	1
-	+	15	0
-	+	3	22
-	+	6	0
-	+	9	0
-	+	11	0
-	+	13	0
-	+	11	5
-	+	20	0
-	+	25	0
-	+	6	0
-	+	9	0
-	+	26	0
+	+	66	22
+	+	67	38
+	+	74	11
+	+	67	0
+	+	68	23
 
 > ~/static/css/about.css
-	*	1591439627	0
+	*	1591448376	0
 	"	1	0
-	^	8	17
-	.	8	16
+	^	1	7
+	.	1	0
 	+	4	20
 	+	2	10
 	+	4	35
@@ -816,6 +853,21 @@ $
 	+	8	3
 	+	5	0
 	+	8	16
+	+	10	0
+	+	16	0
+	+	17	0
+	+	3	5
+	+	10	0
+	+	14	0
+	+	11	5
+	+	14	0
+	+	12	13
+	+	14	0
+	+	12	17
+	+	13	15
+	+	6	23
+	+	3	6
+	+	1	0
 
 > ~/static/css/font.css
 	*	1591438568	0

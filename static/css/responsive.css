@@ -8,9 +8,34 @@ h1{
 }
 
 .about {
-	top:55%;
+	width:100%;
+	top:45%;
 	
+	position: absolute;
+	transform: translate(-38%, -20%);
+
+	font-size : 18px;	
+	line-height: 2.0em;
 }
+
+.about_text_contents {
+	margin-top: 0em;
+	margin-left: 0em;
+	position:absolute;
+
+}
+
+img{
+	width:100%;
+	margin: 4em 1em 1em 1em;
+	opacity:0.2;
+}
+
+#yongwoon_img{
+	width:58%;
+	height:58%;
+}
+
 
 .searchButton{
 	width:40%;
@@ -23,26 +48,6 @@ h1{
 	top:50%;
 }
 
-#age_img{
-	width:70%;
-	height:70%;
-}
-
-#work_img{
-	width:70%;
-	height:70%;
-}	
-
-#study_img{
-	width:70%;
-	height:70%;
-}
-
-#dance_img{
-	width:50%; 
-	height:50%;
-
-}
 
 }
 

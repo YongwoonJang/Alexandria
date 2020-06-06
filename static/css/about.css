@@ -1,9 +1,24 @@
 .about {
 	width:60%;
-	top:35%;
+	top:48%;
 	
 	position: absolute;
-	transform: translate(-50%, -50%);
+	transform: translate(-40%, -50%);
 	
 	line-height: 2.0em;
+}
+
+.about_text_contents {
+	margin-top: 2em;
+	margin-left: 18em;
+}
+
+img{
+	float:left;
+	margin: 0em 1em 1em 1em;
+}
+
+#yongwoon_img{
+	width:30%;
+	height:30%;
 }

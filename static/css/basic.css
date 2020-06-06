@@ -1,5 +1,5 @@
 #headline{
-	margin-top: 1em;
+	margin-top: 3em;
 }
 
 #navigator{
@@ -21,28 +21,3 @@ body::after{
 
 }
 
-img{
-	float:left;
-	margin: 0em 1em 1em 1em;
-}
-
-#age_img{
-	width:30%;
-	height:30%;
-}
-
-#work_img{
-	width:35%;
-	height:35%;
-}	
-
-#study_img{
-	width:35%;
-	height:35%;
-}
-
-#dance_img{
-	width:35%; 
-	height:35%;
-
-}
