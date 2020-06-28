@@ -11,14 +11,20 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/result
+~MSle0~/ {
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1591452425,,"wq"
+|2,0,1593325902,,"wq"
+:q!
+|2,0,1593325544,,"q!"
+:Q!
+|2,0,1593324414,,"Q!"
+:wq!
+|2,0,1593260946,,"wq!"
 :w
 |2,0,1591452414,,"w"
 :vs ./static/css/search.css
@@ -31,8 +37,6 @@ $
 |2,0,1591451552,,"vs ./static/css/basic.css"
 :vs ./static/css/responsive.css
 |2,0,1591450067,,"vs ./static/css/responsive.css"
-:q!
-|2,0,1591439767,,"q!"
 :WQ
 |2,0,1591439627,,"WQ"
 :vs ./static/css/about.css
@@ -63,8 +67,6 @@ $
 |2,0,1590810980,,"130"
 :146
 |2,0,1590810340,,"146"
-:Q!
-|2,0,1590807264,,"Q!"
 :141
 |2,0,1590803262,,"141"
 :Wq
@@ -81,8 +83,6 @@ $
 |2,0,1590237839,,"40"
 :vs ./static/js/tree.js
 |2,0,1590236169,,"vs ./static/js/tree.js"
-:wq!
-|2,0,1590229657,,"wq!"
 :36
 |2,0,1590229350,,"36"
 :21
@@ -167,14 +167,20 @@ $
 |2,0,1588343693,,"vs uwsgistart.sh"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1593260914,63,"\\a"
+? @$
+|2,1,1593260914,,"@$"
+?/ {
+|2,1,1593260213,47," {"
+?/ / {
+|2,1,1593260210,47," / {"
 ?/wrap
 |2,1,1591000174,47,"wrap"
 ?/result
 |2,1,1590848725,47,"result"
 ?/predict
 |2,1,1590843570,47,"predict"
-? @$
-|2,1,1590843511,,"@$"
 ?/search
 |2,1,1590843373,47,"search"
 ?/ju
@@ -234,11 +240,20 @@ $
 
 # Registers:
 ""0	LINE	0
-	#navigator{
-		width:65%;
-		transform: translate(25%,25%);
+	server {
+	  listen 3000;
+	  listen [::]:3000;
+	  server_name frontend-app;
+	  root /usr/Alexandria/frontend-app/build/;
+	  index index.html;
+	  
+	  access_log /var/log/nginx/frontend.app.access.log;
+	  error_log /var/log/nginx/frontend.app.error.log;
+	  location / {
+	    try_files $uri /index.html =404;
+	  }
 	}
-|3,1,0,1,4,0,1591451594,"#navigator{","	width:65%;","	transform: translate(25%,25%);","}"
+|3,1,0,1,13,0,1593260914,"server {","  listen 3000;","  listen [::]:3000;","  server_name frontend-app;","  root /usr/Alexandria/frontend-app/build/;","  index index.html;","  ","  access_log /var/log/nginx/frontend.app.access.log;","  error_log /var/log/nginx/frontend.app.error.log;","  location / {","    try_files $uri /index.html =404;","  }","}"
 "1	LINE	0
 	img{
 		width:100%;
@@ -281,234 +296,323 @@ $
 |3,0,36,0,1,0,1591449063,"	float:left;"
 
 # File marks:
-'0  71  34  ~/templates/index.html
-|4,48,71,34,1591452425,"~/templates/index.html"
-'1  5  0  ~/static/css/basic.css
-|4,49,5,0,1591452112,"~/static/css/basic.css"
-'2  28  0  ~/static/css/basic.css
-|4,50,28,0,1591451063,"~/static/css/basic.css"
-'3  28  0  ~/static/css/basic.css
-|4,51,28,0,1591451063,"~/static/css/basic.css"
-'4  2  13  ~/static/css/basic.css
-|4,52,2,13,1591450458,"~/static/css/basic.css"
-'5  2  13  ~/static/css/basic.css
-|4,53,2,13,1591450458,"~/static/css/basic.css"
-'6  2  13  ~/static/css/basic.css
-|4,54,2,13,1591450458,"~/static/css/basic.css"
-'7  2  13  ~/static/css/basic.css
-|4,55,2,13,1591450458,"~/static/css/basic.css"
-'8  7  0  ~/static/css/font.css
-|4,56,7,0,1591450444,"~/static/css/font.css"
-'9  1  0  ~/static/css/about.css
-|4,57,1,0,1591450423,"~/static/css/about.css"
+'0  5  2  ~/.gitignore
+|4,48,5,2,1593325902,"~/.gitignore"
+'1  1  0  ~/my-app/src/index.css
+|4,49,1,0,1593325647,"~/my-app/src/index.css"
+'2  1  0  ~/my-app/src/index.css
+|4,50,1,0,1593325544,"~/my-app/src/index.css"
+'3  17  0  ~/my-app/src/index.css
+|4,51,17,0,1593325272,"~/my-app/src/index.css"
+'4  17  0  ~/my-app/src/index.css
+|4,52,17,0,1593325272,"~/my-app/src/index.css"
+'5  17  0  ~/my-app/src/index.css
+|4,53,17,0,1593325272,"~/my-app/src/index.css"
+'6  17  0  ~/my-app/src/index.css
+|4,54,17,0,1593325272,"~/my-app/src/index.css"
+'7  1  0  ~/my-app/src/index.js
+|4,55,1,0,1593324463,"~/my-app/src/index.js"
+'8  1  0  ~/my-app/src/index.
+|4,56,1,0,1593324425,"~/my-app/src/index."
+'9  20  0  ~/my-app/README.md
+|4,57,20,0,1593324418,"~/my-app/README.md"
 
 # Jumplist (newest first):
--'  71  34  ~/templates/index.html
-|4,39,71,34,1591452425,"~/templates/index.html"
--'  73  14  ~/templates/index.html
-|4,39,73,14,1591452405,"~/templates/index.html"
--'  5  0  ~/static/css/basic.css
-|4,39,5,0,1591452112,"~/static/css/basic.css"
--'  5  0  ~/static/css/basic.css
-|4,39,5,0,1591452112,"~/static/css/basic.css"
--'  33  0  ~/static/css/responsive.css
-|4,39,33,0,1591451552,"~/static/css/responsive.css"
--'  33  0  ~/static/css/responsive.css
-|4,39,33,0,1591451552,"~/static/css/responsive.css"
--'  4  0  ~/static/css/responsive.css
-|4,39,4,0,1591451101,"~/static/css/responsive.css"
--'  4  0  ~/static/css/responsive.css
-|4,39,4,0,1591451101,"~/static/css/responsive.css"
--'  28  0  ~/static/css/basic.css
-|4,39,28,0,1591451063,"~/static/css/basic.css"
--'  28  0  ~/static/css/basic.css
-|4,39,28,0,1591451063,"~/static/css/basic.css"
--'  28  0  ~/static/css/basic.css
-|4,39,28,0,1591451063,"~/static/css/basic.css"
--'  28  0  ~/static/css/basic.css
-|4,39,28,0,1591451063,"~/static/css/basic.css"
--'  30  4  ~/static/css/basic.css
-|4,39,30,4,1591450748,"~/static/css/basic.css"
--'  30  4  ~/static/css/basic.css
-|4,39,30,4,1591450748,"~/static/css/basic.css"
--'  30  4  ~/static/css/basic.css
-|4,39,30,4,1591450748,"~/static/css/basic.css"
--'  30  4  ~/static/css/basic.css
-|4,39,30,4,1591450748,"~/static/css/basic.css"
--'  31  0  ~/static/css/basic.css
-|4,39,31,0,1591450747,"~/static/css/basic.css"
--'  31  0  ~/static/css/basic.css
-|4,39,31,0,1591450747,"~/static/css/basic.css"
--'  31  0  ~/static/css/basic.css
-|4,39,31,0,1591450747,"~/static/css/basic.css"
--'  31  0  ~/static/css/basic.css
-|4,39,31,0,1591450747,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450481,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450481,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450481,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450481,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450458,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450458,"~/static/css/basic.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  7  0  ~/static/css/font.css
-|4,39,7,0,1591450444,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  8  0  ~/static/css/font.css
-|4,39,8,0,1591450432,"~/static/css/font.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  1  0  ~/static/css/about.css
-|4,39,1,0,1591450423,"~/static/css/about.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450132,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450048,"~/static/css/basic.css"
--'  2  13  ~/static/css/basic.css
-|4,39,2,13,1591450048,"~/static/css/basic.css"
+-'  5  2  ~/.gitignore
+|4,39,5,2,1593325902,"~/.gitignore"
+-'  4  10  ~/.gitignore
+|4,39,4,10,1593325899,"~/.gitignore"
+-'  1  0  ~/my-app/src/index.css
+|4,39,1,0,1593325647,"~/my-app/src/index.css"
+-'  1  0  ~/my-app/src/index.css
+|4,39,1,0,1593325647,"~/my-app/src/index.css"
+-'  1  0  ~/my-app/src/index.css
+|4,39,1,0,1593325544,"~/my-app/src/index.css"
+-'  1  0  ~/my-app/src/index.css
+|4,39,1,0,1593325544,"~/my-app/src/index.css"
+-'  17  0  ~/my-app/src/index.css
+|4,39,17,0,1593325272,"~/my-app/src/index.css"
+-'  17  0  ~/my-app/src/index.css
+|4,39,17,0,1593325272,"~/my-app/src/index.css"
+-'  17  0  ~/my-app/src/index.css
+|4,39,17,0,1593325272,"~/my-app/src/index.css"
+-'  17  0  ~/my-app/src/index.css
+|4,39,17,0,1593325272,"~/my-app/src/index.css"
+-'  17  0  ~/my-app/src/index.css
+|4,39,17,0,1593325272,"~/my-app/src/index.css"
+-'  17  0  ~/my-app/src/index.css
+|4,39,17,0,1593325272,"~/my-app/src/index.css"
+-'  1  0  ~/my-app/src/index.css
+|4,39,1,0,1593325261,"~/my-app/src/index.css"
+-'  1  0  ~/my-app/src/index.css
+|4,39,1,0,1593325261,"~/my-app/src/index.css"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.js
+|4,39,1,0,1593324463,"~/my-app/src/index.js"
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  1  0  ~/my-app/src/index.
+|4,39,1,0,1593324425,"~/my-app/src/index."
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  20  0  ~/my-app/README.md
+|4,39,20,0,1593324418,"~/my-app/README.md"
 
 # History of marks within files (newest to oldest):
 
+> ~/.gitignore
+	*	1593325901	0
+	"	5	2
+	^	5	3
+	.	5	2
+	+	1	10
+	+	2	0
+	+	2	5
+	+	4	11
+	+	5	2
+
+> ~/my-app/src/index.css
+	*	1593325646	0
+	"	1	0
+	^	994	1
+	.	994	0
+	+	16	0
+	+	994	0
+
+> ~/my-app/src/index.js
+	*	1593324462	0
+	"	1	0
+
+> ~/my-app/src/index.
+	*	1593324425	0
+	"	1	0
+
+> ~/my-app/README.md
+	*	1593324414	0
+	"	20	0
+
+> ~/my-app/public/index.html
+	*	1593323886	0
+	"	35	0
+	^	35	0
+	.	27	20
+	+	27	20
+
+> ~/my-app/src/App.js
+	*	1593323141	0
+	"	19	11
+	^	11	15
+	.	11	14
+	+	11	14
+
+> /etc/nginx/sites-available/my-app
+	*	1593261176	0
+	"	5	34
+	^	5	35
+	.	5	34
+	+	1	0
+	+	2	0
+	+	4	15
+	+	5	35
+	+	11	14
+	+	5	34
+
+> ~/my-app/public/favicon.ico
+	*	1593261092	0
+	"	1	0
+
+> ~/my-app/public/manifest.json
+	*	1593261049	0
+	"	1	0
+
+> /etc/nginx/sites-enabled/my-app
+	*	1593260943	0
+	"	9	28
+	^	9	29
+	.	9	28
+	+	8	29
+	+	9	28
+
+> /etc/nginx/nginx.conf
+	*	1593260898	0
+	"	85	1
+
+> /var/log/nginx/frontend.app.access.log
+	*	1593260872	0
+	"	1	0
+
+> /etc/nginx/sites-enabled/frontend-app
+	*	1593260334	0
+	"	1	0
+
+> /etc/nginx/sites-available/frontend-app
+	*	1593260269	0
+	"	1	0
+
 > ~/templates/index.html
-	*	1591452423	0
-	"	71	34
+	*	1592651247	0
+	"	87	42
 	^	71	37
 	.	71	37
 	+	16	90
@@ -1289,15 +1393,6 @@ $
 > ~/shell-script/uwsgistart.sh
 	*	1590277528	0
 	"	3	0
-
-> ~/.gitignore
-	*	1590243536	0
-	"	2	4
-	^	2	5
-	.	2	4
-	+	1	10
-	+	2	0
-	+	2	4
 
 > ~/static/js/tree.js
 	*	1590242367	0
