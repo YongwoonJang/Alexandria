@@ -3,3 +3,4 @@ locale-gen ko_KR.UTF-8
 apt-get install dialog
 apt-get install apt-utils
 dpkg-reconfigure locales
+export LC_ALL=en_US.UTF-8 
