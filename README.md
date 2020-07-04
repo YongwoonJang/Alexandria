@@ -39,8 +39,3 @@
 # Code Convention
 ## Python
 - https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html 의 내용을 따릅니다.  
-
-
-# 행복한 하루 즐거운 내일
-
-# 즐겁고 행복하고 흥미롭게...!
