@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 	<head>
-		<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
 		<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -40,56 +39,56 @@
 		<title>Yongwoon Jang</title>
 
 	</head>
-	<body>	
-		<section class="container-xg">
-			<section id ="headline" class="row justify-content-center">
-				<div class="col-12 text-center">
-				<h1>Y o n g w o o n  J a n g</h1>
-				</div>
-			</section>
-			<section id = "navigator" class="row justify-content-center m-3">
-				<ul class="nav nav-pills col-12 justify-content-center" id="pills-tab" role="tablist">
-					<li class="nav-item text-center col-6">
-						<a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" aria-controls="pills-about" aria-selected="false">about</a>
-					</li>
-					<li class="nav-item text-center col-6">
-						<a class="nav-link" id="pills-search-tab" data-toggle="pill" href="#pills-search" aria-controls="pills-search" aria-selected="false">search</a>
-					</li>
-				</ul>
-			</section>
-			<section id = "contents" class="row justify-content-center">
-				<div class="tab-content" id="pills-tabContent">
-					<!-- menu #1 about -->
-					<div class="tab-pane fade active show" id="pills-about" role="tabpanel" aria-labelledby="pills-1-tab">
-						<div class="about">
-						
+	<body class="container">	
+		<section id = "title" class="row justify-content-center">	
+			<div class="text-center">
+			<h1>Y o n g w o o n  J a n g</h1>
+			</div>
+		</section>
+
+		<section id="navigation" class="row justify-content-center">
+			<ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" aria-controls="pills-about" aria-selected="false">about</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" id="pills-search-tab" data-toggle="pill" href="#pills-search" aria-controls="pills-search" aria-selected="false">search</a>
+				</li>
+			</ul>
+		</section>
+
+		<section id = "contents" class="row justify-content-center">
+			<div class="col tab-content" id="pills-tabContent">
+				<!-- menu #1 about -->
+				<div class="tab-pane fade active show" id="pills-about" role="tabpanel" aria-labelledby="pills-1-tab">
+					<div class="about">
 						<img id="yongwoon_img" src="{{url_for('static', filename='pic/YongwoonJang_media_center.png')}}?ver{{now}}">
-							<div class="about_text_contents">	
-								안녕하세요. 장용운입니다. <br/>
-								1988년 12월 22일에 태어났습니다. <br/>						
-								KT 에서 근무하고 있습니다. <br/>
-								Cloud 플랫폼 개발 업무하고 있습니다. <br/>
-								컴퓨터 공학 학사 학위를 가지고 있습니다. <br/>
-								취미는 댄스와 음악입니다. <br/>	
-							</div>
-						</div>
-					</div>
-					<!-- menu #2 search -->
-					<div class="tab-pane fade" id="pills-search" role="tabpanel" aria-labelledby="pills-2-tab">
-						<div class="wrap">
-							<div class="search">
-							<input id="search-text" type="text" class="searchTerm" placeholder="무엇이 궁금하세요?">
-							<button id="search" type="submit" class="searchButton">
-							Search
-							</button>
-							</div>
-							<div id="result" class="m-2">
-							<!-- 결과에 따라 다양한 내용이 포함된다. -->
-							</div>
+						<div class="about_text_contents">	
+							안녕하세요. <br />
+							장용운입니다. <br/>
+							1989년 1월 29일에 태어났습니다. <br/>						
+							KT 에서 근무하고 있습니다. <br/>
+							Cloud 플랫폼 개발 업무하고 있습니다. <br/>
+							컴퓨터 공학 학사 학위를 가지고 있습니다. <br/>
+							취미는 방송 댄스와 음악입니다. <br/>	
 						</div>
 					</div>
 				</div>
-			</section>
+				<!-- menu #2 search -->
+				<div class="tab-pane fade" id="pills-search" role="tabpanel" aria-labelledby="pills-2-tab">
+					<div class="wrap">
+						<div class="search">
+						<input id="search-text" type="text" class="searchTerm" placeholder="무엇이 궁금하세요?">
+						<button id="search" type="submit" class="searchButton">
+						찾기
+						</button>
+						</div>
+						<div id="result" class="m-2">
+						<!-- 결과에 따라 다양한 내용이 포함된다. -->
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 	</body>
 </html>

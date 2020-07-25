@@ -11,36 +11,40 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ {
+~MSle0~/m-3
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1593325902,,"wq"
+|2,0,1595671369,,"wq"
+:w
+|2,0,1595671340,,"w"
 :q!
-|2,0,1593325544,,"q!"
+|2,0,1595670319,,"q!"
+:W
+|2,0,1595669754,,"W"
+:q
+|2,0,1595668596,,"q"
+:vs ./templates/temp.html
+|2,0,1595668579,,"vs ./templates/temp.html"
+:vs ./static/css/basic.css
+|2,0,1595668551,,"vs ./static/css/basic.css"
+:vs ./static/css/about.css
+|2,0,1595668392,,"vs ./static/css/about.css"
+:vs ../static/css/about.css
+|2,0,1595668342,,"vs ../static/css/about.css"
 :Q!
 |2,0,1593324414,,"Q!"
 :wq!
 |2,0,1593260946,,"wq!"
-:w
-|2,0,1591452414,,"w"
 :vs ./static/css/search.css
 |2,0,1591451896,,"vs ./static/css/search.css"
-:q
-|2,0,1591451878,,"q"
-:W
-|2,0,1591451691,,"W"
-:vs ./static/css/basic.css
-|2,0,1591451552,,"vs ./static/css/basic.css"
 :vs ./static/css/responsive.css
 |2,0,1591450067,,"vs ./static/css/responsive.css"
 :WQ
 |2,0,1591439627,,"WQ"
-:vs ./static/css/about.css
-|2,0,1591438386,,"vs ./static/css/about.css"
 :180
 |2,0,1590850721,,"180"
 ::w
@@ -239,7 +243,7 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	server {
 	  listen 3000;
 	  listen [::]:3000;
@@ -253,273 +257,542 @@ $
 	    try_files $uri /index.html =404;
 	  }
 	}
-|3,1,0,1,13,0,1593260914,"server {","  listen 3000;","  listen [::]:3000;","  server_name frontend-app;","  root /usr/Alexandria/frontend-app/build/;","  index index.html;","  ","  access_log /var/log/nginx/frontend.app.access.log;","  error_log /var/log/nginx/frontend.app.error.log;","  location / {","    try_files $uri /index.html =404;","  }","}"
+|3,0,0,1,13,0,1593260914,"server {","  listen 3000;","  listen [::]:3000;","  server_name frontend-app;","  root /usr/Alexandria/frontend-app/build/;","  index index.html;","  ","  access_log /var/log/nginx/frontend.app.access.log;","  error_log /var/log/nginx/frontend.app.error.log;","  location / {","    try_files $uri /index.html =404;","  }","}"
 "1	LINE	0
-	img{
-		width:100%;
-		opacity:0.2;
-		display:none;
-	}
-	
-	#yongwoon_img{
-		width:58%;
-		height:58%;
-	}
-	
-|3,0,1,1,11,0,1591451513,"img{","	width:100%;","	opacity:0.2;","	display:none;","}","","#yongwoon_img{","	width:58%;","	height:58%;","}",""
+			<section
+|3,0,1,1,1,0,1595671111,"		<section"
 "2	LINE	0
-		position: absolute;
-|3,0,2,1,1,0,1591451461,"	position: absolute;"
+				<section id ="headline" class="row justify-content-center">
+|3,0,2,1,1,0,1595670934,"			<section id =\"headline\" class=\"row justify-content-center\">"
 "3	LINE	0
-		transform: translate(-38%, 0%);
-|3,0,3,1,1,0,1591451459,"	transform: translate(-38%, 0%);"
+				</section>
+|3,0,3,1,1,0,1595670932,"			</section>"
 "4	LINE	0
-		margin: 4em 1em 1em 1em;
-|3,0,4,1,1,0,1591451395,"	margin: 4em 1em 1em 1em;"
+				</section>
+|3,0,4,1,1,0,1595670929,"			</section>"
 "5	LINE	0
-	}
-|3,0,5,1,1,0,1591450734,"}"
+				<section id = "navigator">
+|3,0,5,1,1,0,1595670927,"			<section id = \"navigator\">"
 "6	LINE	0
-	    color: #ff7361;
-|3,0,6,1,1,0,1591450733,"    color: #ff7361;"
+						</div>
+|3,0,6,1,1,0,1595669838,"					</div>"
 "7	LINE	0
-	a {
-|3,0,7,1,1,0,1591450732,"a {"
+						<div class="row">DD
+|3,0,7,1,1,0,1595669836,"					<div class=\"row\">DD"
 "8	LINE	0
-	a::hover {
-|3,0,8,1,1,0,1591450701,"a::hover {"
+			<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+|3,0,8,1,1,0,1595668670,"		<!--<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>-->"
 "9	LINE	0
-	}
-|3,0,9,1,1,0,1591450701,"}"
-"-	CHAR	0
-		float:left;
-|3,0,36,0,1,0,1591449063,"	float:left;"
+		height:35%;
+|3,0,9,1,1,0,1592646902,"	height:35%;"
+""-	CHAR	0
+		
+|3,1,36,0,1,0,1595671206,"	"
 
 # File marks:
-'0  5  2  ~/.gitignore
-|4,48,5,2,1593325902,"~/.gitignore"
-'1  1  0  ~/my-app/src/index.css
-|4,49,1,0,1593325647,"~/my-app/src/index.css"
-'2  1  0  ~/my-app/src/index.css
-|4,50,1,0,1593325544,"~/my-app/src/index.css"
-'3  17  0  ~/my-app/src/index.css
-|4,51,17,0,1593325272,"~/my-app/src/index.css"
-'4  17  0  ~/my-app/src/index.css
-|4,52,17,0,1593325272,"~/my-app/src/index.css"
-'5  17  0  ~/my-app/src/index.css
-|4,53,17,0,1593325272,"~/my-app/src/index.css"
-'6  17  0  ~/my-app/src/index.css
-|4,54,17,0,1593325272,"~/my-app/src/index.css"
-'7  1  0  ~/my-app/src/index.js
-|4,55,1,0,1593324463,"~/my-app/src/index.js"
-'8  1  0  ~/my-app/src/index.
-|4,56,1,0,1593324425,"~/my-app/src/index."
-'9  20  0  ~/my-app/README.md
-|4,57,20,0,1593324418,"~/my-app/README.md"
+'0  64  23  ~/templates/index.html
+|4,48,64,23,1595671369,"~/templates/index.html"
+'1  91  11  ~/templates/index.html
+|4,49,91,11,1595671211,"~/templates/index.html"
+'2  92  11  ~/templates/index.html
+|4,50,92,11,1595671211,"~/templates/index.html"
+'3  58  2  ~/templates/index.html
+|4,51,58,2,1595670969,"~/templates/index.html"
+'4  55  2  ~/templates/index.html
+|4,52,55,2,1595670969,"~/templates/index.html"
+'5  58  2  ~/templates/index.html
+|4,53,58,2,1595670969,"~/templates/index.html"
+'6  55  2  ~/templates/index.html
+|4,54,55,2,1595670969,"~/templates/index.html"
+'7  63  12  ~/templates/index.html
+|4,55,63,12,1595670835,"~/templates/index.html"
+'8  58  12  ~/templates/index.html
+|4,56,58,12,1595670835,"~/templates/index.html"
+'9  63  12  ~/templates/index.html
+|4,57,63,12,1595670835,"~/templates/index.html"
 
 # Jumplist (newest first):
--'  5  2  ~/.gitignore
-|4,39,5,2,1593325902,"~/.gitignore"
--'  4  10  ~/.gitignore
-|4,39,4,10,1593325899,"~/.gitignore"
--'  1  0  ~/my-app/src/index.css
-|4,39,1,0,1593325647,"~/my-app/src/index.css"
--'  1  0  ~/my-app/src/index.css
-|4,39,1,0,1593325647,"~/my-app/src/index.css"
--'  1  0  ~/my-app/src/index.css
-|4,39,1,0,1593325544,"~/my-app/src/index.css"
--'  1  0  ~/my-app/src/index.css
-|4,39,1,0,1593325544,"~/my-app/src/index.css"
--'  17  0  ~/my-app/src/index.css
-|4,39,17,0,1593325272,"~/my-app/src/index.css"
--'  17  0  ~/my-app/src/index.css
-|4,39,17,0,1593325272,"~/my-app/src/index.css"
--'  17  0  ~/my-app/src/index.css
-|4,39,17,0,1593325272,"~/my-app/src/index.css"
--'  17  0  ~/my-app/src/index.css
-|4,39,17,0,1593325272,"~/my-app/src/index.css"
--'  17  0  ~/my-app/src/index.css
-|4,39,17,0,1593325272,"~/my-app/src/index.css"
--'  17  0  ~/my-app/src/index.css
-|4,39,17,0,1593325272,"~/my-app/src/index.css"
--'  1  0  ~/my-app/src/index.css
-|4,39,1,0,1593325261,"~/my-app/src/index.css"
--'  1  0  ~/my-app/src/index.css
-|4,39,1,0,1593325261,"~/my-app/src/index.css"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.js
-|4,39,1,0,1593324463,"~/my-app/src/index.js"
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  1  0  ~/my-app/src/index.
-|4,39,1,0,1593324425,"~/my-app/src/index."
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
--'  20  0  ~/my-app/README.md
-|4,39,20,0,1593324418,"~/my-app/README.md"
+-'  64  23  ~/templates/index.html
+|4,39,64,23,1595671369,"~/templates/index.html"
+-'  60  26  ~/templates/index.html
+|4,39,60,26,1595671313,"~/templates/index.html"
+-'  66  16  ~/templates/index.html
+|4,39,66,16,1595671305,"~/templates/index.html"
+-'  91  11  ~/templates/index.html
+|4,39,91,11,1595671241,"~/templates/index.html"
+-'  92  11  ~/templates/index.html
+|4,39,92,11,1595671211,"~/templates/index.html"
+-'  58  3  ~/templates/index.html
+|4,39,58,3,1595671093,"~/templates/index.html"
+-'  58  3  ~/templates/index.html
+|4,39,58,3,1595671093,"~/templates/index.html"
+-'  47  3  ~/templates/index.html
+|4,39,47,3,1595671092,"~/templates/index.html"
+-'  43  3  ~/templates/index.html
+|4,39,43,3,1595671092,"~/templates/index.html"
+-'  45  3  ~/templates/index.html
+|4,39,45,3,1595671092,"~/templates/index.html"
+-'  47  3  ~/templates/index.html
+|4,39,47,3,1595671092,"~/templates/index.html"
+-'  43  3  ~/templates/index.html
+|4,39,43,3,1595671092,"~/templates/index.html"
+-'  45  3  ~/templates/index.html
+|4,39,45,3,1595671092,"~/templates/index.html"
+-'  57  7  ~/templates/index.html
+|4,39,57,7,1595671091,"~/templates/index.html"
+-'  57  7  ~/templates/index.html
+|4,39,57,7,1595671091,"~/templates/index.html"
+-'  55  2  ~/templates/index.html
+|4,39,55,2,1595670969,"~/templates/index.html"
+-'  55  2  ~/templates/index.html
+|4,39,55,2,1595670969,"~/templates/index.html"
+-'  63  12  ~/templates/index.html
+|4,39,63,12,1595670835,"~/templates/index.html"
+-'  63  12  ~/templates/index.html
+|4,39,63,12,1595670835,"~/templates/index.html"
+-'  58  12  ~/templates/index.html
+|4,39,58,12,1595670835,"~/templates/index.html"
+-'  53  26  ~/templates/index.html
+|4,39,53,26,1595670796,"~/templates/index.html"
+-'  50  26  ~/templates/index.html
+|4,39,50,26,1595670796,"~/templates/index.html"
+-'  53  26  ~/templates/index.html
+|4,39,53,26,1595670796,"~/templates/index.html"
+-'  47  26  ~/templates/index.html
+|4,39,47,26,1595670796,"~/templates/index.html"
+-'  50  26  ~/templates/index.html
+|4,39,50,26,1595670796,"~/templates/index.html"
+-'  50  26  ~/templates/index.html
+|4,39,50,26,1595670745,"~/templates/index.html"
+-'  50  54  ~/templates/index.html
+|4,39,50,54,1595670604,"~/templates/index.html"
+-'  54  15  ~/templates/index.html
+|4,39,54,15,1595670574,"~/templates/index.html"
+-'  51  15  ~/templates/index.html
+|4,39,51,15,1595670574,"~/templates/index.html"
+-'  54  15  ~/templates/index.html
+|4,39,54,15,1595670574,"~/templates/index.html"
+-'  51  15  ~/templates/index.html
+|4,39,51,15,1595670574,"~/templates/index.html"
+-'  54  15  ~/templates/index.html
+|4,39,54,15,1595670574,"~/templates/index.html"
+-'  54  15  ~/templates/index.html
+|4,39,54,15,1595670574,"~/templates/index.html"
+-'  54  15  ~/templates/index.html
+|4,39,54,15,1595670574,"~/templates/index.html"
+-'  54  15  ~/templates/index.html
+|4,39,54,15,1595670444,"~/templates/index.html"
+-'  52  61  ~/templates/index.html
+|4,39,52,61,1595670328,"~/templates/index.html"
+-'  49  61  ~/templates/index.html
+|4,39,49,61,1595670328,"~/templates/index.html"
+-'  52  61  ~/templates/index.html
+|4,39,52,61,1595670328,"~/templates/index.html"
+-'  49  61  ~/templates/index.html
+|4,39,49,61,1595670328,"~/templates/index.html"
+-'  49  61  ~/templates/index.html
+|4,39,49,61,1595670328,"~/templates/index.html"
+-'  49  61  ~/templates/index.html
+|4,39,49,61,1595670328,"~/templates/index.html"
+-'  49  61  ~/templates/index.html
+|4,39,49,61,1595670328,"~/templates/index.html"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  22  2  ~/static/css/about.css
+|4,39,22,2,1595670319,"~/static/css/about.css"
 
 # History of marks within files (newest to oldest):
+
+> ~/templates/index.html
+	*	1595671369	0
+	"	64	23
+	^	64	24
+	.	65	0
+	+	24	69
+	+	25	0
+	+	23	18
+	+	19	2
+	+	65	188
+	+	73	6
+	+	71	63
+	+	73	0
+	+	73	101
+	+	73	5
+	+	72	43
+	+	73	0
+	+	73	80
+	+	73	5
+	+	73	6
+	+	65	76
+	+	71	0
+	+	65	6
+	+	66	80
+	+	69	113
+	+	71	64
+	+	72	43
+	+	73	0
+	+	64	23
+	+	58	60
+	+	66	38
+	+	69	60
+	+	66	6
+	+	47	23
+	+	65	22
+	+	66	38
+	+	73	11
+	+	66	0
+	+	67	23
+	+	69	17
+	+	70	37
+	+	4	0
+	+	68	22
+	+	47	62
+	+	47	37
+	+	51	21
+	+	57	10
+	+	51	41
+	+	54	41
+	+	47	31
+	+	47	71
+	+	51	0
+	+	57	0
+	+	51	0
+	+	47	31
+	+	51	39
+	+	54	39
+	+	47	28
+	+	51	39
+	+	54	39
+	+	51	36
+	+	54	19
+	+	51	19
+	+	47	61
+	+	47	18
+	+	51	16
+	+	54	16
+	+	47	55
+	+	51	24
+	+	54	25
+	+	47	15
+	+	47	0
+	+	58	0
+	+	47	0
+	+	43	3
+	+	45	3
+	+	46	3
+	+	47	3
+	+	51	3
+	+	52	3
+	+	53	3
+	+	54	3
+	+	55	3
+	+	56	3
+	+	57	3
+	+	58	3
+	+	43	2
+	+	58	3
+	+	47	3
+	+	43	3
+	+	47	3
+	+	58	3
+	+	43	23
+	+	49	27
+	+	49	28
+	+	59	0
+	+	58	11
+	+	49	27
+	+	50	0
+	+	60	0
+	+	91	12
+	+	92	0
+	+	60	26
+	+	65	0
+
+> ~/static/css/about.css
+	*	1595670318	0
+	"	22	2
+	^	22	3
+	.	22	2
+	+	2	20
+	+	2	10
+	+	2	35
+	+	2	10
+	+	2	30
+	+	2	20
+	+	2	16
+	+	2	20
+	+	2	54
+	+	2	53
+	+	2	20
+	+	2	18
+	+	2	20
+	+	4	34
+	+	4	33
+	+	2	7
+	+	4	35
+	+	4	3
+	+	2	0
+	+	4	16
+	+	7	0
+	+	24	0
+	+	2	5
+	+	7	0
+	+	21	0
+	+	18	5
+	+	21	0
+	+	20	13
+	+	21	0
+	+	20	17
+	+	20	15
+	+	4	23
+	+	2	6
+	+	1	0
+	+	4	2
+	+	4	36
+	+	4	1
+	+	4	0
+	+	2	8
+	+	2	6
+	+	20	14
+	+	4	0
+	+	20	13
+	+	20	14
+	+	2	18
+	+	2	0
+	+	24	8
+	+	24	9
+	+	24	0
+	+	24	8
+	+	24	9
+	+	24	7
+	+	24	8
+	+	24	9
+	+	24	8
+	+	24	9
+	+	3	0
+	+	4	14
+	+	24	7
+	+	24	8
+	+	24	9
+	+	25	0
+	+	7	0
+	+	20	0
+	+	20	13
+	+	18	7
+	+	20	12
+	+	21	0
+	+	20	18
+	+	4	14
+	+	19	0
+	+	20	16
+	+	5	12
+	+	6	0
+	+	5	9
+	+	21	16
+	+	5	9
+	+	21	0
+	+	18	0
+	+	8	1
+	+	17	0
+	+	12	1
+	+	16	1
+	+	8	0
+	+	1	1
+	+	17	1
+	+	22	2
+
+> ~/static/css/basic.css
+	*	1595669633	0
+	"	7	0
+	^	34	18
+	.	7	0
+	+	21	0
+	+	1	98
+	+	1	75
+	+	11	57
+	+	1	10
+	+	19	34
+	+	1	12
+	+	11	0
+	+	12	0
+	+	12	13
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	14
+	+	21	0
+	+	14	12
+	+	28	0
+	+	28	1
+	+	28	0
+	+	32	9
+	+	32	0
+	+	32	8
+	+	32	0
+	+	32	10
+	+	32	11
+	+	32	12
+	+	32	11
+	+	11	24
+	+	14	12
+	+	21	11
+	+	21	8
+	+	21	0
+	+	13	0
+	+	12	26
+	+	28	0
+	+	32	0
+	+	32	12
+	+	32	9
+	+	32	0
+	+	1	11
+	+	8	0
+	+	6	8
+	+	1	5
+	+	7	0
+	+	6	10
+	+	7	8
+	+	1	3
+	+	7	27
+	+	4	0
+	+	3	0
+	+	2	12
+	+	32	8
+	+	32	0
+	+	2	13
+	+	27	0
+	+	28	0
+	+	32	0
+	+	32	19
+	+	32	0
+	+	10	11
+	+	32	0
+	+	29	0
+	+	32	0
+	+	33	2
+	+	34	19
+	+	35	29
+	+	34	17
+	+	7	0
+
+> ~/templates/temp.html
+	*	1595668595	0
+	"	1	0
 
 > ~/.gitignore
 	*	1593325901	0
@@ -609,188 +882,6 @@ $
 > /etc/nginx/sites-available/frontend-app
 	*	1593260269	0
 	"	1	0
-
-> ~/templates/index.html
-	*	1592651247	0
-	"	87	42
-	^	71	37
-	.	71	37
-	+	16	90
-	+	73	83
-	+	73	161
-	+	73	121
-	+	73	101
-	+	73	76
-	+	73	96
-	+	73	154
-	+	73	90
-	+	73	171
-	+	73	150
-	+	73	148
-	+	27	0
-	+	19	91
-	+	23	0
-	+	22	81
-	+	20	0
-	+	23	0
-	+	24	0
-	+	79	31
-	+	80	0
-	+	79	23
-	+	73	55
-	+	73	49
-	+	73	44
-	+	73	54
-	+	73	146
-	+	73	44
-	+	63	112
-	+	64	63
-	+	64	153
-	+	64	0
-	+	73	55
-	+	73	148
-	+	73	55
-	+	66	190
-	+	73	71
-	+	72	65
-	+	73	67
-	+	73	148
-	+	73	149
-	+	78	0
-	+	77	5
-	+	74	0
-	+	62	23
-	+	52	0
-	+	58	0
-	+	55	0
-	+	53	40
-	+	56	41
-	+	56	85
-	+	53	140
-	+	56	148
-	+	74	10
-	+	66	179
-	+	63	58
-	+	78	47
-	+	64	23
-	+	76	5
-	+	74	11
-	+	66	82
-	+	72	6
-	+	73	6
-	+	64	22
-	+	25	69
-	+	26	0
-	+	24	18
-	+	20	2
-	+	66	188
-	+	74	6
-	+	72	63
-	+	74	0
-	+	74	101
-	+	74	5
-	+	73	43
-	+	74	0
-	+	74	80
-	+	74	5
-	+	74	6
-	+	66	76
-	+	72	0
-	+	66	6
-	+	67	80
-	+	70	113
-	+	72	64
-	+	73	43
-	+	74	0
-	+	64	23
-	+	60	60
-	+	67	38
-	+	70	60
-	+	67	6
-	+	50	23
-	+	66	22
-	+	67	38
-	+	74	11
-	+	67	0
-	+	68	23
-	+	70	17
-	+	71	37
-
-> ~/static/css/basic.css
-	*	1591452111	0
-	"	5	0
-	^	34	18
-	.	34	17
-	+	21	0
-	+	1	98
-	+	1	75
-	+	11	57
-	+	1	10
-	+	19	34
-	+	1	12
-	+	11	0
-	+	12	0
-	+	12	13
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	14
-	+	21	0
-	+	14	12
-	+	28	0
-	+	28	1
-	+	28	0
-	+	32	9
-	+	32	0
-	+	32	8
-	+	32	0
-	+	32	10
-	+	32	11
-	+	32	12
-	+	32	11
-	+	11	24
-	+	14	12
-	+	21	11
-	+	21	8
-	+	21	0
-	+	13	0
-	+	12	26
-	+	28	0
-	+	32	0
-	+	32	12
-	+	32	9
-	+	32	0
-	+	1	11
-	+	8	0
-	+	6	8
-	+	1	5
-	+	7	0
-	+	6	10
-	+	7	8
-	+	1	3
-	+	7	27
-	+	4	0
-	+	3	0
-	+	2	12
-	+	32	8
-	+	32	0
-	+	2	13
-	+	27	0
-	+	28	0
-	+	32	0
-	+	32	19
-	+	32	0
-	+	10	11
-	+	32	0
-	+	29	0
-	+	32	0
-	+	33	2
-	+	34	19
-	+	35	29
-	+	34	17
 
 > ~/static/css/search.css
 	*	1591452043	0
@@ -1030,47 +1121,6 @@ $
 	+	7	21
 	+	7	2
 	+	7	1
-
-> ~/static/css/about.css
-	*	1591450422	0
-	"	1	0
-	^	1	7
-	.	1	0
-	+	4	20
-	+	2	10
-	+	4	35
-	+	4	10
-	+	4	30
-	+	4	20
-	+	4	16
-	+	4	20
-	+	4	54
-	+	4	53
-	+	4	20
-	+	4	18
-	+	4	20
-	+	7	0
-	+	6	33
-	+	3	7
-	+	7	1
-	+	8	3
-	+	5	0
-	+	8	16
-	+	10	0
-	+	16	0
-	+	17	0
-	+	3	5
-	+	10	0
-	+	14	0
-	+	11	5
-	+	14	0
-	+	12	13
-	+	14	0
-	+	12	17
-	+	13	15
-	+	6	23
-	+	3	6
-	+	1	0
 
 > ~/Jenkinsfile
 	*	1591418217	0

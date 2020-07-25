@@ -1,24 +1,25 @@
+#title {
+	padding: 7%;
+
+}
+#navigation {
+	padding-bottom: 1em;
+}
 .about {
-	width:60%;
-	top:48%;
-	
-	position: absolute;
-	transform: translate(-40%, -50%);
-	
+	position: relative;
 	line-height: 2.0em;
 }
 
 .about_text_contents {
-	margin-top: 2em;
-	margin-left: 18em;
-}
-
-img{
-	float:left;
-	margin: 0em 1em 1em 1em;
+	padding-top: 5%;
+	margin: auto;
+	width: 40%;
 }
 
 #yongwoon_img{
+	position: fixed;
+	bottom: 0;
+	right: 0;
 	width:30%;
-	height:30%;
+	opacity:0.6;
 }

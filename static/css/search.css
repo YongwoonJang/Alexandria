@@ -1,16 +1,21 @@
+.wrap{
+	padding-top: 13%;
+	position: relative;
+}
+
 .search {
-	width: 100%;
+	width:100%;
 	position: relative;
 	display: flex;
 }
 
 .searchTerm {
-	width: 100%;
+	width:80%;
 	border: 3px solid #f8e8e8;
 	border-right: none;
 	padding: 5px;
 	height: 1.5em;
-	border-radius: 5px 0 0 5px;
+	border-radius: 15px 0 0 15px;
 	outline: none;
         color: #ff7361;
 }
@@ -22,21 +27,15 @@
 }
 
 .searchButton {
-	width: 10%;
+	width: 20%;
 	height: 1.5em;
 	border: 1px solid #f8e8e8;
 	background: #ff7361;
 	text-align: center;
 	color: #fff;
-	border-radius: 0 5px 5px 0;
+	border-radius: 0 15px 15px 0;
 	cursor: pointer;
 	font-size: 1em;
 }
 
-.wrap{
-	width: 60%;
-	position: fixed;
-	top: 30%;
-	transform: translate(-50%, -50%);
-}
 

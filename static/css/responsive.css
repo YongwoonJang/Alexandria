@@ -1,47 +1,30 @@
 @media (max-width: 1000px) {
-body::after{
+#title {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+body::after {
 	background-size: auto;
+
 }
 
-h1{
-	font-size:30px;
-}
-
-#navigator{
-	width:70%;
-	transform: translate(20%,25%);
-	font-size:18px;
-}
-
-.about {
-	width:100%;
-	top:35%;
-	
-
-	font-size : 18px;	
-	line-height: 2.0em;
+h1 {
+	font-size:1.3em;
 }
 
 .about_text_contents {
-	margin-top: 0em;
-	margin-left: 0em;
-	position:absolute;
-
+	font-size:0.9em;
+	width: 98%;
 }
 
-img {
-	display: none;
-}
-
-.searchButton{
-	width:40%;
-	height:1.5em;
-	font-size:1em;
-}
-
-.wrap{
-	width:90%;
-	top:50%;
+#yongwoon_img {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width:30%;
+	opacity:0.8;
+	z-index:-1;
 }
 
 }
