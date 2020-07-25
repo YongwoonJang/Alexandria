@@ -39,3 +39,9 @@
 # Code Convention
 ## Python
 - https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html 의 내용을 따릅니다.  
+
+# 행복한 하루 즐거운 내일
+
+# 나도 아이언맨처럼 최첨단 기술을 선도하고 싶습니다.
+
+# 행복한 하루 즐거운 내일
