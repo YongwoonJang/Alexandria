@@ -13,7 +13,7 @@ mecab = Mecab()
 from database import db_session
 from models import Question
 from sqlalchemy import text
-
+from sqlalchemy import or_
 
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.text import tokenizer_from_json
@@ -136,9 +136,6 @@ class School:
     def predict(self, text):
         question = []
         
-        print("bug identify")
-        print(text)
-
         if ( text == "수정" ) : 
             answer = "<table>"
             
@@ -161,32 +158,89 @@ class School:
             answer = answer + "</table>"
 
         else:
+            print( "else" )
+            print(text)
             question.append(mecab.morphs(text))
             text_sequence = self.tokenizer.texts_to_sequences(question)
+            print(text_sequence)
+
             if(len(text_sequence[0]) == 0):
                 text_sequence[0].append(0) # set default value
             response_sequence = self.model.predict(text_sequence)
-
+            print(response_sequence[0])
+            
             if(response_sequence[0] != 1.0):
-                print("test")
                 answer = db_session.query(Question).filter(Question.answer_category == response_sequence[0]).first()
                 answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
+            
             else:
+                hit_point = []
+                
+                ## It need to revise. because It dosen't count Son's Name in question #342
+                ## Concept is counting morphemes by comparing input value with answer_category and answer
                 for element in question[0]:
-                    answer = db_session.query(Question).filter(Question.answer_category == element).first()
-                    if(answer==None):
-                        answer = "응답이 준비되지 않았습니다."
-                    else:
-                        answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
-                        break
-    
-        return answer
+                    print("***question[0]'s elements are***")
+                    print(element)
+                    count = db_session.query(Question).filter(Question.answer_category == element).count()
+                    answer_list = db_session.query(Question.answer)
+                    for answer in answer_list:
+                        if answer[0] != None :
+                            answer_morphs_list = mecab.morphs(answer[0])
+                            for answer_morphs in answer_morphs_list:
+                                if ( answer_morphs == element ):
+                                    count = count + 1
+                    print("***count per element****")
+                    print(count)
+                    if ( count > 0 ) :
+                        print("****count is executing****")
+                        answer_list = db_session.query(Question).filter(or_(Question.answer_category == element, Question.answer.ilike('%'+element+'%'))).all()
+                        index = 0
 
+                        for answer_record in answer_list:
+                            hit_point.append(0)
+                            
+                            print("Answer is")
+                            for temp in mecab.morphs(answer_record.answer): #Answer 
+                                if(index == 3):
+                                    print("**answer comparing**")
+                                    print(temp)
+                                    print(element)
+                                if ( temp == element ):
+                                    print(temp)
+                                    hit_point[index] = hit_point[index] + 1
+                            
+                            print("Answer detail is")
+                            for temp in mecab.morphs(answer_record.answer_detail): #Answer_detail
+                                if ( index == 3 ):
+                                    print("**answer_detail comparing**")
+                                    print(temp)
+                                    print(element)
+                                if ( temp == element ):
+                                    print(temp)
+                                    hit_point[index] = hit_point[index] + 1 
+                            
+                            index = index + 1
+                        
+                if len(hit_point) > 0 :
+                    answer_index = 0
+                    print("***hit_point is***")
+                    print(hit_point)
+                    for hit_index in range(0, len(hit_point)-1):
+                        if ( hit_point[hit_index] < hit_point[hit_index+1] ) :
+                            answer_index = hit_index + 1
+                
+                    answer = "범주는 "+answer_list[answer_index].answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer_list[answer_index].answer + "이고 " + answer_list[answer_index].answer_detail
+                    print(answer)
+                        
+                else:
+                    answer = "응답이 준비되지 않았습니다."
+
+        return answer
 
 if __name__ == '__main__':
     school = School()    
     #school.update_tokenizer()
     #school.create_model()
     #school.learn()
-    school.predict("수정")
+    school.predict("손경준의 이름은 뭐야")
     print("Hello world")

@@ -18,11 +18,19 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1595671369,,"wq"
-:w
-|2,0,1595671340,,"w"
+|2,0,1596380016,,"wq"
 :q!
-|2,0,1595670319,,"q!"
+|2,0,1596379945,,"q!"
+:195
+|2,0,1596379772,,"195"
+:WQ
+|2,0,1596378945,,"WQ"
+:184
+|2,0,1596378574,,"184"
+:199
+|2,0,1596376604,,"199"
+:w
+|2,0,1596372548,,"w"
 :W
 |2,0,1595669754,,"W"
 :q
@@ -43,8 +51,6 @@ $
 |2,0,1591451896,,"vs ./static/css/search.css"
 :vs ./static/css/responsive.css
 |2,0,1591450067,,"vs ./static/css/responsive.css"
-:WQ
-|2,0,1591439627,,"WQ"
 :180
 |2,0,1590850721,,"180"
 ::w
@@ -244,276 +250,549 @@ $
 
 # Registers:
 "0	LINE	0
-	server {
-	  listen 3000;
-	  listen [::]:3000;
-	  server_name frontend-app;
-	  root /usr/Alexandria/frontend-app/build/;
-	  index index.html;
-	  
-	  access_log /var/log/nginx/frontend.app.access.log;
-	  error_log /var/log/nginx/frontend.app.error.log;
-	  location / {
-	    try_files $uri /index.html =404;
-	  }
-	}
-|3,0,0,1,13,0,1593260914,"server {","  listen 3000;","  listen [::]:3000;","  server_name frontend-app;","  root /usr/Alexandria/frontend-app/build/;","  index index.html;","  ","  access_log /var/log/nginx/frontend.app.access.log;","  error_log /var/log/nginx/frontend.app.error.log;","  location / {","    try_files $uri /index.html =404;","  }","}"
-"1	LINE	0
-			<section
-|3,0,1,1,1,0,1595671111,"		<section"
+	                        answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
+	                        break
+|3,0,0,1,2,0,1596373984,"                        answer = \"범주는 \"+answer.answer_category+\"입니다. \"+\"현재 말할 수 있는 답은 \" + answer.answer + \"이고 \" + answer.answer_detail","                        break"
+""1	LINE	0
+	                        print(answer[0])
+	                        print(type(answer[0]))
+|3,1,1,1,2,0,1596378910,"                        print(answer[0])","                        print(type(answer[0]))"
 "2	LINE	0
-				<section id ="headline" class="row justify-content-center">
-|3,0,2,1,1,0,1595670934,"			<section id =\"headline\" class=\"row justify-content-center\">"
+	                        print(answer)
+|3,0,2,1,1,0,1596378822,"                        print(answer)"
 "3	LINE	0
-				</section>
-|3,0,3,1,1,0,1595670932,"			</section>"
+	                        print(answer0
+|3,0,3,1,1,0,1596378639,"                        print(answer0"
 "4	LINE	0
-				</section>
-|3,0,4,1,1,0,1595670929,"			</section>"
+	                    count = db_session.query(Question).filter(Question.answer == element).count() + count
+|3,0,4,1,1,0,1596378478,"                    count = db_session.query(Question).filter(Question.answer == element).count() + count"
 "5	LINE	0
-				<section id = "navigator">
-|3,0,5,1,1,0,1595670927,"			<section id = \"navigator\">"
+	                                print("Element is")
+	                                print(element)
+|3,0,5,1,2,0,1596377472,"                                print(\"Element is\")","                                print(element)"
 "6	LINE	0
-						</div>
-|3,0,6,1,1,0,1595669838,"					</div>"
+	                    break
+|3,0,6,1,1,0,1596377372,"                    break"
 "7	LINE	0
-						<div class="row">DD
-|3,0,7,1,1,0,1595669836,"					<div class=\"row\">DD"
-"8	LINE	0
-			<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
-|3,0,8,1,1,0,1595668670,"		<!--<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>-->"
+	                        answer_index = 0
+|3,0,7,1,1,0,1596377270,"                        answer_index = 0"
+"8	CHAR	0
+	     for hit_index in range(0, len(hit_point)-1):
+	                            if ( hit_point[hit_index] < hit_point[hit_index+1] ) :
+	                                answer_index = hit_index + 1
+	                
+	
+|3,0,8,0,5,0,1596377168,"     for hit_index in range(0, len(hit_point)-1):","                            if ( hit_point[hit_index] < hit_point[hit_index+1] ) :","                                answer_index = hit_index + 1","                ",""
 "9	LINE	0
-		height:35%;
-|3,0,9,1,1,0,1592646902,"	height:35%;"
-""-	CHAR	0
-		
-|3,1,36,0,1,0,1595671206,"	"
+	
+	                        print("****answer index is *****")
+	                        print(answer_index)
+|3,0,9,1,3,0,1596377160,"","                        print(\"****answer index is *****\")","                        print(answer_index)"
+"-	CHAR	0
+	[
+|3,0,36,0,1,0,1596378636,"["
 
 # File marks:
-'0  64  23  ~/templates/index.html
-|4,48,64,23,1595671369,"~/templates/index.html"
-'1  91  11  ~/templates/index.html
-|4,49,91,11,1595671211,"~/templates/index.html"
-'2  92  11  ~/templates/index.html
-|4,50,92,11,1595671211,"~/templates/index.html"
-'3  58  2  ~/templates/index.html
-|4,51,58,2,1595670969,"~/templates/index.html"
-'4  55  2  ~/templates/index.html
-|4,52,55,2,1595670969,"~/templates/index.html"
-'5  58  2  ~/templates/index.html
-|4,53,58,2,1595670969,"~/templates/index.html"
-'6  55  2  ~/templates/index.html
-|4,54,55,2,1595670969,"~/templates/index.html"
-'7  63  12  ~/templates/index.html
-|4,55,63,12,1595670835,"~/templates/index.html"
-'8  58  12  ~/templates/index.html
-|4,56,58,12,1595670835,"~/templates/index.html"
-'9  63  12  ~/templates/index.html
-|4,57,63,12,1595670835,"~/templates/index.html"
+'0  180  104  ~/aiengine.py
+|4,48,180,104,1596380016,"~/aiengine.py"
+'1  35  0  ~/__init__.py
+|4,49,35,0,1596379945,"~/__init__.py"
+'2  179  85  ~/aiengine.py
+|4,50,179,85,1596379903,"~/aiengine.py"
+'3  179  85  ~/aiengine.py
+|4,51,179,85,1596379903,"~/aiengine.py"
+'4  196  152  ~/aiengine.py
+|4,52,196,152,1596379790,"~/aiengine.py"
+'5  195  152  ~/aiengine.py
+|4,53,195,152,1596379790,"~/aiengine.py"
+'6  195  152  ~/aiengine.py
+|4,54,195,152,1596379790,"~/aiengine.py"
+'7  194  152  ~/aiengine.py
+|4,55,194,152,1596379790,"~/aiengine.py"
+'8  196  145  ~/aiengine.py
+|4,56,196,145,1596379763,"~/aiengine.py"
+'9  195  145  ~/aiengine.py
+|4,57,195,145,1596379763,"~/aiengine.py"
 
 # Jumplist (newest first):
--'  64  23  ~/templates/index.html
-|4,39,64,23,1595671369,"~/templates/index.html"
--'  60  26  ~/templates/index.html
-|4,39,60,26,1595671313,"~/templates/index.html"
--'  66  16  ~/templates/index.html
-|4,39,66,16,1595671305,"~/templates/index.html"
--'  91  11  ~/templates/index.html
-|4,39,91,11,1595671241,"~/templates/index.html"
--'  92  11  ~/templates/index.html
-|4,39,92,11,1595671211,"~/templates/index.html"
--'  58  3  ~/templates/index.html
-|4,39,58,3,1595671093,"~/templates/index.html"
--'  58  3  ~/templates/index.html
-|4,39,58,3,1595671093,"~/templates/index.html"
--'  47  3  ~/templates/index.html
-|4,39,47,3,1595671092,"~/templates/index.html"
--'  43  3  ~/templates/index.html
-|4,39,43,3,1595671092,"~/templates/index.html"
--'  45  3  ~/templates/index.html
-|4,39,45,3,1595671092,"~/templates/index.html"
--'  47  3  ~/templates/index.html
-|4,39,47,3,1595671092,"~/templates/index.html"
--'  43  3  ~/templates/index.html
-|4,39,43,3,1595671092,"~/templates/index.html"
--'  45  3  ~/templates/index.html
-|4,39,45,3,1595671092,"~/templates/index.html"
--'  57  7  ~/templates/index.html
-|4,39,57,7,1595671091,"~/templates/index.html"
--'  57  7  ~/templates/index.html
-|4,39,57,7,1595671091,"~/templates/index.html"
--'  55  2  ~/templates/index.html
-|4,39,55,2,1595670969,"~/templates/index.html"
--'  55  2  ~/templates/index.html
-|4,39,55,2,1595670969,"~/templates/index.html"
--'  63  12  ~/templates/index.html
-|4,39,63,12,1595670835,"~/templates/index.html"
--'  63  12  ~/templates/index.html
-|4,39,63,12,1595670835,"~/templates/index.html"
--'  58  12  ~/templates/index.html
-|4,39,58,12,1595670835,"~/templates/index.html"
--'  53  26  ~/templates/index.html
-|4,39,53,26,1595670796,"~/templates/index.html"
--'  50  26  ~/templates/index.html
-|4,39,50,26,1595670796,"~/templates/index.html"
--'  53  26  ~/templates/index.html
-|4,39,53,26,1595670796,"~/templates/index.html"
--'  47  26  ~/templates/index.html
-|4,39,47,26,1595670796,"~/templates/index.html"
--'  50  26  ~/templates/index.html
-|4,39,50,26,1595670796,"~/templates/index.html"
--'  50  26  ~/templates/index.html
-|4,39,50,26,1595670745,"~/templates/index.html"
--'  50  54  ~/templates/index.html
-|4,39,50,54,1595670604,"~/templates/index.html"
--'  54  15  ~/templates/index.html
-|4,39,54,15,1595670574,"~/templates/index.html"
--'  51  15  ~/templates/index.html
-|4,39,51,15,1595670574,"~/templates/index.html"
--'  54  15  ~/templates/index.html
-|4,39,54,15,1595670574,"~/templates/index.html"
--'  51  15  ~/templates/index.html
-|4,39,51,15,1595670574,"~/templates/index.html"
--'  54  15  ~/templates/index.html
-|4,39,54,15,1595670574,"~/templates/index.html"
--'  54  15  ~/templates/index.html
-|4,39,54,15,1595670574,"~/templates/index.html"
--'  54  15  ~/templates/index.html
-|4,39,54,15,1595670574,"~/templates/index.html"
--'  54  15  ~/templates/index.html
-|4,39,54,15,1595670444,"~/templates/index.html"
--'  52  61  ~/templates/index.html
-|4,39,52,61,1595670328,"~/templates/index.html"
--'  49  61  ~/templates/index.html
-|4,39,49,61,1595670328,"~/templates/index.html"
--'  52  61  ~/templates/index.html
-|4,39,52,61,1595670328,"~/templates/index.html"
--'  49  61  ~/templates/index.html
-|4,39,49,61,1595670328,"~/templates/index.html"
--'  49  61  ~/templates/index.html
-|4,39,49,61,1595670328,"~/templates/index.html"
--'  49  61  ~/templates/index.html
-|4,39,49,61,1595670328,"~/templates/index.html"
--'  49  61  ~/templates/index.html
-|4,39,49,61,1595670328,"~/templates/index.html"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
--'  22  2  ~/static/css/about.css
-|4,39,22,2,1595670319,"~/static/css/about.css"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  196  152  ~/aiengine.py
+|4,39,196,152,1596379847,"~/aiengine.py"
+-'  195  152  ~/aiengine.py
+|4,39,195,152,1596379847,"~/aiengine.py"
+-'  195  152  ~/aiengine.py
+|4,39,195,152,1596379847,"~/aiengine.py"
+-'  195  152  ~/aiengine.py
+|4,39,195,152,1596379790,"~/aiengine.py"
+-'  194  152  ~/aiengine.py
+|4,39,194,152,1596379790,"~/aiengine.py"
+-'  194  152  ~/aiengine.py
+|4,39,194,152,1596379790,"~/aiengine.py"
+-'  194  145  ~/aiengine.py
+|4,39,194,145,1596379763,"~/aiengine.py"
+-'  194  145  ~/aiengine.py
+|4,39,194,145,1596379763,"~/aiengine.py"
+-'  222  31  ~/aiengine.py
+|4,39,222,31,1596379315,"~/aiengine.py"
+-'  221  31  ~/aiengine.py
+|4,39,221,31,1596379315,"~/aiengine.py"
+-'  221  31  ~/aiengine.py
+|4,39,221,31,1596379315,"~/aiengine.py"
+-'  220  31  ~/aiengine.py
+|4,39,220,31,1596379315,"~/aiengine.py"
+-'  220  31  ~/aiengine.py
+|4,39,220,31,1596379315,"~/aiengine.py"
+-'  221  31  ~/aiengine.py
+|4,39,221,31,1596379315,"~/aiengine.py"
+-'  220  31  ~/aiengine.py
+|4,39,220,31,1596379315,"~/aiengine.py"
+-'  220  31  ~/aiengine.py
+|4,39,220,31,1596379315,"~/aiengine.py"
+-'  220  31  ~/aiengine.py
+|4,39,220,31,1596379306,"~/aiengine.py"
+-'  220  31  ~/aiengine.py
+|4,39,220,31,1596379306,"~/aiengine.py"
+-'  193  31  ~/aiengine.py
+|4,39,193,31,1596379267,"~/aiengine.py"
+-'  192  31  ~/aiengine.py
+|4,39,192,31,1596379267,"~/aiengine.py"
+-'  192  31  ~/aiengine.py
+|4,39,192,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379267,"~/aiengine.py"
+-'  192  31  ~/aiengine.py
+|4,39,192,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379267,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379232,"~/aiengine.py"
+-'  191  31  ~/aiengine.py
+|4,39,191,31,1596379232,"~/aiengine.py"
+-'  194  58  ~/aiengine.py
+|4,39,194,58,1596379102,"~/aiengine.py"
+-'  194  58  ~/aiengine.py
+|4,39,194,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  194  58  ~/aiengine.py
+|4,39,194,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379102,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  193  58  ~/aiengine.py
+|4,39,193,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  192  58  ~/aiengine.py
+|4,39,192,58,1596379054,"~/aiengine.py"
+-'  191  0  ~/aiengine.py
+|4,39,191,0,1596378987,"~/aiengine.py"
+-'  191  0  ~/aiengine.py
+|4,39,191,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  191  0  ~/aiengine.py
+|4,39,191,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378987,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378951,"~/aiengine.py"
+-'  190  0  ~/aiengine.py
+|4,39,190,0,1596378951,"~/aiengine.py"
+-'  187  45  ~/aiengine.py
+|4,39,187,45,1596378900,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378900,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  185  45  ~/aiengine.py
+|4,39,185,45,1596378900,"~/aiengine.py"
+-'  188  45  ~/aiengine.py
+|4,39,188,45,1596378861,"~/aiengine.py"
+-'  187  45  ~/aiengine.py
+|4,39,187,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  187  45  ~/aiengine.py
+|4,39,187,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
+-'  186  45  ~/aiengine.py
+|4,39,186,45,1596378861,"~/aiengine.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/aiengine.py
+	*	1596380016	0
+	"	180	104
+	^	180	105
+	.	180	105
+	+	223	0
+	+	202	73
+	+	221	28
+	+	223	24
+	+	223	60
+	+	223	59
+	+	223	73
+	+	223	127
+	+	223	43
+	+	223	125
+	+	223	102
+	+	224	39
+	+	224	248
+	+	203	59
+	+	213	66
+	+	203	73
+	+	213	80
+	+	223	89
+	+	224	240
+	+	233	36
+	+	224	81
+	+	209	46
+	+	219	46
+	+	209	53
+	+	219	0
+	+	211	28
+	+	213	0
+	+	209	0
+	+	201	28
+	+	203	0
+	+	204	51
+	+	204	45
+	+	185	34
+	+	185	0
+	+	196	158
+	+	178	16
+	+	177	16
+	+	178	4
+	+	223	59
+	+	224	59
+	+	224	39
+	+	223	26
+	+	224	15
+	+	224	39
+	+	226	0
+	+	228	64
+	+	229	78
+	+	226	20
+	+	228	88
+	+	229	106
+	+	235	15
+	+	236	19
+	+	223	24
+	+	225	20
+	+	224	0
+	+	229	0
+	+	230	0
+	+	232	0
+	+	233	20
+	+	234	0
+	+	226	46
+	+	204	47
+	+	207	49
+	+	205	57
+	+	214	50
+	+	217	49
+	+	205	51
+	+	215	57
+	+	182	19
+	+	183	0
+	+	182	29
+	+	185	104
+	+	185	74
+	+	187	0
+	+	185	24
+	+	189	33
+	+	187	41
+	+	191	48
+	+	191	73
+	+	187	0
+	+	185	67
+	+	186	44
+	+	187	36
+	+	185	67
+	+	186	45
+	+	187	66
+	+	187	40
+	+	187	45
+	+	188	0
+	+	192	20
+	+	195	58
+	+	193	25
+	+	192	51
+	+	193	31
+	+	16	25
+	+	196	145
+	+	197	24
+	+	196	152
+	+	179	90
+	+	180	105
+
+> ~/__init__.py
+	*	1596379944	0
+	"	35	0
+	^	58	0
+	.	57	63
+	+	38	4
+	+	16	0
+	+	8	0
+	+	9	43
+	+	18	14
+	+	39	82
+	+	18	29
+	+	39	94
+	+	40	0
+	+	47	22
+	+	44	0
+	+	47	23
+	+	8	0
+	+	2	10
+	+	3	0
+	+	4	0
+	+	9	0
+	+	44	25
+	+	46	31
+	+	21	27
+	+	47	0
+	+	49	13
+	+	48	21
+	+	50	98
+	+	50	0
+	+	50	52
+	+	50	55
+	+	12	26
+	+	50	52
+	+	55	3
+	+	50	56
+	+	50	59
+	+	50	85
+	+	54	22
+	+	50	56
+	+	50	106
+	+	50	103
+	+	21	14
+	+	28	15
+	+	44	15
+	+	45	14
+	+	21	5
+	+	44	16
+	+	38	4
+	+	38	0
+	+	25	0
+	+	50	52
+	+	52	0
+	+	51	24
+	+	52	0
+	+	55	7
+	+	56	0
+	+	51	24
+	+	56	9
+	+	57	63
+
+> ~/static/js/search.js
+	*	1596372875	0
+	"	34	0
+	^	9	0
+	.	44	0
+	+	40	25
+	+	4	24
+	+	4	31
+	+	4	25
+	+	62	26
+	+	4	0
+	+	32	0
+	+	36	22
+	+	3	15
+	+	9	88
+	+	9	33
+	+	9	39
+	+	24	4
+	+	22	5
+	+	9	34
+	+	21	0
+	+	9	34
+	+	9	25
+	+	34	56
+	+	9	0
+	+	57	10
+	+	57	9
+	+	57	8
+	+	36	0
+	+	34	5
+	+	36	4
+	+	34	4
+	+	36	0
+	+	31	2
+	+	21	58
+	+	57	63
+	+	12	40
+	+	20	12
+	+	21	6
+	+	21	0
+	+	23	5
+	+	22	6
+	+	19	63
+	+	20	0
+	+	19	57
+	+	21	56
+	+	12	40
+	+	19	57
+	+	43	0
+	+	57	6
+	+	43	0
+	+	21	57
+	+	57	61
+	+	19	57
+	+	57	61
+	+	19	57
+	+	57	61
+	+	19	56
+	+	57	63
+	+	19	57
+	+	57	61
+	+	43	25
+	+	57	45
+	+	19	41
+	+	21	41
+	+	19	50
+	+	57	54
+	+	43	34
+	+	43	63
+	+	12	34
+	+	19	50
+	+	57	54
+	+	43	67
+	+	57	6
+	+	59	3
+	+	57	10
+	+	34	46
+	+	19	70
+	+	19	71
+	+	19	0
+	+	10	38
+	+	10	25
+	+	11	40
+	+	10	0
+	+	12	31
+	+	21	53
+	+	10	25
+	+	11	25
+	+	12	28
+	+	21	65
+	+	13	6
+	+	17	0
+	+	10	6
+	+	14	24
+	+	15	61
+	+	16	27
+	+	19	64
+	+	57	10
+	+	19	0
+	+	45	0
+	+	57	6
+	+	58	0
+	+	43	35
+	+	44	0
+
+> ~/.git/MERGE_MSG
+	*	1595685832	0
+	"	1	0
 
 > ~/templates/index.html
 	*	1595671369	0
@@ -1132,278 +1411,6 @@ $
 	+	2	0
 	+	1	2
 	+	10	1
-
-> ~/static/js/search.js
-	*	1591001059	0
-	"	9	0
-	^	9	0
-	.	44	0
-	+	40	25
-	+	4	24
-	+	4	31
-	+	4	25
-	+	62	26
-	+	4	0
-	+	32	0
-	+	36	22
-	+	3	15
-	+	9	88
-	+	9	33
-	+	9	39
-	+	24	4
-	+	22	5
-	+	9	34
-	+	21	0
-	+	9	34
-	+	9	25
-	+	34	56
-	+	9	0
-	+	57	10
-	+	57	9
-	+	57	8
-	+	36	0
-	+	34	5
-	+	36	4
-	+	34	4
-	+	36	0
-	+	31	2
-	+	21	58
-	+	57	63
-	+	12	40
-	+	20	12
-	+	21	6
-	+	21	0
-	+	23	5
-	+	22	6
-	+	19	63
-	+	20	0
-	+	19	57
-	+	21	56
-	+	12	40
-	+	19	57
-	+	43	0
-	+	57	6
-	+	43	0
-	+	21	57
-	+	57	61
-	+	19	57
-	+	57	61
-	+	19	57
-	+	57	61
-	+	19	56
-	+	57	63
-	+	19	57
-	+	57	61
-	+	43	25
-	+	57	45
-	+	19	41
-	+	21	41
-	+	19	50
-	+	57	54
-	+	43	34
-	+	43	63
-	+	12	34
-	+	19	50
-	+	57	54
-	+	43	67
-	+	57	6
-	+	59	3
-	+	57	10
-	+	34	46
-	+	19	70
-	+	19	71
-	+	19	0
-	+	10	38
-	+	10	25
-	+	11	40
-	+	10	0
-	+	12	31
-	+	21	53
-	+	10	25
-	+	11	25
-	+	12	28
-	+	21	65
-	+	13	6
-	+	17	0
-	+	10	6
-	+	14	24
-	+	15	61
-	+	16	27
-	+	19	64
-	+	57	10
-	+	19	0
-	+	45	0
-	+	57	6
-	+	58	0
-	+	43	35
-	+	44	0
-
-> ~/__init__.py
-	*	1590991495	0
-	"	58	0
-	^	58	0
-	.	57	63
-	+	38	4
-	+	16	0
-	+	8	0
-	+	9	43
-	+	18	14
-	+	39	82
-	+	18	29
-	+	39	94
-	+	40	0
-	+	47	22
-	+	44	0
-	+	47	23
-	+	8	0
-	+	2	10
-	+	3	0
-	+	4	0
-	+	9	0
-	+	44	25
-	+	46	31
-	+	21	27
-	+	47	0
-	+	49	13
-	+	48	21
-	+	50	98
-	+	50	0
-	+	50	52
-	+	50	55
-	+	12	26
-	+	50	52
-	+	55	3
-	+	50	56
-	+	50	59
-	+	50	85
-	+	54	22
-	+	50	56
-	+	50	106
-	+	50	103
-	+	21	14
-	+	28	15
-	+	44	15
-	+	45	14
-	+	21	5
-	+	44	16
-	+	38	4
-	+	38	0
-	+	25	0
-	+	50	52
-	+	52	0
-	+	51	24
-	+	52	0
-	+	55	7
-	+	56	0
-	+	51	24
-	+	56	9
-	+	57	63
-
-> ~/aiengine.py
-	*	1590991414	0
-	"	159	28
-	^	139	29
-	.	139	28
-	+	170	43
-	+	171	0
-	+	174	12
-	+	175	0
-	+	183	0
-	+	171	11
-	+	170	37
-	+	174	0
-	+	175	0
-	+	174	21
-	+	173	12
-	+	174	0
-	+	170	33
-	+	171	24
-	+	191	4
-	+	150	8
-	+	143	29
-	+	150	0
-	+	143	58
-	+	143	52
-	+	143	59
-	+	143	52
-	+	143	67
-	+	149	0
-	+	144	62
-	+	144	74
-	+	147	60
-	+	144	73
-	+	147	68
-	+	149	39
-	+	143	36
-	+	144	0
-	+	150	12
-	+	144	12
-	+	144	24
-	+	150	12
-	+	163	12
-	+	163	13
-	+	164	0
-	+	159	0
-	+	152	11
-	+	144	67
-	+	152	48
-	+	153	29
-	+	144	78
-	+	191	23
-	+	144	65
-	+	153	31
-	+	147	29
-	+	146	44
-	+	148	49
-	+	144	12
-	+	146	0
-	+	152	0
-	+	152	52
-	+	152	0
-	+	153	18
-	+	158	12
-	+	153	0
-	+	149	45
-	+	151	38
-	+	149	39
-	+	151	38
-	+	149	35
-	+	151	38
-	+	153	72
-	+	154	0
-	+	156	0
-	+	155	0
-	+	156	0
-	+	157	0
-	+	158	0
-	+	154	57
-	+	155	62
-	+	156	54
-	+	157	45
-	+	158	52
-	+	155	0
-	+	154	0
-	+	160	12
-	+	162	0
-	+	145	42
-	+	143	29
-	+	161	39
-	+	153	61
-	+	154	63
-	+	158	72
-	+	155	67
-	+	156	50
-	+	157	65
-	+	156	74
-	+	154	35
-	+	153	71
-	+	154	69
-	+	155	73
-	+	156	80
-	+	157	71
-	+	141	0
-	+	138	8
-	+	139	28
 
 > /tmp/uwsgierr.log
 	*	1590850745	0

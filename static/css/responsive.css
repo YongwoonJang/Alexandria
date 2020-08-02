@@ -27,6 +27,14 @@ h1 {
 	z-index:-1;
 }
 
+.searchTerm {
+	width: 75%;
+}
+
+.searchButton {
+	width: 25%;
+}
+
 }
 
 
