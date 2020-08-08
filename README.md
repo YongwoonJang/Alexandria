@@ -2,7 +2,7 @@
 # 머릿말
 - Alexandria는 Alexandria project입니다. 
 - Alexandria Library(Alexandria 도서관BC 323~283 경 프톨레마이오스 1세 때 세워진 도서관)을 따서 만든 프로젝트 이름입니다.
-- YongwoonJang(1989.01.29 ~ )의 지식정보를 관리하는 체계를 구축하는 것으로 시작했습니다. 
+- YongwoonJang(1989.01.29 ~ )의 지식정보를 관리하는 체계를 구축하기 위해 시작했습니다. 
 - 향후 세상의 모든 정보를 원하는 모든 사람들이 조회할 수 있게 만드는 것이 목표입니다. 
 
 
@@ -39,9 +39,3 @@
 # Code Convention
 ## Python
 - https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html 의 내용을 따릅니다.  
-
-# 행복한 하루 즐거운 내일
-
-# 나도 아이언맨처럼 최첨단 기술을 선도하고 싶습니다.
-
-# 행복한 하루 즐거운 내일
