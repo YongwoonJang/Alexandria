@@ -10,7 +10,7 @@
 - Alexandria is abbreviation of Alexandria project. 
 - It's name is originated from the Alexandria library(founded at Egypt, Ptolemy I Soter(BC 323~283)).
 - It is started for managing all of YongwoonJang(1989.01.29 ~) 
-- It's final purpose is giving conveninet method to use information. and It is one of my destination of life.
+- It's final purpose is giving convenient method to use information. and It is one of my destination of life.
 
 
 # History
