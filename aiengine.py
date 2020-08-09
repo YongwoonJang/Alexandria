@@ -39,7 +39,6 @@ class School:
         stmt = stmt.columns(Question.question, Question.answer, Question.answer_category)
         self.question = db_session.query(Question.question, Question.answer, Question.answer_category).from_statement(stmt).all()
 
-
         if(path.exists(self.tokenizer_path)):
             with open(self.tokenizer_path) as handle:
                 self.tokenizer = tokenizer_from_json(json.load(handle))
@@ -136,6 +135,7 @@ class School:
     def predict(self, text):
         question = []
         
+        # Special keyword.
         if ( text == "수정" ) : 
             answer = "<table>"
             
@@ -158,83 +158,59 @@ class School:
             answer = answer + "</table>"
 
         else:
-            print( "else" )
-            print(text)
             question.append(mecab.morphs(text))
             text_sequence = self.tokenizer.texts_to_sequences(question)
-            print(text_sequence)
-
-            if(len(text_sequence[0]) == 0):
-                text_sequence[0].append(0) # set default value
-            response_sequence = self.model.predict(text_sequence)
-            print(response_sequence[0])
             
-            if(response_sequence[0] != 1.0):
-                answer = db_session.query(Question).filter(Question.answer_category == response_sequence[0]).first()
-                answer = "범주는 "+answer.answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer.answer + "이고 " + answer.answer_detail
+                
+            # Answer list is list of Answer 
+            answer_list = db_session.query(Question.id, Question.answer_category, Question.answer, Question.answer_detail)
             
-            else:
-                hit_point = []
-                
-                ## It need to revise. because It dosen't count Son's Name in question #342
-                ## Concept is counting morphemes by comparing input value with answer_category and answer
-                for element in question[0]:
-                    print("***question[0]'s elements are***")
-                    print(element)
-                    count = db_session.query(Question).filter(Question.answer_category == element).count()
-                    answer_list = db_session.query(Question.answer)
-                    for answer in answer_list:
-                        if answer[0] != None :
-                            answer_morphs_list = mecab.morphs(answer[0])
-                            for answer_morphs in answer_morphs_list:
-                                if ( answer_morphs == element ):
-                                    count = count + 1
-                    print("***count per element****")
-                    print(count)
-                    if ( count > 0 ) :
-                        print("****count is executing****")
-                        answer_list = db_session.query(Question).filter(or_(Question.answer_category == element, Question.answer.ilike('%'+element+'%'))).all()
-                        index = 0
+            # Selected items
+            response_list = []
 
-                        for answer_record in answer_list:
-                            hit_point.append(0)
-                            
-                            print("Answer is")
-                            for temp in mecab.morphs(answer_record.answer): #Answer 
-                                if(index == 3):
-                                    print("**answer comparing**")
-                                    print(temp)
-                                    print(element)
-                                if ( temp == element ):
-                                    print(temp)
-                                    hit_point[index] = hit_point[index] + 1
-                            
-                            print("Answer detail is")
-                            for temp in mecab.morphs(answer_record.answer_detail): #Answer_detail
-                                if ( index == 3 ):
-                                    print("**answer_detail comparing**")
-                                    print(temp)
-                                    print(element)
-                                if ( temp == element ):
-                                    print(temp)
-                                    hit_point[index] = hit_point[index] + 1 
-                            
-                            index = index + 1
-                        
-                if len(hit_point) > 0 :
-                    answer_index = 0
-                    print("***hit_point is***")
-                    print(hit_point)
-                    for hit_index in range(0, len(hit_point)-1):
-                        if ( hit_point[hit_index] < hit_point[hit_index+1] ) :
-                            answer_index = hit_index + 1
+            # Convert Answer list to Answer string 
+            for element in answer_list.all():
+                temp_string = ""
+                for i in range(1,4):
+                    if ( element[i] == None ) : 
+                        text = " "
+                    else :
+                        text = element[i]
+                    temp_string = temp_string +" " + text
                 
-                    answer = "범주는 "+answer_list[answer_index].answer_category+"입니다. "+"현재 말할 수 있는 답은 " + answer_list[answer_index].answer + "이고 " + answer_list[answer_index].answer_detail
-                    print(answer)
-                        
+                # Covert temp_string to List of corpus
+                temp_corpus_elements = []
+                temp_corpus_elements = mecab.morphs(temp_string)
+                
+                # Count hit record.
+                count = 0 
+                for question_word in question[0]:
+                    for answer_word in temp_corpus_elements:
+                        if (question_word == answer_word) : 
+                            count = count + 1
+
+                # Save count result. 
+                if (len(response_list) != 0):
+                    if (response_list[4] <= count) : 
+                        response_list[0] = int(element[0])
+                        for i in range(1, 4):
+                            response_list[i] = str(element[i])
+                        response_list[4] = count
                 else:
-                    answer = "응답이 준비되지 않았습니다."
-
+                    response_list.append(int(element[0]))
+                    for i in range(1, 4):
+                        response_list.append(str(element[i]))
+                    response_list.append(count)
+                
+                    
+            if len(response_list) > 0 :
+            
+                answer = "범주는 "+ response_list[1] + "입니다. "+"현재 말할 수 있는 답은 " + response_list[2] + "이고 " + response_list[3]
+                    
+            else:
+                answer = "응답이 준비되지 않았습니다."
+        
+        print(answer)
         return answer
 
 if __name__ == '__main__':
