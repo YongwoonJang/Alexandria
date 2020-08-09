@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1596971191,,"wq"
+|2,0,1596974015,,"wq"
 :q!
 |2,0,1596379945,,"q!"
 :195
@@ -294,35 +294,115 @@ $
 
 # File marks:
 '0  10  3  ~/.gitignore
-|4,48,10,3,1596971191,"~/.gitignore"
-'1  180  104  ~/aiengine.py
-|4,49,180,104,1596380016,"~/aiengine.py"
-'2  35  0  ~/__init__.py
-|4,50,35,0,1596379945,"~/__init__.py"
-'3  179  85  ~/aiengine.py
-|4,51,179,85,1596379903,"~/aiengine.py"
-'4  179  85  ~/aiengine.py
-|4,52,179,85,1596379903,"~/aiengine.py"
-'5  196  152  ~/aiengine.py
-|4,53,196,152,1596379790,"~/aiengine.py"
-'6  195  152  ~/aiengine.py
-|4,54,195,152,1596379790,"~/aiengine.py"
-'7  195  152  ~/aiengine.py
-|4,55,195,152,1596379790,"~/aiengine.py"
-'8  194  152  ~/aiengine.py
-|4,56,194,152,1596379790,"~/aiengine.py"
-'9  196  145  ~/aiengine.py
-|4,57,196,145,1596379763,"~/aiengine.py"
+|4,48,10,3,1596974015,"~/.gitignore"
+'1  1  0  ~/.git/COMMIT_EDITMSG
+|4,49,1,0,1596973736,"~/.git/COMMIT_EDITMSG"
+'2  1  0  ~/.git/COMMIT_EDITMSG
+|4,50,1,0,1596973598,"~/.git/COMMIT_EDITMSG"
+'3  10  3  ~/.gitignore
+|4,51,10,3,1596971191,"~/.gitignore"
+'4  180  104  ~/aiengine.py
+|4,52,180,104,1596380016,"~/aiengine.py"
+'5  35  0  ~/__init__.py
+|4,53,35,0,1596379945,"~/__init__.py"
+'6  179  85  ~/aiengine.py
+|4,54,179,85,1596379903,"~/aiengine.py"
+'7  179  85  ~/aiengine.py
+|4,55,179,85,1596379903,"~/aiengine.py"
+'8  196  152  ~/aiengine.py
+|4,56,196,152,1596379790,"~/aiengine.py"
+'9  195  152  ~/aiengine.py
+|4,57,195,152,1596379790,"~/aiengine.py"
 
 # Jumplist (newest first):
 -'  10  3  ~/.gitignore
+|4,39,10,3,1596974015,"~/.gitignore"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1596973736,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1596973736,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1596973598,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1596973598,"~/.git/COMMIT_EDITMSG"
+-'  10  3  ~/.gitignore
 |4,39,10,3,1596971191,"~/.gitignore"
+-'  10  3  ~/.gitignore
+|4,39,10,3,1596971191,"~/.gitignore"
+-'  10  3  ~/.gitignore
+|4,39,10,3,1596971191,"~/.gitignore"
+-'  10  3  ~/.gitignore
+|4,39,10,3,1596971191,"~/.gitignore"
+-'  5  2  ~/.gitignore
+|4,39,5,2,1596971128,"~/.gitignore"
+-'  5  2  ~/.gitignore
+|4,39,5,2,1596971128,"~/.gitignore"
+-'  5  2  ~/.gitignore
+|4,39,5,2,1596971128,"~/.gitignore"
+-'  5  2  ~/.gitignore
+|4,39,5,2,1596971128,"~/.gitignore"
 -'  5  2  ~/.gitignore
 |4,39,5,2,1596971128,"~/.gitignore"
 -'  180  104  ~/aiengine.py
 |4,39,180,104,1596380016,"~/aiengine.py"
 -'  180  104  ~/aiengine.py
 |4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  180  104  ~/aiengine.py
+|4,39,180,104,1596380016,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379947,"~/aiengine.py"
 -'  179  85  ~/aiengine.py
 |4,39,179,85,1596379947,"~/aiengine.py"
 -'  179  85  ~/aiengine.py
@@ -335,6 +415,62 @@ $
 |4,39,35,0,1596379945,"~/__init__.py"
 -'  35  0  ~/__init__.py
 |4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
+-'  35  0  ~/__init__.py
+|4,39,35,0,1596379945,"~/__init__.py"
 -'  179  85  ~/aiengine.py
 |4,39,179,85,1596379903,"~/aiengine.py"
 -'  179  85  ~/aiengine.py
@@ -343,183 +479,47 @@ $
 |4,39,179,85,1596379903,"~/aiengine.py"
 -'  179  85  ~/aiengine.py
 |4,39,179,85,1596379903,"~/aiengine.py"
--'  196  152  ~/aiengine.py
-|4,39,196,152,1596379847,"~/aiengine.py"
--'  195  152  ~/aiengine.py
-|4,39,195,152,1596379847,"~/aiengine.py"
--'  195  152  ~/aiengine.py
-|4,39,195,152,1596379847,"~/aiengine.py"
--'  196  152  ~/aiengine.py
-|4,39,196,152,1596379847,"~/aiengine.py"
--'  195  152  ~/aiengine.py
-|4,39,195,152,1596379847,"~/aiengine.py"
--'  195  152  ~/aiengine.py
-|4,39,195,152,1596379847,"~/aiengine.py"
--'  195  152  ~/aiengine.py
-|4,39,195,152,1596379790,"~/aiengine.py"
--'  194  152  ~/aiengine.py
-|4,39,194,152,1596379790,"~/aiengine.py"
--'  194  152  ~/aiengine.py
-|4,39,194,152,1596379790,"~/aiengine.py"
--'  195  152  ~/aiengine.py
-|4,39,195,152,1596379790,"~/aiengine.py"
--'  194  152  ~/aiengine.py
-|4,39,194,152,1596379790,"~/aiengine.py"
--'  194  152  ~/aiengine.py
-|4,39,194,152,1596379790,"~/aiengine.py"
--'  194  145  ~/aiengine.py
-|4,39,194,145,1596379763,"~/aiengine.py"
--'  194  145  ~/aiengine.py
-|4,39,194,145,1596379763,"~/aiengine.py"
--'  194  145  ~/aiengine.py
-|4,39,194,145,1596379763,"~/aiengine.py"
--'  194  145  ~/aiengine.py
-|4,39,194,145,1596379763,"~/aiengine.py"
--'  222  31  ~/aiengine.py
-|4,39,222,31,1596379315,"~/aiengine.py"
--'  221  31  ~/aiengine.py
-|4,39,221,31,1596379315,"~/aiengine.py"
--'  221  31  ~/aiengine.py
-|4,39,221,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  221  31  ~/aiengine.py
-|4,39,221,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  222  31  ~/aiengine.py
-|4,39,222,31,1596379315,"~/aiengine.py"
--'  221  31  ~/aiengine.py
-|4,39,221,31,1596379315,"~/aiengine.py"
--'  221  31  ~/aiengine.py
-|4,39,221,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  221  31  ~/aiengine.py
-|4,39,221,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379315,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379306,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379306,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379306,"~/aiengine.py"
--'  220  31  ~/aiengine.py
-|4,39,220,31,1596379306,"~/aiengine.py"
--'  193  31  ~/aiengine.py
-|4,39,193,31,1596379267,"~/aiengine.py"
--'  192  31  ~/aiengine.py
-|4,39,192,31,1596379267,"~/aiengine.py"
--'  192  31  ~/aiengine.py
-|4,39,192,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  192  31  ~/aiengine.py
-|4,39,192,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  193  31  ~/aiengine.py
-|4,39,193,31,1596379267,"~/aiengine.py"
--'  192  31  ~/aiengine.py
-|4,39,192,31,1596379267,"~/aiengine.py"
--'  192  31  ~/aiengine.py
-|4,39,192,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  192  31  ~/aiengine.py
-|4,39,192,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379267,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379232,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379232,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379232,"~/aiengine.py"
--'  191  31  ~/aiengine.py
-|4,39,191,31,1596379232,"~/aiengine.py"
--'  194  58  ~/aiengine.py
-|4,39,194,58,1596379102,"~/aiengine.py"
--'  194  58  ~/aiengine.py
-|4,39,194,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  194  58  ~/aiengine.py
-|4,39,194,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  194  58  ~/aiengine.py
-|4,39,194,58,1596379102,"~/aiengine.py"
--'  194  58  ~/aiengine.py
-|4,39,194,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  194  58  ~/aiengine.py
-|4,39,194,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379102,"~/aiengine.py"
--'  193  58  ~/aiengine.py
-|4,39,193,58,1596379054,"~/aiengine.py"
--'  192  58  ~/aiengine.py
-|4,39,192,58,1596379054,"~/aiengine.py"
--'  192  58  ~/aiengine.py
-|4,39,192,58,1596379054,"~/aiengine.py"
--'  192  58  ~/aiengine.py
-|4,39,192,58,1596379054,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
+-'  179  85  ~/aiengine.py
+|4,39,179,85,1596379903,"~/aiengine.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1596971190	0
+	*	1596974014	0
 	"	10	3
 	^	10	4
 	.	11	0
@@ -531,6 +531,17 @@ $
 	+	7	8
 	+	6	7
 	+	11	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1596973735	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	68
+	+	1	78
+	+	1	80
+	+	1	73
+	+	1	0
 
 > ~/aiengine.py
 	*	1596380016	0
@@ -1796,17 +1807,6 @@ $
 	+	64	33
 	+	65	23
 	+	56	0
-
-> ~/.git/COMMIT_EDITMSG
-	*	1588662064	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	68
-	+	1	78
-	+	1	80
-	+	1	73
-	+	1	0
 
 > ~/shell-script/uwsgirestart.sh
 	*	1588442408	0
