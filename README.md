@@ -10,7 +10,7 @@
 # 프로젝트 시작 방법 
 - 서버 1대에 WAS를 구성하고, source "Path/to/git_clone_location"/venv/bin/activate 로 환경 전환후, script 폴더에 존재하는 uwsgistart.sh를 사용한다. 
 
-# 프로젝트에 대한 도움을 얻는 곧
+# 프로젝트에 대한 도움을 얻는 
 - royalfamily89@gmail.com으로 연락 주세요. 
 
 # 유지보수 
