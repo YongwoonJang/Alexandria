@@ -1,4 +1,4 @@
-<a href="https://discord.gg/vgAeMk"></a>
+<a href="https://discord.gg/vgAeMk"><img src="https://img.shields.io/discord/743041194631757906" alt="Chat"></a>
 
 # 진행 배경
 - Alexandria는 Alexandria project입니다. 
