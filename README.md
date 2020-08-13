@@ -1,4 +1,4 @@
-<a href="https://discord.gg/vgAeMk">[![Discord](https://img.shields.io/discord/743041194631757906)](https://img.shields.io/discord/743041194631757906)</a>
+<a href="https://discord.gg/vgAeMk"></a>
 
 # 진행 배경
 - Alexandria는 Alexandria project입니다. 
