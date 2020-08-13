@@ -1,3 +1,5 @@
+[![Discord](https://img.shields.io/discord/743041194631757906)](https://img.shields.io/discord/743041194631757906)
+
 # 진행 배경
 - Alexandria는 Alexandria project입니다. 
 - Alexandria Library(Alexandria 도서관BC 323~283 경 프톨레마이오스 1세 때 세워진 도서관)을 따서 만든 프로젝트 이름입니다.
