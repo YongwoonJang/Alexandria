@@ -1,13 +1,13 @@
 <a href="https://discord.gg/vgAeMk"><img src="https://img.shields.io/discord/743041194631757906" alt="Chat"></a>
 
-# 진행 배경
+# Background
 - Alexandria는 Alexandria project입니다. 
 - Alexandria Library(Alexandria 도서관BC 323~283 경 프톨레마이오스 1세 때 세워진 도서관)을 따서 만든 프로젝트 이름입니다.
 - YongwoonJang(1989.01.29 ~ )의 지식정보를 관리하는 체계를 구축하기 위해 시작했습니다. 
 - 향후 세상의 모든 정보를 원하는 모든 사람들이 조회할 수 있게 만드는 것이 목표입니다. 
 
-# 프로젝트가 필요한 경우
-- 수집된 데이터 형태를 토대로 대화가 가능하도록 함. 
+# 제공 서비스
+- 데이터를 쉽게 수집하고 수집된 데이터를 바탕으로 검색 기능을 제공합니다.
 
 # 프로젝트 시작 방법 
 - 서버 1대에 WAS를 구성하고, source "Path/to/git_clone_location"/venv/bin/activate 로 환경 전환후, script 폴더에 존재하는 uwsgistart.sh를 사용한다. 
