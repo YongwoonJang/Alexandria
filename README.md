@@ -6,23 +6,20 @@
 - YongwoonJang(1989.01.29 ~ )의 지식정보를 관리하는 체계를 구축하기 위해 시작했습니다. 
 - 향후 세상의 모든 정보를 원하는 모든 사람들이 조회할 수 있게 만드는 것이 목표입니다. 
 
-# 제공 서비스
+# Service
 - 데이터를 쉽게 수집하고 수집된 데이터를 바탕으로 검색 기능을 제공합니다.
 
-# 프로젝트 시작 방법 
+# How to use
 - 서버 1대에 WAS를 구성하고, source "Path/to/git_clone_location"/venv/bin/activate 로 환경 전환후, script 폴더에 존재하는 uwsgistart.sh를 사용한다. 
 
-# 프로젝트에 대한 도움을 얻는 
-- royalfamily89@gmail.com으로 연락 주세요. 
-
-# 유지보수 
+# Maintainer 
 - 매 주 토, 일 수행 
 - 담당자 : 장용운(royalfamily89@gmail.com)
 
-# 이력
+# Project history
 - 2020.05.03 10:46 : 단어 사전 기반조회
 
-# 알아두기
+# Knowledges
 ## 프로그램 언어
 - python == 3.8.2
 
