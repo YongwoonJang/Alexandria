@@ -1,6 +1,6 @@
 <p align="center"><a href="http://14.63.173.117:8080/" target="_blank" rel="noopener noreferrer"><img width="250" src="https://github.com/YongwoonJang/Alexandria/blob/master/images/logo.png" alt="Alexandria logo"></a></p>
 
-<p align="center"><a href="https://discord.gg/vgAeMk"><img src="https://img.shields.io/discord/743041194631757906" alt="Chat"></a></p>
+<p align="center"><a href="https://discord.gg/MzqWNVB"><img src="https://img.shields.io/discord/743041194631757906" alt="Chat"></a></p>
 
 # Background
 - Alexandria Library(Alexandria 도서관BC 323~283 경 프톨레마이오스 1세 때 세워진 도서관)을 따서 만든 프로젝트 이름입니다.
