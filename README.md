@@ -1,3 +1,6 @@
+<p align="center"><a href="http://14.63.173.117:8080/" target="_blank" rel="noopener noreferrer"><img width="250" src="https://github.com/YongwoonJang/Alexandria/blob/master/images/logo.png" alt="Alexandria logo"></a></p>
+<p align="center">Alexandria</p>
+
 <a href="https://discord.gg/vgAeMk"><img src="https://img.shields.io/discord/743041194631757906" alt="Chat"></a>
 
 # Background
